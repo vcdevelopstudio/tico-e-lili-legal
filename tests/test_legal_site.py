@@ -14,8 +14,8 @@ SITE_FILES = [
     "terms-of-use.html",
     "assets/site.css",
     "assets/site.js",
-    "data/privacy-policy.json",
-    "data/terms-of-use.json",
+    "data/privacy_policy.json",
+    "data/terms_of_use.json",
     ".github/workflows/deploy-pages.yml",
     ".gitignore",
     ".nojekyll",
@@ -35,7 +35,7 @@ class LegalSiteContractTest(unittest.TestCase):
 
     def test_privacy_policy_keeps_all_required_sections_and_support_contact(self) -> None:
         """Dropping a privacy topic would make the public policy diverge from the game."""
-        policy = load_document("privacy-policy")
+        policy = load_document("privacy_policy")
         expected_sections = [
             "overview",
             "local_data",
@@ -63,7 +63,7 @@ class LegalSiteContractTest(unittest.TestCase):
 
     def test_terms_cover_the_required_rules_in_every_supported_language(self) -> None:
         """A missing commercial rule could leave a family without essential legal information."""
-        terms = load_document("terms-of-use")
+        terms = load_document("terms_of_use")
         expected_sections = [
             "personal_use",
             "one_time_purchase",
