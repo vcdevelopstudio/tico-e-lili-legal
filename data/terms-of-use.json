@@ -2,6 +2,7 @@
   "pt-BR": {
     "title": "Termos de Uso",
     "updated": "Atualizados em 26 de agosto de 2026",
+    "back": "Voltar",
     "contact": "vcdevelopstudio@gmail.com",
     "sections": [
       {"id": "personal_use", "title": "1. Uso pessoal", "body": "Tico e Lili Em Busca do Cristal Arco-Íris é licenciado para uso pessoal e não comercial, por crianças e famílias, de acordo com estes termos e as regras aplicáveis da loja."},
@@ -18,6 +19,7 @@
   "en-US": {
     "title": "Terms of Use",
     "updated": "Updated August 26, 2026",
+    "back": "Back",
     "contact": "vcdevelopstudio@gmail.com",
     "sections": [
       {"id": "personal_use", "title": "1. Personal use", "body": "Tico e Lili Em Busca do Cristal Arco-Íris is licensed for personal, non-commercial use by children and families, subject to these terms and the applicable store rules."},
@@ -34,6 +36,7 @@
   "es-ES": {
     "title": "Términos de Uso",
     "updated": "Actualizados el 26 de agosto de 2026",
+    "back": "Volver",
     "contact": "vcdevelopstudio@gmail.com",
     "sections": [
       {"id": "personal_use", "title": "1. Uso personal", "body": "Tico e Lili Em Busca do Cristal Arco-Íris se licencia para uso personal y no comercial de niños y familias, conforme a estos términos y las reglas aplicables de la tienda."},
