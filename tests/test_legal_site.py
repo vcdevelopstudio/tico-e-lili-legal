@@ -47,6 +47,7 @@ class LegalSiteContractTest(unittest.TestCase):
             "retention",
             "deletion",
             "changes",
+            "website",
             "contact",
         ]
         expected_back_labels = {
@@ -57,6 +58,7 @@ class LegalSiteContractTest(unittest.TestCase):
         self.assertEqual(list(policy), LANGUAGES)
         for language, document in policy.items():
             self.assertEqual(document["contact"], CONTACT_EMAIL, language)
+            self.assertIn("VC Develop Studio", document.get("publisher", ""), language)
             self.assertEqual(document["back"], expected_back_labels[language], language)
             sections = document["sections"]
             self.assertEqual([section["id"] for section in sections], expected_sections, language)
@@ -78,8 +80,23 @@ class LegalSiteContractTest(unittest.TestCase):
         self.assertEqual(list(terms), LANGUAGES)
         for language, document in terms.items():
             self.assertEqual(document["contact"], CONTACT_EMAIL, language)
+            self.assertIn("VC Develop Studio", document.get("publisher", ""), language)
             sections = document["sections"]
             self.assertEqual([section["id"] for section in sections], expected_sections, language)
+
+    def test_billing_disclosure_includes_the_transaction_token_and_separates_support_and_website(self) -> None:
+        """Purchase acknowledgment and contacting support have different data practices from playing."""
+        policy = load_document("privacy_policy")
+        for language, document in policy.items():
+            sections = {section["id"]: section for section in document["sections"]}
+            self.assertIn("token", sections["billing"]["body"].lower(), language)
+            self.assertIn("GitHub Pages", sections["website"]["body"], language)
+            self.assertIn("IP", sections["website"]["body"], language)
+            self.assertIn(CONTACT_EMAIL, sections["contact"]["body"], language)
+            for section in sections.values():
+                for link in section.get("links", []):
+                    self.assertTrue(link["url"].startswith("https://"), link)
+                    self.assertTrue(link["label"].strip(), link)
 
     def test_public_code_has_no_placeholder_or_tracking_integration(self) -> None:
         """A tracking or placeholder endpoint would contradict the site's privacy promises."""

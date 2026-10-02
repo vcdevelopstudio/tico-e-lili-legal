@@ -14,7 +14,7 @@
 
 body {
   margin: 0;
-  min-width: 320px;
+  min-width: 0;
   color: var(--ink);
   background:
     radial-gradient(circle at 8% 4%, rgba(247, 189, 80, 0.34), transparent 30rem),
@@ -89,6 +89,9 @@ h1 {
 }
 
 .language-switcher button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
   min-height: 2.75rem;
   padding: 0.5rem 0.8rem;
   color: var(--forest);
@@ -98,6 +101,12 @@ h1 {
   font: inherit;
   font-weight: 700;
   cursor: pointer;
+}
+
+.language-switcher img {
+  flex: none;
+  border-radius: 2px;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15);
 }
 
 .language-switcher button[aria-pressed="true"],
@@ -161,6 +170,7 @@ h1 {
 .legal-content h2 { margin: 2.1rem 0 0.45rem; color: var(--forest); font-size: 1.28rem; }
 .legal-content h2:first-of-type { margin-top: 1.6rem; }
 .legal-content p { margin: 0; }
+.legal-content .policy-link { margin-top: 0.5rem; }
 .updated { margin-top: 0.7rem !important; color: var(--muted-ink); font-size: 0.95rem; }
 .loading-copy { color: var(--muted-ink); }
 .error-copy { color: #8b2332; font-weight: 700; }

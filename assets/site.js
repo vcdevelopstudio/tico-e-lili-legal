@@ -83,9 +83,20 @@ function renderLegalDocument(language) {
   documentContent.replaceChildren();
   appendTextElement(documentContent, "h1", content.title);
   appendTextElement(documentContent, "p", content.updated, "updated");
+  if (content.publisher) appendTextElement(documentContent, "p", content.publisher, "updated");
   content.sections.forEach((section) => {
     appendTextElement(documentContent, "h2", section.title);
     appendTextElement(documentContent, "p", section.body);
+    (section.links || []).forEach((link) => {
+      if (!link.url.startsWith("https://")) return;
+      const paragraph = document.createElement("p");
+      paragraph.className = "policy-link";
+      const anchor = document.createElement("a");
+      anchor.href = link.url;
+      anchor.textContent = link.label;
+      paragraph.appendChild(anchor);
+      documentContent.appendChild(paragraph);
+    });
   });
   document.title = `${content.title} | Tico e Lili`;
 }
@@ -96,7 +107,7 @@ async function loadLegalDocument(language) {
   if (!documentName || !documentContent) return;
 
   try {
-    const response = await fetch(`data/${documentName}.json`);
+    const response = await fetch(`data/${documentName}.json`, { cache: "no-cache" });
     if (!response.ok) throw new Error("Document data was unavailable.");
     loadedDocument = await response.json();
     renderLegalDocument(language);

@@ -1,53 +1,164 @@
 {
   "pt-BR": {
     "title": "Termos de Uso",
-    "updated": "Atualizados em 26 de agosto de 2026",
+    "updated": "Atualizados em 2 de outubro de 2026",
     "back": "Voltar",
     "contact": "vcdevelopstudio@gmail.com",
     "sections": [
-      {"id": "personal_use", "title": "1. Uso pessoal", "body": "Tico e Lili Em Busca do Cristal Arco-Íris é licenciado para uso pessoal e não comercial, por crianças e famílias, de acordo com estes termos e as regras aplicáveis da loja."},
-      {"id": "one_time_purchase", "title": "2. Compra única do jogo completo", "body": "O jogo oferece uma compra única para desbloquear o conteúdo completo. Essa compra não é consumível e não depende de uma assinatura."},
-      {"id": "no_subscription", "title": "3. Sem assinatura", "body": "O jogo não oferece assinatura, cobrança recorrente nem renovação automática."},
-      {"id": "google_play", "title": "4. Google Play", "body": "O pagamento, pedidos de reembolso e a restauração da compra são processados pelo Google Play, conforme as regras e políticas da plataforma. O jogo recebe apenas o estado da compra e o preço localizado necessários para liberar o conteúdo."},
-      {"id": "adult_responsibility", "title": "5. Responsabilidade por compras", "body": "A pessoa adulta responsável pelo dispositivo e pela conta da loja deve autorizar e supervisionar compras. O desafio parental do jogo existe para separar essa decisão da atividade infantil."},
-      {"id": "intellectual_property", "title": "6. Propriedade intelectual", "body": "Os personagens, artes, textos, músicas, software e demais elementos do jogo são protegidos por direitos de propriedade intelectual. Não é permitido copiá-los, modificá-los, distribuí-los ou explorá-los comercialmente sem autorização."},
-      {"id": "support", "title": "7. Suporte", "body": "Dúvidas sobre o jogo, a compra ou estes termos podem ser enviadas para vcdevelopstudio@gmail.com."},
-      {"id": "updates", "title": "8. Atualizações destes termos", "body": "Podemos atualizar estes termos quando o jogo, os serviços utilizados ou requisitos legais mudarem. A data exibida nesta página será revisada, e alterações relevantes serão apresentadas em uma nova versão do aplicativo."},
-      {"id": "consumer_rights", "title": "9. Direitos da pessoa consumidora", "body": "Nada nestes termos limita direitos obrigatórios garantidos à pessoa consumidora pela legislação aplicável."}
-    ]
+      {
+        "id": "personal_use",
+        "title": "1. Uso pessoal",
+        "body": "Tico e Lili Em Busca do Cristal Arco-Íris é licenciado para uso pessoal e não comercial, por crianças e famílias, de acordo com estes termos e as regras aplicáveis da loja."
+      },
+      {
+        "id": "one_time_purchase",
+        "title": "2. Compra única do jogo completo",
+        "body": "As fases 1 a 3 podem ser acessadas sem compra, respeitando a progressão. O jogo oferece uma compra única, não consumível, pelo Google Play para liberar o direito de acessar as fases 4 a 10. A compra não conclui fases automaticamente: a progressão por conclusão das anteriores continua necessária. Não se trata de assinatura."
+      },
+      {
+        "id": "no_subscription",
+        "title": "3. Sem assinatura",
+        "body": "O jogo não oferece assinatura, cobrança recorrente nem renovação automática."
+      },
+      {
+        "id": "google_play",
+        "title": "4. Google Play",
+        "body": "O pagamento e os pedidos de reembolso seguem as regras e os canais do Google Play. O jogo consulta a loja para confirmar ou restaurar o direito de acesso associado à conta usada na compra; essas funções podem depender de conexão e dos serviços da loja. Os dados técnicos de produto e transação, incluindo o token usado para reconhecer a compra, são explicados na Política de Privacidade. Redefinir o progresso não cancela a compra vinculada à conta da loja."
+      },
+      {
+        "id": "adult_responsibility",
+        "title": "5. Responsabilidade por compras",
+        "body": "A pessoa adulta responsável pelo dispositivo e pela conta da loja deve autorizar e supervisionar compras. O desafio parental do jogo existe para separar essa decisão da atividade infantil."
+      },
+      {
+        "id": "intellectual_property",
+        "title": "6. Propriedade intelectual",
+        "body": "Os personagens, artes, textos, músicas, software e demais materiais estão sujeitos aos direitos de seus respectivos titulares e às licenças aplicáveis. O uso do jogo não transfere a propriedade desses materiais. Reprodução, modificação, distribuição ou exploração comercial dependem de autorização ou permissão na licença aplicável, respeitados os usos permitidos por lei."
+      },
+      {
+        "id": "support",
+        "title": "7. Suporte",
+        "body": "Pais e responsáveis podem enviar dúvidas sobre o jogo, a compra ou estes termos para vcdevelopstudio@gmail.com. Evite enviar dados pessoais da criança que não sejam necessários para explicar o problema. O tratamento das mensagens é descrito na Política de Privacidade. Pedidos de reembolso devem seguir os canais e regras aplicáveis do Google Play."
+      },
+      {
+        "id": "updates",
+        "title": "8. Atualizações destes termos",
+        "body": "Podemos atualizar estes termos quando o jogo, os serviços utilizados ou requisitos legais mudarem. A data exibida nesta página será revisada, e alterações relevantes serão apresentadas em uma nova versão do aplicativo."
+      },
+      {
+        "id": "consumer_rights",
+        "title": "9. Direitos da pessoa consumidora",
+        "body": "Nada nestes termos limita direitos obrigatórios garantidos à pessoa consumidora pela legislação aplicável."
+      }
+    ],
+    "publisher": "Responsável/publicador: VC Develop Studio"
   },
   "en-US": {
     "title": "Terms of Use",
-    "updated": "Updated August 26, 2026",
+    "updated": "Updated October 2, 2026",
     "back": "Back",
     "contact": "vcdevelopstudio@gmail.com",
     "sections": [
-      {"id": "personal_use", "title": "1. Personal use", "body": "Tico e Lili Em Busca do Cristal Arco-Íris is licensed for personal, non-commercial use by children and families, subject to these terms and the applicable store rules."},
-      {"id": "one_time_purchase", "title": "2. One-time full-game purchase", "body": "The game offers a one-time purchase to unlock the full content. This purchase is non-consumable and does not depend on a subscription."},
-      {"id": "no_subscription", "title": "3. No subscription", "body": "The game does not offer a subscription, recurring charge, or automatic renewal."},
-      {"id": "google_play", "title": "4. Google Play", "body": "Payment, refund requests, and purchase restoration are processed by Google Play under the platform rules and policies. The game receives only the purchase state and localized price needed to unlock content."},
-      {"id": "adult_responsibility", "title": "5. Responsibility for purchases", "body": "The adult responsible for the device and store account must authorize and supervise purchases. The game's parental challenge separates that decision from a child's activity."},
-      {"id": "intellectual_property", "title": "6. Intellectual property", "body": "The characters, artwork, text, music, software, and other game elements are protected by intellectual property rights. They may not be copied, modified, distributed, or commercially exploited without permission."},
-      {"id": "support", "title": "7. Support", "body": "Questions about the game, a purchase, or these terms can be sent to vcdevelopstudio@gmail.com."},
-      {"id": "updates", "title": "8. Updates to these terms", "body": "We may update these terms when the game, its services, or legal requirements change. The date on this page will be revised, and material changes will appear in a new app version."},
-      {"id": "consumer_rights", "title": "9. Consumer rights", "body": "Nothing in these terms limits mandatory consumer rights granted under applicable law."}
-    ]
+      {
+        "id": "personal_use",
+        "title": "1. Personal use",
+        "body": "Tico e Lili Em Busca do Cristal Arco-Íris is licensed for personal, non-commercial use by children and families, subject to these terms and the applicable store rules."
+      },
+      {
+        "id": "one_time_purchase",
+        "title": "2. One-time full-game purchase",
+        "body": "Stages 1–3 can be accessed without purchasing, subject to progression requirements. The game offers a one-time, non-consumable Google Play purchase granting access to stages 4–10. Purchasing does not automatically complete stages: progression still requires completing earlier stages. This is not a subscription."
+      },
+      {
+        "id": "no_subscription",
+        "title": "3. No subscription",
+        "body": "The game does not offer a subscription, recurring charge, or automatic renewal."
+      },
+      {
+        "id": "google_play",
+        "title": "4. Google Play",
+        "body": "Payment and refund requests follow Google Play rules and channels. The game queries the store to confirm or restore access associated with the account used for the purchase; these functions may depend on connectivity and store services. Technical product and transaction data, including the token used to acknowledge the purchase, is explained in the Privacy Policy. Resetting progress does not cancel the purchase linked to the store account."
+      },
+      {
+        "id": "adult_responsibility",
+        "title": "5. Responsibility for purchases",
+        "body": "The adult responsible for the device and store account must authorize and supervise purchases. The game's parental challenge separates that decision from a child's activity."
+      },
+      {
+        "id": "intellectual_property",
+        "title": "6. Intellectual property",
+        "body": "Characters, artwork, text, music, software and other materials are subject to the rights of their respective owners and applicable licenses. Using the game does not transfer ownership of these materials. Reproduction, modification, distribution or commercial use requires authorization or permission under the applicable license, subject to uses permitted by law."
+      },
+      {
+        "id": "support",
+        "title": "7. Support",
+        "body": "Parents and guardians can send questions about the game, a purchase or these terms to vcdevelopstudio@gmail.com. Avoid sending a child’s personal information unless needed to explain the issue. Message handling is described in the Privacy Policy. Refund requests must follow applicable Google Play rules and channels."
+      },
+      {
+        "id": "updates",
+        "title": "8. Updates to these terms",
+        "body": "We may update these terms when the game, its services, or legal requirements change. The date on this page will be revised, and material changes will appear in a new app version."
+      },
+      {
+        "id": "consumer_rights",
+        "title": "9. Consumer rights",
+        "body": "Nothing in these terms limits mandatory consumer rights granted under applicable law."
+      }
+    ],
+    "publisher": "Developer/publisher: VC Develop Studio"
   },
   "es-ES": {
     "title": "Términos de Uso",
-    "updated": "Actualizados el 26 de agosto de 2026",
+    "updated": "Actualizados el 2 de octubre de 2026",
     "back": "Volver",
     "contact": "vcdevelopstudio@gmail.com",
     "sections": [
-      {"id": "personal_use", "title": "1. Uso personal", "body": "Tico e Lili Em Busca do Cristal Arco-Íris se licencia para uso personal y no comercial de niños y familias, conforme a estos términos y las reglas aplicables de la tienda."},
-      {"id": "one_time_purchase", "title": "2. Compra única del juego completo", "body": "El juego ofrece una compra única para desbloquear el contenido completo. Esta compra no es consumible y no depende de una suscripción."},
-      {"id": "no_subscription", "title": "3. Sin suscripción", "body": "El juego no ofrece suscripción, cobro recurrente ni renovación automática."},
-      {"id": "google_play", "title": "4. Google Play", "body": "El pago, las solicitudes de reembolso y la restauración de la compra son procesados por Google Play conforme a las reglas y políticas de la plataforma. El juego recibe solo el estado de la compra y el precio localizado necesarios para desbloquear el contenido."},
-      {"id": "adult_responsibility", "title": "5. Responsabilidad por las compras", "body": "La persona adulta responsable del dispositivo y de la cuenta de la tienda debe autorizar y supervisar las compras. El desafío parental del juego separa esa decisión de la actividad infantil."},
-      {"id": "intellectual_property", "title": "6. Propiedad intelectual", "body": "Los personajes, ilustraciones, textos, música, software y demás elementos del juego están protegidos por derechos de propiedad intelectual. No se pueden copiar, modificar, distribuir ni explotar comercialmente sin autorización."},
-      {"id": "support", "title": "7. Soporte", "body": "Las dudas sobre el juego, una compra o estos términos pueden enviarse a vcdevelopstudio@gmail.com."},
-      {"id": "updates", "title": "8. Actualizaciones de estos términos", "body": "Podemos actualizar estos términos cuando cambien el juego, sus servicios o los requisitos legales. La fecha de esta página se actualizará y los cambios relevantes aparecerán en una nueva versión de la aplicación."},
-      {"id": "consumer_rights", "title": "9. Derechos de la persona consumidora", "body": "Nada de estos términos limita los derechos obligatorios de la persona consumidora otorgados por la legislación aplicable."}
-    ]
+      {
+        "id": "personal_use",
+        "title": "1. Uso personal",
+        "body": "Tico e Lili Em Busca do Cristal Arco-Íris se licencia para uso personal y no comercial de niños y familias, conforme a estos términos y las reglas aplicables de la tienda."
+      },
+      {
+        "id": "one_time_purchase",
+        "title": "2. Compra única del juego completo",
+        "body": "Se puede acceder a las fases 1 a 3 sin comprar, respetando los requisitos de progresión. El juego ofrece una compra única y no consumible mediante Google Play que permite acceder a las fases 4 a 10. La compra no completa las fases automáticamente: la progresión sigue exigiendo completar las anteriores. No es una suscripción."
+      },
+      {
+        "id": "no_subscription",
+        "title": "3. Sin suscripción",
+        "body": "El juego no ofrece suscripción, cobro recurrente ni renovación automática."
+      },
+      {
+        "id": "google_play",
+        "title": "4. Google Play",
+        "body": "El pago y las solicitudes de reembolso siguen las reglas y los canales de Google Play. El juego consulta la tienda para confirmar o restaurar el acceso asociado a la cuenta usada en la compra; estas funciones pueden depender de la conexión y de los servicios de la tienda. Los datos técnicos del producto y de la transacción, incluido el token usado para reconocer la compra, se explican en la Política de Privacidad. Reiniciar el progreso no cancela la compra vinculada a la cuenta de la tienda."
+      },
+      {
+        "id": "adult_responsibility",
+        "title": "5. Responsabilidad por las compras",
+        "body": "La persona adulta responsable del dispositivo y de la cuenta de la tienda debe autorizar y supervisar las compras. El desafío parental del juego separa esa decisión de la actividad infantil."
+      },
+      {
+        "id": "intellectual_property",
+        "title": "6. Propiedad intelectual",
+        "body": "Los personajes, ilustraciones, textos, música, software y demás materiales están sujetos a los derechos de sus respectivos titulares y a las licencias aplicables. Usar el juego no transfiere la propiedad de esos materiales. Su reproducción, modificación, distribución o explotación comercial requiere autorización o permiso en la licencia aplicable, respetando los usos permitidos por la ley."
+      },
+      {
+        "id": "support",
+        "title": "7. Soporte",
+        "body": "Los padres y responsables pueden enviar preguntas sobre el juego, una compra o estos términos a vcdevelopstudio@gmail.com. Evite enviar datos personales del niño que no sean necesarios para explicar el problema. El tratamiento de los mensajes se describe en la Política de Privacidad. Las solicitudes de reembolso deben seguir los canales y las reglas aplicables de Google Play."
+      },
+      {
+        "id": "updates",
+        "title": "8. Actualizaciones de estos términos",
+        "body": "Podemos actualizar estos términos cuando cambien el juego, sus servicios o los requisitos legales. La fecha de esta página se actualizará y los cambios relevantes aparecerán en una nueva versión de la aplicación."
+      },
+      {
+        "id": "consumer_rights",
+        "title": "9. Derechos de la persona consumidora",
+        "body": "Nada de estos términos limita los derechos obligatorios de la persona consumidora otorgados por la legislación aplicable."
+      }
+    ],
+    "publisher": "Responsable/editor: VC Develop Studio"
   }
 }

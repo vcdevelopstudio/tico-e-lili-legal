@@ -1,59 +1,275 @@
 {
   "pt-BR": {
     "title": "Política de Privacidade",
-    "updated": "Atualizada em 25 de agosto de 2026",
+    "updated": "Atualizada em 2 de outubro de 2026",
     "back": "Voltar",
     "contact": "vcdevelopstudio@gmail.com",
     "sections": [
-      {"id": "overview", "title": "1. Visão geral", "body": "O Tico e Lili Em Busca do Cristal Arco-Íris foi criado para crianças e famílias. O jogo não exige conta, não exibe anúncios e não utiliza ferramentas de análise de uso nem de rastreamento comportamental."},
-      {"id": "local_data", "title": "2. Progresso e preferências locais", "body": "O progresso das fases, o idioma, o volume e outros ajustes ficam armazenados somente no dispositivo. Esses dados não são enviados ao estúdio."},
-      {"id": "billing", "title": "3. Google Play Billing", "body": "A compra do jogo completo é processada pelo Google Play Billing. O Tico e Lili Em Busca do Cristal Arco-Íris recebe apenas o estado da compra e o preço localizado necessários para liberar o conteúdo. Dados de pagamento são tratados pelo Google conforme as políticas da plataforma."},
-      {"id": "tts", "title": "4. Narração do dispositivo", "body": "Alguns textos podem ser narrados pelo recurso de texto para fala (TTS) instalado no dispositivo. O jogo envia o texto ao mecanismo local escolhido pelo sistema; a forma de tratamento depende do provedor de TTS configurado pela família."},
-      {"id": "children", "title": "5. Dados de crianças", "body": "Não solicitamos nome, e-mail, idade, foto, localização ou qualquer identificador de uma criança. O desafio parental existe para separar decisões de compra da atividade infantil."},
-      {"id": "sharing", "title": "6. Compartilhamento", "body": "O estúdio não vende nem compartilha dados pessoais. Serviços da plataforma, como Google Play Billing e o TTS escolhido no dispositivo, atuam apenas quando necessários às funções descritas nesta política."},
-      {"id": "security", "title": "7. Segurança", "body": "Reduzimos a coleta ao mínimo e mantemos progresso e preferências localmente. A segurança desses arquivos também depende das proteções, atualizações e controles de acesso do dispositivo."},
-      {"id": "retention", "title": "8. Retenção", "body": "O progresso e as preferências permanecem no dispositivo até serem redefinidos no jogo, apagados nas configurações do sistema ou removidos com o aplicativo. O estúdio não mantém uma cópia desses dados."},
-      {"id": "deletion", "title": "9. Exclusão", "body": "A pessoa responsável pode redefinir o progresso em Configurações. Para remover também as preferências locais, pode apagar os dados do aplicativo pelas configurações do dispositivo ou desinstalá-lo. As compras continuam vinculadas à conta da loja segundo as regras do Google Play."},
-      {"id": "changes", "title": "10. Alterações desta política", "body": "Podemos atualizar esta política quando o jogo, os serviços utilizados ou requisitos legais mudarem. A data exibida no início será atualizada e alterações relevantes serão apresentadas em uma nova versão do aplicativo."},
-      {"id": "contact", "title": "11. Contato", "body": "Dúvidas sobre privacidade devem ser enviadas para vcdevelopstudio@gmail.com."}
-    ]
+      {
+        "id": "overview",
+        "title": "1. Visão geral",
+        "body": "O Tico e Lili Em Busca do Cristal Arco-Íris foi criado para crianças e famílias. O jogo não exige conta, não exibe anúncios e não utiliza ferramentas de análise de uso nem de rastreamento comportamental."
+      },
+      {
+        "id": "local_data",
+        "title": "2. Progresso e preferências locais",
+        "body": "As fases concluídas, a fase atual, o idioma, o volume geral e os ajustes de repetição de sons ficam na área de dados do aplicativo no dispositivo. Servem para continuar a jornada e manter as preferências da família. Esses registros não são enviados a um servidor do estúdio e o jogo não oferece sincronização do progresso entre aparelhos."
+      },
+      {
+        "id": "billing",
+        "title": "3. Google Play Billing",
+        "body": "A compra única para liberar as fases 4 a 10 é processada pelo Google Play Billing. O aplicativo consulta informações do produto e da compra, incluindo identificador do produto, estado, preço localizado e um token técnico que identifica a transação. O token é usado para reconhecer a compra junto ao Google Play; o código do jogo não o grava em arquivos próprios nem o envia a um servidor do estúdio. Dados do cartão, credenciais de pagamento e informações da conta da loja são tratados pelo Google; o jogo não solicita esses dados. Compra, consulta e restauração do acesso podem depender da conexão e dos serviços do Google Play.",
+        "links": [
+          {
+            "label": "Política de Privacidade do Google",
+            "url": "https://policies.google.com/privacy"
+          }
+        ]
+      },
+      {
+        "id": "tts",
+        "title": "4. Narração do dispositivo",
+        "body": "O convite para chamar uma pessoa adulta na tela de compra pode ser narrado pelo recurso de texto para fala (TTS) do dispositivo, quando houver uma voz compatível com o idioma escolhido. O jogo fornece o texto do convite ao mecanismo de voz selecionado pelo sistema. O provedor configurado pela família pode realizar o processamento localmente ou usar serviços online, conforme suas configurações e política; por isso, não afirmamos que todo TTS funciona sem internet. Músicas e efeitos do jogo são reproduzidos de arquivos incluídos no aplicativo. Não há gravação da voz da criança para essa narração."
+      },
+      {
+        "id": "children",
+        "title": "5. Dados de crianças",
+        "body": "Não solicitamos nome, e-mail, idade, foto, localização ou cadastro da criança. O desafio parental separa as decisões de compra da atividade infantil e a redefinição do progresso exige uma confirmação destinada ao adulto. Os dados técnicos de compra relacionados à conta da loja são descritos na seção 3; o contato voluntário de pais e responsáveis é descrito na seção 12."
+      },
+      {
+        "id": "sharing",
+        "title": "6. Compartilhamento",
+        "body": "Não vendemos dados pessoais. O progresso e as preferências locais não são enviados pelo jogo ao estúdio. Google Play Billing e o provedor de TTS configurado no aparelho tratam as informações necessárias às funções descritas nas seções 3 e 4, conforme suas próprias práticas. O atendimento por e-mail e as visitas ao site dos documentos são atividades separadas, descritas nas seções 11 e 12."
+      },
+      {
+        "id": "security",
+        "title": "7. Segurança",
+        "body": "O progresso e as preferências ficam na área local do aplicativo; sua proteção depende também das atualizações, proteções e controles de acesso do aparelho. O código do jogo não envia esses arquivos ou o token de compra para um servidor próprio. O site dos documentos utiliza HTTPS. Mensagens de suporte são transmitidas e armazenadas pelos provedores de e-mail envolvidos, conforme as proteções desses serviços."
+      },
+      {
+        "id": "retention",
+        "title": "8. Retenção",
+        "body": "O progresso e as preferências permanecem no dispositivo enquanto os arquivos do aplicativo forem mantidos. Redefinir o progresso substitui o avanço das fases pelo estado inicial e preserva as preferências. Limpar o armazenamento/dados do aplicativo nas configurações do Android remove seus arquivos locais. Desinstalação e eventual restauração de cópias feitas pelo sistema dependem das configurações do aparelho. O estúdio não mantém uma cópia do progresso. A conservação dos registros da loja, do provedor de voz, da hospedagem e das mensagens de suporte segue os tratamentos separados descritos nesta política."
+      },
+      {
+        "id": "deletion",
+        "title": "9. Exclusão",
+        "body": "Em Configurações, “Redefinir progresso” pede uma resposta correta a uma conta numérica e a confirmação antes de voltar à fase 1 e apagar as fases concluídas. O idioma, o volume e os demais ajustes permanecem salvos. Essa ação não cancela nem exclui a compra vinculada à conta do Google Play. Para remover também as preferências e demais arquivos locais, use a opção de limpar armazenamento/dados do aplicativo nas configurações do Android. O estúdio não consegue apagar remotamente dados no aparelho. Dados mantidos pelo Google Play e por outros provedores devem ser gerenciados pelos canais desses serviços."
+      },
+      {
+        "id": "changes",
+        "title": "10. Alterações desta política",
+        "body": "Podemos atualizar esta política quando o jogo, os serviços utilizados ou requisitos legais mudarem. A data exibida no início será atualizada e alterações relevantes serão apresentadas em uma nova versão do aplicativo."
+      },
+      {
+        "id": "website",
+        "title": "11. Visitas ao site dos documentos",
+        "body": "Este site dos documentos é hospedado no GitHub Pages e não exige login. Seu código não adiciona anúncios, ferramentas de análise de uso, cookies ou armazenamento de preferências no navegador. Ao visitar as páginas, seu navegador se comunica com a hospedagem. O GitHub informa que registra e armazena o endereço IP dos visitantes para segurança, mesmo sem login. Esse tratamento é separado do funcionamento do jogo e segue as políticas e os prazos do GitHub.",
+        "links": [
+          {
+            "label": "Coleta de dados no GitHub Pages",
+            "url": "https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#data-collection"
+          },
+          {
+            "label": "Declaração de Privacidade do GitHub",
+            "url": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement"
+          }
+        ]
+      },
+      {
+        "id": "contact",
+        "title": "12. Contato e mensagens de suporte",
+        "body": "Pais e responsáveis podem enviar dúvidas sobre privacidade ou suporte para vcdevelopstudio@gmail.com. Ao enviar uma mensagem, você fornece seu endereço de e-mail e o conteúdo que escolher enviar; esses dados não são coletados durante as brincadeiras. Usamos as informações para responder à solicitação e as mantemos pelo período necessário ao atendimento e às obrigações legais aplicáveis. O Gmail usado no atendimento e seu provedor de e-mail tratam as mensagens conforme suas políticas. Evite enviar nomes, fotos ou outros dados pessoais da criança que não sejam necessários para explicar o problema. Use o mesmo contato para pedir informações, correção ou exclusão dos dados enviados, observadas eventuais obrigações de conservação. Não existe conta própria do jogo a excluir.",
+        "links": [
+          {
+            "label": "Política de Privacidade do Google",
+            "url": "https://policies.google.com/privacy"
+          }
+        ]
+      }
+    ],
+    "publisher": "Responsável/publicador: VC Develop Studio"
   },
   "en-US": {
     "title": "Privacy Policy",
-    "updated": "Updated August 25, 2026",
+    "updated": "Updated October 2, 2026",
     "back": "Back",
     "contact": "vcdevelopstudio@gmail.com",
     "sections": [
-      {"id": "overview", "title": "1. Overview", "body": "Tico e Lili Em Busca do Cristal Arco-Íris was made for children and families. The game does not require an account, show ads, or use analytics or behavioral tracking tools."},
-      {"id": "local_data", "title": "2. Local progress and preferences", "body": "Stage progress, language, volume, and other settings are stored only on the device. This information is not sent to the studio."},
-      {"id": "billing", "title": "3. Google Play Billing", "body": "The full-game purchase is processed by Google Play Billing. Tico e Lili Em Busca do Cristal Arco-Íris receives only the purchase state and localized price needed to unlock content. Payment information is handled by Google under the platform policies."},
-      {"id": "tts", "title": "4. Device narration", "body": "Some text may be narrated by the text-to-speech (TTS) service installed on the device. The game sends text to the local engine selected by the system; processing depends on the TTS provider configured by the family."},
-      {"id": "children", "title": "5. Children's data", "body": "We do not request a child's name, email address, age, photo, location, or other identifier. The parental challenge separates purchase decisions from the child's activity."},
-      {"id": "sharing", "title": "6. Sharing", "body": "The studio does not sell or share personal data. Platform services such as Google Play Billing and the TTS provider selected on the device operate only when needed for the functions described here."},
-      {"id": "security", "title": "7. Security", "body": "We minimize data collection and keep progress and preferences local. File security also depends on the device's protections, updates, and access controls."},
-      {"id": "retention", "title": "8. Retention", "body": "Progress and preferences remain on the device until reset in the game, cleared in system settings, or removed with the app. The studio does not retain a copy."},
-      {"id": "deletion", "title": "9. Deletion", "body": "A responsible adult can reset progress in Settings. To remove local preferences too, app data can be cleared in device settings or the app can be uninstalled. Purchases remain linked to the store account under Google Play rules."},
-      {"id": "changes", "title": "10. Changes to this policy", "body": "We may update this policy when the game, its services, or legal requirements change. The date at the top will be revised and material changes will appear in a new app version."},
-      {"id": "contact", "title": "11. Contact", "body": "Privacy questions should be sent to vcdevelopstudio@gmail.com."}
-    ]
+      {
+        "id": "overview",
+        "title": "1. Overview",
+        "body": "Tico e Lili Em Busca do Cristal Arco-Íris was made for children and families. The game does not require an account, show ads, or use analytics or behavioral tracking tools."
+      },
+      {
+        "id": "local_data",
+        "title": "2. Local progress and preferences",
+        "body": "Completed stages, the current stage, language, overall volume and sound-repetition settings stay in the app data area on the device. They let you continue the journey and keep family preferences. These records are not sent to a studio server, and the game does not provide progress synchronization between devices."
+      },
+      {
+        "id": "billing",
+        "title": "3. Google Play Billing",
+        "body": "The one-time purchase granting access to stages 4–10 is processed by Google Play Billing. The app queries product and purchase information, including the product identifier, state, localized price and a technical token identifying the transaction. The token is used to acknowledge the purchase with Google Play; the game code does not save it in its own files or send it to a studio server. Card details, payment credentials and store-account information are handled by Google; the game does not request those details. Purchasing, querying and restoring access may depend on connectivity and Google Play services.",
+        "links": [
+          {
+            "label": "Google Privacy Policy",
+            "url": "https://policies.google.com/privacy"
+          }
+        ]
+      },
+      {
+        "id": "tts",
+        "title": "4. Device narration",
+        "body": "The invitation to call an adult on the purchase screen may be narrated using device text-to-speech (TTS), when a voice compatible with the selected language is available. The game provides the invitation text to the voice engine selected by the system. The provider configured by the family may process it locally or use online services, depending on its settings and policy; we therefore do not claim that all TTS works offline. Game music and sound effects play from files included in the app. The narration does not record the child’s voice."
+      },
+      {
+        "id": "children",
+        "title": "5. Children's data",
+        "body": "We do not request a child’s name, email address, age, photo, location or registration. The parental challenge separates purchase decisions from the child’s activity, and resetting progress requires confirmation intended for an adult. Technical purchase data associated with the store account is described in section 3; voluntary contact by parents and guardians is described in section 12."
+      },
+      {
+        "id": "sharing",
+        "title": "6. Sharing",
+        "body": "We do not sell personal data. The game does not send local progress or preferences to the studio. Google Play Billing and the device’s configured TTS provider handle information needed for the functions described in sections 3 and 4 under their own practices. Email support and visits to the document website are separate activities described in sections 11 and 12."
+      },
+      {
+        "id": "security",
+        "title": "7. Security",
+        "body": "Progress and preferences stay in the app’s local data area; their protection also depends on device updates, protections and access controls. The game code does not send these files or the purchase token to its own server. The document website uses HTTPS. Support messages are transmitted and stored by the email providers involved under those services’ protections."
+      },
+      {
+        "id": "retention",
+        "title": "8. Retention",
+        "body": "Progress and preferences remain on the device while the app’s files are kept. Resetting progress replaces stage progress with the initial state and keeps preferences. Clearing app storage/data in Android settings removes its local files. Uninstalling and any restoration of system backups depend on device settings. The studio does not keep a copy of progress. Store, voice-provider, hosting and support-message records follow the separate handling described in this policy."
+      },
+      {
+        "id": "deletion",
+        "title": "9. Deletion",
+        "body": "In Settings, “Reset progress” requires a correct answer to an arithmetic question and confirmation before returning to stage 1 and clearing completed stages. Language, volume and other settings remain saved. This action does not cancel or delete the purchase linked to the Google Play account. To also remove preferences and other local files, use the clear app storage/data option in Android settings. The studio cannot remotely erase device data. Data held by Google Play and other providers must be managed through those services’ channels."
+      },
+      {
+        "id": "changes",
+        "title": "10. Changes to this policy",
+        "body": "We may update this policy when the game, its services, or legal requirements change. The date at the top will be revised and material changes will appear in a new app version."
+      },
+      {
+        "id": "website",
+        "title": "11. Visits to the document website",
+        "body": "This document website is hosted on GitHub Pages and does not require login. Its code does not add ads, usage analytics, cookies or browser storage for preferences. When visiting its pages, your browser communicates with the hosting service. GitHub states that it logs and stores visitors’ IP addresses for security, even without login. This handling is separate from the game’s operation and follows GitHub’s policies and retention periods.",
+        "links": [
+          {
+            "label": "GitHub Pages data collection",
+            "url": "https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#data-collection"
+          },
+          {
+            "label": "GitHub Privacy Statement",
+            "url": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement"
+          }
+        ]
+      },
+      {
+        "id": "contact",
+        "title": "12. Contact and support messages",
+        "body": "Parents and guardians can send privacy or support questions to vcdevelopstudio@gmail.com. Sending a message provides your email address and whatever content you choose to send; this data is not collected during play. We use the information to respond to the request and retain it for as long as needed for support and applicable legal obligations. Gmail, used for support, and your email provider handle messages under their policies. Avoid sending a child’s name, photo or other personal information unless needed to explain the issue. Use the same contact to request information, correction or deletion of submitted data, subject to any retention obligations. There is no game account to delete.",
+        "links": [
+          {
+            "label": "Google Privacy Policy",
+            "url": "https://policies.google.com/privacy"
+          }
+        ]
+      }
+    ],
+    "publisher": "Developer/publisher: VC Develop Studio"
   },
   "es-ES": {
     "title": "Política de Privacidad",
-    "updated": "Actualizada el 25 de agosto de 2026",
+    "updated": "Actualizada el 2 de octubre de 2026",
     "back": "Volver",
     "contact": "vcdevelopstudio@gmail.com",
     "sections": [
-      {"id": "overview", "title": "1. Descripción general", "body": "Tico e Lili Em Busca do Cristal Arco-Íris fue creado para niños y familias. El juego no requiere una cuenta, no muestra anuncios y no utiliza herramientas de analítica ni de seguimiento del comportamiento."},
-      {"id": "local_data", "title": "2. Progreso y preferencias locales", "body": "El progreso de las fases, el idioma, el volumen y otros ajustes se guardan solamente en el dispositivo. Estos datos no se envían al estudio."},
-      {"id": "billing", "title": "3. Google Play Billing", "body": "La compra del juego completo se procesa mediante Google Play Billing. Tico e Lili Em Busca do Cristal Arco-Íris recibe solo el estado de la compra y el precio localizado necesarios para desbloquear el contenido. Google trata los datos de pago según las políticas de la plataforma."},
-      {"id": "tts", "title": "4. Narración del dispositivo", "body": "Algunos textos pueden ser narrados por el servicio de texto a voz (TTS) instalado en el dispositivo. El juego envía el texto al motor local elegido por el sistema; el tratamiento depende del proveedor de TTS configurado por la familia."},
-      {"id": "children", "title": "5. Datos de niños", "body": "No solicitamos el nombre, correo, edad, foto, ubicación ni otro identificador de un niño. El desafío parental separa las decisiones de compra de la actividad infantil."},
-      {"id": "sharing", "title": "6. Compartir datos", "body": "El estudio no vende ni comparte datos personales. Los servicios de la plataforma, como Google Play Billing y el proveedor TTS elegido en el dispositivo, actúan solo cuando son necesarios para las funciones descritas aquí."},
-      {"id": "security", "title": "7. Seguridad", "body": "Reducimos la recopilación al mínimo y mantenemos el progreso y las preferencias localmente. La seguridad de estos archivos también depende de las protecciones, actualizaciones y controles de acceso del dispositivo."},
-      {"id": "retention", "title": "8. Conservación", "body": "El progreso y las preferencias permanecen en el dispositivo hasta que se restablecen en el juego, se borran en los ajustes del sistema o se eliminan con la aplicación. El estudio no conserva una copia."},
-      {"id": "deletion", "title": "9. Eliminación", "body": "La persona responsable puede restablecer el progreso en Configuración. Para eliminar también las preferencias locales, puede borrar los datos de la aplicación en los ajustes del dispositivo o desinstalarla. Las compras siguen vinculadas a la cuenta de la tienda según las reglas de Google Play."},
-      {"id": "changes", "title": "10. Cambios en esta política", "body": "Podemos actualizar esta política cuando cambien el juego, sus servicios o los requisitos legales. La fecha inicial se actualizará y los cambios relevantes aparecerán en una nueva versión de la aplicación."},
-      {"id": "contact", "title": "11. Contacto", "body": "Las dudas sobre privacidad deben enviarse a vcdevelopstudio@gmail.com."}
-    ]
+      {
+        "id": "overview",
+        "title": "1. Descripción general",
+        "body": "Tico e Lili Em Busca do Cristal Arco-Íris fue creado para niños y familias. El juego no requiere una cuenta, no muestra anuncios y no utiliza herramientas de analítica ni de seguimiento del comportamiento."
+      },
+      {
+        "id": "local_data",
+        "title": "2. Progreso y preferencias locales",
+        "body": "Las fases completadas, la fase actual, el idioma, el volumen general y los ajustes de repetición de sonidos permanecen en el área de datos de la aplicación en el dispositivo. Permiten continuar la aventura y mantener las preferencias de la familia. Estos registros no se envían a un servidor del estudio y el juego no ofrece sincronización del progreso entre dispositivos."
+      },
+      {
+        "id": "billing",
+        "title": "3. Google Play Billing",
+        "body": "La compra única que permite acceder a las fases 4 a 10 se procesa mediante Google Play Billing. La aplicación consulta información del producto y de la compra, incluidos el identificador del producto, el estado, el precio localizado y un token técnico que identifica la transacción. El token se utiliza para reconocer la compra ante Google Play; el código del juego no lo guarda en archivos propios ni lo envía a un servidor del estudio. Google trata los datos de la tarjeta, las credenciales de pago y la información de la cuenta de la tienda; el juego no solicita esos datos. La compra, consulta y restauración del acceso pueden depender de la conexión y de los servicios de Google Play.",
+        "links": [
+          {
+            "label": "Política de Privacidad de Google",
+            "url": "https://policies.google.com/privacy"
+          }
+        ]
+      },
+      {
+        "id": "tts",
+        "title": "4. Narración del dispositivo",
+        "body": "La invitación a llamar a una persona adulta en la pantalla de compra puede narrarse mediante el servicio de texto a voz (TTS) del dispositivo, si existe una voz compatible con el idioma elegido. El juego proporciona el texto de la invitación al motor de voz seleccionado por el sistema. El proveedor configurado por la familia puede procesarlo localmente o utilizar servicios en línea, según su configuración y política; por eso no afirmamos que todo TTS funcione sin internet. La música y los efectos del juego se reproducen desde archivos incluidos en la aplicación. Esta narración no graba la voz del niño."
+      },
+      {
+        "id": "children",
+        "title": "5. Datos de niños",
+        "body": "No solicitamos nombre, correo, edad, foto, ubicación ni registro del niño. El desafío parental separa las decisiones de compra de la actividad infantil y reiniciar el progreso exige una confirmación destinada al adulto. Los datos técnicos de compra asociados a la cuenta de la tienda se describen en la sección 3; el contacto voluntario de padres y responsables se describe en la sección 12."
+      },
+      {
+        "id": "sharing",
+        "title": "6. Compartir datos",
+        "body": "No vendemos datos personales. El juego no envía el progreso ni las preferencias locales al estudio. Google Play Billing y el proveedor de TTS configurado en el dispositivo tratan la información necesaria para las funciones descritas en las secciones 3 y 4, según sus propias prácticas. El soporte por correo y las visitas al sitio de los documentos son actividades separadas, descritas en las secciones 11 y 12."
+      },
+      {
+        "id": "security",
+        "title": "7. Seguridad",
+        "body": "El progreso y las preferencias permanecen en el área local de la aplicación; su protección también depende de las actualizaciones, protecciones y controles de acceso del dispositivo. El código del juego no envía esos archivos ni el token de compra a un servidor propio. El sitio de los documentos utiliza HTTPS. Los mensajes de soporte se transmiten y almacenan por los proveedores de correo involucrados, según las protecciones de esos servicios."
+      },
+      {
+        "id": "retention",
+        "title": "8. Conservación",
+        "body": "El progreso y las preferencias permanecen en el dispositivo mientras se conserven los archivos de la aplicación. Reiniciar el progreso sustituye el avance de las fases por el estado inicial y mantiene las preferencias. Borrar el almacenamiento/datos de la aplicación en la configuración de Android elimina sus archivos locales. La desinstalación y una posible restauración de copias del sistema dependen de la configuración del dispositivo. El estudio no conserva una copia del progreso. Los registros de la tienda, del proveedor de voz, del alojamiento y de los mensajes de soporte siguen los tratamientos separados descritos en esta política."
+      },
+      {
+        "id": "deletion",
+        "title": "9. Eliminación",
+        "body": "En Configuración, “Reiniciar progreso” exige responder correctamente a una operación aritmética y confirmar antes de volver a la fase 1 y borrar las fases completadas. El idioma, el volumen y los demás ajustes permanecen guardados. Esta acción no cancela ni elimina la compra vinculada a la cuenta de Google Play. Para eliminar también las preferencias y los demás archivos locales, use la opción de borrar almacenamiento/datos de la aplicación en la configuración de Android. El estudio no puede borrar remotamente los datos del dispositivo. Los datos conservados por Google Play y otros proveedores deben gestionarse por los canales de esos servicios."
+      },
+      {
+        "id": "changes",
+        "title": "10. Cambios en esta política",
+        "body": "Podemos actualizar esta política cuando cambien el juego, sus servicios o los requisitos legales. La fecha inicial se actualizará y los cambios relevantes aparecerán en una nueva versión de la aplicación."
+      },
+      {
+        "id": "website",
+        "title": "11. Visitas al sitio de los documentos",
+        "body": "Este sitio de documentos está alojado en GitHub Pages y no exige iniciar sesión. Su código no añade anuncios, análisis de uso, cookies ni almacenamiento de preferencias en el navegador. Al visitar las páginas, su navegador se comunica con el alojamiento. GitHub informa de que registra y almacena las direcciones IP de los visitantes por seguridad, incluso sin iniciar sesión. Este tratamiento es independiente del funcionamiento del juego y sigue las políticas y los plazos de GitHub.",
+        "links": [
+          {
+            "label": "Recopilación de datos en GitHub Pages",
+            "url": "https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#data-collection"
+          },
+          {
+            "label": "Declaración de Privacidad de GitHub",
+            "url": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement"
+          }
+        ]
+      },
+      {
+        "id": "contact",
+        "title": "12. Contacto y mensajes de soporte",
+        "body": "Los padres y responsables pueden enviar preguntas de privacidad o soporte a vcdevelopstudio@gmail.com. Al enviar un mensaje, proporciona su dirección de correo y el contenido que decida enviar; estos datos no se recopilan durante el juego. Usamos la información para responder a la solicitud y la conservamos durante el tiempo necesario para la atención y las obligaciones legales aplicables. Gmail, utilizado para el soporte, y su proveedor de correo tratan los mensajes conforme a sus políticas. Evite enviar nombres, fotos u otros datos personales del niño que no sean necesarios para explicar el problema. Use el mismo contacto para solicitar información, corrección o eliminación de los datos enviados, respetando posibles obligaciones de conservación. No existe una cuenta propia del juego que eliminar.",
+        "links": [
+          {
+            "label": "Política de Privacidad de Google",
+            "url": "https://policies.google.com/privacy"
+          }
+        ]
+      }
+    ],
+    "publisher": "Responsable/editor: VC Develop Studio"
   }
 }
