@@ -3,34 +3,34 @@ const FALLBACK_LANGUAGE = "pt-BR";
 
 const homeContent = {
   "pt-BR": {
-    title: "Tico e Lili Em Busca do Cristal Arco-Íris",
+    title: "Tico e Lili: Cristal Arco-Íris",
     intro: "Encontre os documentos legais do jogo.",
     privacyTitle: "Política de Privacidade",
     privacyDetail: "Como o jogo trata dados e preferências.",
     termsTitle: "Termos de Uso",
     termsDetail: "Regras de uso e compra do jogo completo.",
-    support: "Contato de suporte: vcdevelopstudio@gmail.com",
-    pageTitle: "Documentos legais | Tico e Lili"
+    support: "Contato de suporte:",
+    pageTitle: "Documentos legais | Tico e Lili: Cristal Arco-Íris"
   },
   "en-US": {
-    title: "Tico e Lili Em Busca do Cristal Arco-Íris",
+    title: "Tico e Lili: Cristal Arco-Íris",
     intro: "Find the game's legal documents.",
     privacyTitle: "Privacy Policy",
     privacyDetail: "How the game handles data and preferences.",
     termsTitle: "Terms of Use",
     termsDetail: "Rules for using and purchasing the full game.",
-    support: "Support contact: vcdevelopstudio@gmail.com",
-    pageTitle: "Legal documents | Tico e Lili"
+    support: "Support contact:",
+    pageTitle: "Legal documents | Tico e Lili: Cristal Arco-Íris"
   },
   "es-ES": {
-    title: "Tico e Lili Em Busca do Cristal Arco-Íris",
+    title: "Tico e Lili: Cristal Arco-Íris",
     intro: "Encuentra los documentos legales del juego.",
     privacyTitle: "Política de Privacidad",
     privacyDetail: "Cómo el juego trata los datos y las preferencias.",
     termsTitle: "Términos de Uso",
     termsDetail: "Reglas de uso y compra del juego completo.",
-    support: "Contacto de soporte: vcdevelopstudio@gmail.com",
-    pageTitle: "Documentos legales | Tico e Lili"
+    support: "Contacto de soporte:",
+    pageTitle: "Documentos legales | Tico e Lili: Cristal Arco-Íris"
   }
 };
 
@@ -80,6 +80,9 @@ function renderLegalDocument(language) {
   const documentContent = document.querySelector("#document-content");
   if (!content || !documentContent) return;
 
+  setText("back-link", content.back);
+  setText("related-document", legalRoot.dataset.document === "privacy_policy"
+    ? homeContent[language].termsTitle : homeContent[language].privacyTitle);
   documentContent.replaceChildren();
   appendTextElement(documentContent, "h1", content.title);
   appendTextElement(documentContent, "p", content.updated, "updated");
@@ -98,7 +101,7 @@ function renderLegalDocument(language) {
       documentContent.appendChild(paragraph);
     });
   });
-  document.title = `${content.title} | Tico e Lili`;
+  document.title = `${content.title} | Tico e Lili: Cristal Arco-Íris`;
 }
 
 async function loadLegalDocument(language) {

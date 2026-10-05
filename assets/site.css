@@ -26,6 +26,8 @@ body {
 }
 
 a { color: inherit; }
+a[href^="mailto:"] { overflow-wrap: anywhere; }
+.legal-footer { margin: -2rem 0 3rem; }
 
 .skip-link {
   position: fixed;

@@ -1,14 +1,14 @@
 {
   "pt-BR": {
     "title": "Política de Privacidade",
-    "updated": "Atualizada em 2 de outubro de 2026",
+    "updated": "Atualizada em 3 de outubro de 2026",
     "back": "Voltar",
     "contact": "vcdevelopstudio@gmail.com",
     "sections": [
       {
         "id": "overview",
         "title": "1. Visão geral",
-        "body": "O Tico e Lili Em Busca do Cristal Arco-Íris foi criado para crianças e famílias. O jogo não exige conta, não exibe anúncios e não utiliza ferramentas de análise de uso nem de rastreamento comportamental."
+        "body": "Tico e Lili: Cristal Arco-Íris foi criado para crianças e famílias. No código do aplicativo examinado, não foram encontradas integrações de anúncios, análise de uso, conta própria ou chat. As descrições do funcionamento do aplicativo nesta política se baseiam nesse código; não são uma garantia sobre todos os tratamentos dos serviços externos mencionados abaixo."
       },
       {
         "id": "local_data",
@@ -18,7 +18,7 @@
       {
         "id": "billing",
         "title": "3. Google Play Billing",
-        "body": "A compra única para liberar as fases 4 a 10 é processada pelo Google Play Billing. O aplicativo consulta informações do produto e da compra, incluindo identificador do produto, estado, preço localizado e um token técnico que identifica a transação. O token é usado para reconhecer a compra junto ao Google Play; o código do jogo não o grava em arquivos próprios nem o envia a um servidor do estúdio. Dados do cartão, credenciais de pagamento e informações da conta da loja são tratados pelo Google; o jogo não solicita esses dados. Compra, consulta e restauração do acesso podem depender da conexão e dos serviços do Google Play.",
+        "body": "O Google Play processa o pagamento da compra única para liberar as fases 4 a 10. O aplicativo utiliza o preço localizado e metadados do produto e da transação: identificadores de produto, estado da compra, token de compra e indicador de reconhecimento (se a compra já foi reconhecida junto ao Google Play). Essas informações permitem identificar a compra, confirmar ou restaurar o direito de acesso e reconhecer a compra; o token é utilizado nesse reconhecimento. No código do aplicativo examinado, não foi identificada persistência do token em arquivos nem registro em logs. Esse uso não deve ser confundido com armazenamento permanente pelo estúdio. O Google trata os dados de pagamento conforme suas próprias práticas; não foi identificado recebimento de dados do cartão pelo estúdio no fluxo examinado. Comprar, consultar e restaurar o acesso envolvem serviços online do Google Play. A análise do código não abrange uma inspeção completa do aplicativo distribuído (AAB), do tráfego dos SDKs ou de todos os serviços do Google.",
         "links": [
           {
             "label": "Política de Privacidade do Google",
@@ -44,7 +44,7 @@
       {
         "id": "security",
         "title": "7. Segurança",
-        "body": "O progresso e as preferências ficam na área local do aplicativo; sua proteção depende também das atualizações, proteções e controles de acesso do aparelho. O código do jogo não envia esses arquivos ou o token de compra para um servidor próprio. O site dos documentos utiliza HTTPS. Mensagens de suporte são transmitidas e armazenadas pelos provedores de e-mail envolvidos, conforme as proteções desses serviços."
+        "body": "O progresso e as preferências ficam na área local do aplicativo; sua proteção depende também das atualizações, proteções e controles de acesso do aparelho. A análise do código do aplicativo não identificou envio desses arquivos ou do token de compra a um servidor próprio do estúdio; os serviços externos são descritos nas seções 3 e 4. O site dos documentos utiliza HTTPS. Mensagens de suporte são transmitidas e armazenadas pelos provedores de e-mail envolvidos, conforme as proteções desses serviços."
       },
       {
         "id": "retention",
@@ -92,14 +92,14 @@
   },
   "en-US": {
     "title": "Privacy Policy",
-    "updated": "Updated October 2, 2026",
+    "updated": "Updated October 3, 2026",
     "back": "Back",
     "contact": "vcdevelopstudio@gmail.com",
     "sections": [
       {
         "id": "overview",
         "title": "1. Overview",
-        "body": "Tico e Lili Em Busca do Cristal Arco-Íris was made for children and families. The game does not require an account, show ads, or use analytics or behavioral tracking tools."
+        "body": "Tico e Lili: Cristal Arco-Íris was made for children and families. No integrations for advertising, analytics, studio-managed accounts or chat were found in the app code examined. The descriptions of app behavior in this policy are based on that code; they are not a guarantee about all processing by the external services described below."
       },
       {
         "id": "local_data",
@@ -109,7 +109,7 @@
       {
         "id": "billing",
         "title": "3. Google Play Billing",
-        "body": "The one-time purchase granting access to stages 4–10 is processed by Google Play Billing. The app queries product and purchase information, including the product identifier, state, localized price and a technical token identifying the transaction. The token is used to acknowledge the purchase with Google Play; the game code does not save it in its own files or send it to a studio server. Card details, payment credentials and store-account information are handled by Google; the game does not request those details. Purchasing, querying and restoring access may depend on connectivity and Google Play services.",
+        "body": "Google Play processes payment for the one-time purchase unlocking stages 4–10. The app uses the localized price and product and transaction metadata: product identifiers, purchase state, purchase token and acknowledgment status (whether the purchase has already been acknowledged with Google Play). This information enables the app to identify the purchase, confirm or restore access and acknowledge the purchase; the token is used for that acknowledgment. No persistence of the token in files or recording in logs was identified in the app code examined. This use should not be confused with permanent storage by the studio. Google handles payment data under its own practices; no receipt of card details by the studio was identified in the flow examined. Purchasing, querying and restoring access involve Google Play online services. The code review does not cover a complete inspection of the distributed app (AAB), SDK traffic or all Google services.",
         "links": [
           {
             "label": "Google Privacy Policy",
@@ -135,7 +135,7 @@
       {
         "id": "security",
         "title": "7. Security",
-        "body": "Progress and preferences stay in the app’s local data area; their protection also depends on device updates, protections and access controls. The game code does not send these files or the purchase token to its own server. The document website uses HTTPS. Support messages are transmitted and stored by the email providers involved under those services’ protections."
+        "body": "Progress and preferences stay in the app’s local data area; their protection also depends on device updates, protections and access controls. The app code review did not identify transmission of these files or the purchase token to a server owned by the studio; external services are described in sections 3 and 4. The document website uses HTTPS. Support messages are transmitted and stored by the email providers involved under those services’ protections."
       },
       {
         "id": "retention",
@@ -183,14 +183,14 @@
   },
   "es-ES": {
     "title": "Política de Privacidad",
-    "updated": "Actualizada el 2 de octubre de 2026",
+    "updated": "Actualizada el 3 de octubre de 2026",
     "back": "Volver",
     "contact": "vcdevelopstudio@gmail.com",
     "sections": [
       {
         "id": "overview",
         "title": "1. Descripción general",
-        "body": "Tico e Lili Em Busca do Cristal Arco-Íris fue creado para niños y familias. El juego no requiere una cuenta, no muestra anuncios y no utiliza herramientas de analítica ni de seguimiento del comportamiento."
+        "body": "Tico e Lili: Cristal Arco-Íris fue creado para niños y familias. En el código de la aplicación examinado no se encontraron integraciones de anuncios, análisis de uso, cuentas propias ni chat. Las descripciones del funcionamiento de la aplicación en esta política se basan en ese código; no son una garantía sobre todos los tratamientos de los servicios externos descritos a continuación."
       },
       {
         "id": "local_data",
@@ -200,7 +200,7 @@
       {
         "id": "billing",
         "title": "3. Google Play Billing",
-        "body": "La compra única que permite acceder a las fases 4 a 10 se procesa mediante Google Play Billing. La aplicación consulta información del producto y de la compra, incluidos el identificador del producto, el estado, el precio localizado y un token técnico que identifica la transacción. El token se utiliza para reconocer la compra ante Google Play; el código del juego no lo guarda en archivos propios ni lo envía a un servidor del estudio. Google trata los datos de la tarjeta, las credenciales de pago y la información de la cuenta de la tienda; el juego no solicita esos datos. La compra, consulta y restauración del acceso pueden depender de la conexión y de los servicios de Google Play.",
+        "body": "Google Play procesa el pago de la compra única que permite acceder a las fases 4 a 10. La aplicación utiliza el precio localizado y metadatos del producto y de la transacción: identificadores de producto, estado de la compra, token de compra e indicador de reconocimiento (si la compra ya se ha reconocido ante Google Play). Esta información permite identificar la compra, confirmar o restaurar el acceso y reconocer la compra; el token se utiliza para ese reconocimiento. En el código de la aplicación examinado no se identificó persistencia del token en archivos ni registro en logs. Este uso no debe confundirse con almacenamiento permanente por parte del estudio. Google trata los datos de pago según sus propias prácticas; no se identificó recepción de datos de la tarjeta por parte del estudio en el flujo examinado. Comprar, consultar y restaurar el acceso implica utilizar servicios en línea de Google Play. La revisión del código no abarca una inspección completa de la aplicación distribuida (AAB), del tráfico de los SDK ni de todos los servicios de Google.",
         "links": [
           {
             "label": "Política de Privacidad de Google",
@@ -226,7 +226,7 @@
       {
         "id": "security",
         "title": "7. Seguridad",
-        "body": "El progreso y las preferencias permanecen en el área local de la aplicación; su protección también depende de las actualizaciones, protecciones y controles de acceso del dispositivo. El código del juego no envía esos archivos ni el token de compra a un servidor propio. El sitio de los documentos utiliza HTTPS. Los mensajes de soporte se transmiten y almacenan por los proveedores de correo involucrados, según las protecciones de esos servicios."
+        "body": "El progreso y las preferencias permanecen en el área local de la aplicación; su protección también depende de las actualizaciones, protecciones y controles de acceso del dispositivo. La revisión del código de la aplicación no identificó el envío de estos archivos ni del token de compra a un servidor propio del estudio; los servicios externos se describen en las secciones 3 y 4. El sitio de los documentos utiliza HTTPS. Los mensajes de soporte se transmiten y almacenan por los proveedores de correo involucrados, según las protecciones de esos servicios."
       },
       {
         "id": "retention",

@@ -1,14 +1,14 @@
 {
   "pt-BR": {
     "title": "Termos de Uso",
-    "updated": "Atualizados em 2 de outubro de 2026",
+    "updated": "Atualizados em 3 de outubro de 2026",
     "back": "Voltar",
     "contact": "vcdevelopstudio@gmail.com",
     "sections": [
       {
         "id": "personal_use",
         "title": "1. Uso pessoal",
-        "body": "Tico e Lili Em Busca do Cristal Arco-Íris é licenciado para uso pessoal e não comercial, por crianças e famílias, de acordo com estes termos e as regras aplicáveis da loja."
+        "body": "Tico e Lili: Cristal Arco-Íris é licenciado para uso pessoal e não comercial, por crianças e famílias, de acordo com estes termos e as regras aplicáveis da loja."
       },
       {
         "id": "one_time_purchase",
@@ -23,7 +23,7 @@
       {
         "id": "google_play",
         "title": "4. Google Play",
-        "body": "O pagamento e os pedidos de reembolso seguem as regras e os canais do Google Play. O jogo consulta a loja para confirmar ou restaurar o direito de acesso associado à conta usada na compra; essas funções podem depender de conexão e dos serviços da loja. Os dados técnicos de produto e transação, incluindo o token usado para reconhecer a compra, são explicados na Política de Privacidade. Redefinir o progresso não cancela a compra vinculada à conta da loja."
+        "body": "O Google Play processa o pagamento e disponibiliza canais para pedidos de reembolso, conforme suas regras e os direitos garantidos pela legislação aplicável. O aplicativo utiliza preço localizado, identificadores de produto, estado da compra, token de compra e indicador de reconhecimento para identificar a compra, confirmar ou restaurar o direito de acesso e reconhecer a compra junto ao Google Play. O token é usado no reconhecimento; não foi identificada sua persistência em arquivos ou registro em logs no código examinado, nem recebimento de dados do cartão pelo estúdio no fluxo examinado. A Política de Privacidade explica esses tratamentos e os limites da análise. Compra, consulta e restauração envolvem serviços online da loja. Redefinir o progresso não cancela a compra vinculada à conta da loja."
       },
       {
         "id": "adult_responsibility",
@@ -38,7 +38,7 @@
       {
         "id": "support",
         "title": "7. Suporte",
-        "body": "Pais e responsáveis podem enviar dúvidas sobre o jogo, a compra ou estes termos para vcdevelopstudio@gmail.com. Evite enviar dados pessoais da criança que não sejam necessários para explicar o problema. O tratamento das mensagens é descrito na Política de Privacidade. Pedidos de reembolso devem seguir os canais e regras aplicáveis do Google Play."
+        "body": "Pais e responsáveis podem enviar dúvidas sobre o jogo, a compra ou estes termos para vcdevelopstudio@gmail.com. Evite enviar dados pessoais da criança que não sejam necessários para explicar o problema. O tratamento das mensagens é descrito na Política de Privacidade. Pedidos de reembolso devem seguir os canais e regras aplicáveis do Google Play. Isso não limita os direitos legais da pessoa consumidora."
       },
       {
         "id": "updates",
@@ -55,14 +55,14 @@
   },
   "en-US": {
     "title": "Terms of Use",
-    "updated": "Updated October 2, 2026",
+    "updated": "Updated October 3, 2026",
     "back": "Back",
     "contact": "vcdevelopstudio@gmail.com",
     "sections": [
       {
         "id": "personal_use",
         "title": "1. Personal use",
-        "body": "Tico e Lili Em Busca do Cristal Arco-Íris is licensed for personal, non-commercial use by children and families, subject to these terms and the applicable store rules."
+        "body": "Tico e Lili: Cristal Arco-Íris is licensed for personal, non-commercial use by children and families, subject to these terms and the applicable store rules."
       },
       {
         "id": "one_time_purchase",
@@ -77,7 +77,7 @@
       {
         "id": "google_play",
         "title": "4. Google Play",
-        "body": "Payment and refund requests follow Google Play rules and channels. The game queries the store to confirm or restore access associated with the account used for the purchase; these functions may depend on connectivity and store services. Technical product and transaction data, including the token used to acknowledge the purchase, is explained in the Privacy Policy. Resetting progress does not cancel the purchase linked to the store account."
+        "body": "Google Play processes payment and provides refund-request channels, subject to its rules and rights guaranteed by applicable law. The app uses the localized price, product identifiers, purchase state, purchase token and acknowledgment status to identify the purchase, confirm or restore access and acknowledge the purchase with Google Play. The token is used for acknowledgment; no persistence in files or recording in logs was identified in the code examined, nor was receipt of card details by the studio identified in the flow examined. The Privacy Policy explains this processing and the limits of the review. Purchasing, querying and restoring access involve the store’s online services. Resetting progress does not cancel the purchase linked to the store account."
       },
       {
         "id": "adult_responsibility",
@@ -92,7 +92,7 @@
       {
         "id": "support",
         "title": "7. Support",
-        "body": "Parents and guardians can send questions about the game, a purchase or these terms to vcdevelopstudio@gmail.com. Avoid sending a child’s personal information unless needed to explain the issue. Message handling is described in the Privacy Policy. Refund requests must follow applicable Google Play rules and channels."
+        "body": "Parents and guardians can send questions about the game, a purchase or these terms to vcdevelopstudio@gmail.com. Avoid sending a child’s personal information unless needed to explain the issue. Message handling is described in the Privacy Policy. Refund requests must follow applicable Google Play rules and channels. This does not limit statutory consumer rights."
       },
       {
         "id": "updates",
@@ -109,14 +109,14 @@
   },
   "es-ES": {
     "title": "Términos de Uso",
-    "updated": "Actualizados el 2 de octubre de 2026",
+    "updated": "Actualizados el 3 de octubre de 2026",
     "back": "Volver",
     "contact": "vcdevelopstudio@gmail.com",
     "sections": [
       {
         "id": "personal_use",
         "title": "1. Uso personal",
-        "body": "Tico e Lili Em Busca do Cristal Arco-Íris se licencia para uso personal y no comercial de niños y familias, conforme a estos términos y las reglas aplicables de la tienda."
+        "body": "Tico e Lili: Cristal Arco-Íris se licencia para uso personal y no comercial de niños y familias, conforme a estos términos y las reglas aplicables de la tienda."
       },
       {
         "id": "one_time_purchase",
@@ -131,7 +131,7 @@
       {
         "id": "google_play",
         "title": "4. Google Play",
-        "body": "El pago y las solicitudes de reembolso siguen las reglas y los canales de Google Play. El juego consulta la tienda para confirmar o restaurar el acceso asociado a la cuenta usada en la compra; estas funciones pueden depender de la conexión y de los servicios de la tienda. Los datos técnicos del producto y de la transacción, incluido el token usado para reconocer la compra, se explican en la Política de Privacidad. Reiniciar el progreso no cancela la compra vinculada a la cuenta de la tienda."
+        "body": "Google Play procesa el pago y ofrece canales para solicitar reembolsos, conforme a sus reglas y a los derechos garantizados por la legislación aplicable. La aplicación utiliza el precio localizado, identificadores de producto, estado de la compra, token de compra e indicador de reconocimiento para identificar la compra, confirmar o restaurar el acceso y reconocer la compra ante Google Play. El token se utiliza para el reconocimiento; no se identificó su persistencia en archivos ni registro en logs en el código examinado, ni recepción de datos de la tarjeta por parte del estudio en el flujo examinado. La Política de Privacidad explica estos tratamientos y los límites de la revisión. La compra, la consulta y la restauración implican utilizar servicios en línea de la tienda. Reiniciar el progreso no cancela la compra vinculada a la cuenta de la tienda."
       },
       {
         "id": "adult_responsibility",
@@ -146,7 +146,7 @@
       {
         "id": "support",
         "title": "7. Soporte",
-        "body": "Los padres y responsables pueden enviar preguntas sobre el juego, una compra o estos términos a vcdevelopstudio@gmail.com. Evite enviar datos personales del niño que no sean necesarios para explicar el problema. El tratamiento de los mensajes se describe en la Política de Privacidad. Las solicitudes de reembolso deben seguir los canales y las reglas aplicables de Google Play."
+        "body": "Los padres y responsables pueden enviar preguntas sobre el juego, una compra o estos términos a vcdevelopstudio@gmail.com. Evite enviar datos personales del niño que no sean necesarios para explicar el problema. El tratamiento de los mensajes se describe en la Política de Privacidad. Las solicitudes de reembolso deben seguir los canales y las reglas aplicables de Google Play. Esto no limita los derechos legales de la persona consumidora."
       },
       {
         "id": "updates",
