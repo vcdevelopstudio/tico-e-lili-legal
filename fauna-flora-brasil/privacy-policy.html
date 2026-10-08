@@ -31,7 +31,7 @@
     <main id="legal-document">
       <article id="document-content" class="legal-content" tabindex="-1">
         <h1>Política de Privacidade</h1>
-        <p class="updated"><time datetime="2026-10-02">Atualizada em 2 de outubro de 2026</time></p>
+        <p class="updated"><time datetime="2026-10-08">Atualizada em 8 de outubro de 2026</time></p>
         <p class="publisher">Responsável/publicador: VC Develop Studio</p>
         <section>
           <h2>1. A quem esta política se aplica</h2>
@@ -39,26 +39,35 @@
         </section>
         <section>
           <h2>2. Dados pessoais e crianças</h2>
-          <p>O jogo não exige conta própria, não mostra anúncios e não utiliza análise de uso nem rastreamento comportamental. Não solicita nome, e-mail, idade, foto, localização ou identificadores da criança, nem usa câmera ou microfone. O publicador não recebe o progresso ou as preferências do jogo e não vende nem compartilha dados pessoais obtidos durante as brincadeiras.</p>
+          <p>O jogo não exige conta própria, não mostra anúncios, não tem backend do publicador nem SDK próprio de análise de gameplay ou rastreamento comportamental. Não solicita nome, e-mail, idade, foto ou localização da criança, nem usa câmera ou microfone. O progresso e as preferências não são enviados ao publicador. Isso não significa ausência de coleta por serviços de terceiros: o Google Play Billing trata dados de compra e envia automaticamente diagnósticos técnicos, inclusive sem compra, como explicado nas seções 4 e 5.</p>
         </section>
         <section>
           <h2>3. O que fica no aparelho</h2>
           <p>O jogo salva localmente o idioma escolhido, os volumes de música, efeitos e narração, as fases concluídas, as recompensas reveladas e o estado das páginas do livro. Esses registros permitem continuar a jornada, manter as configurações e indicar conteúdos já vistos. O idioma do aparelho é consultado para a escolha inicial entre português, inglês e espanhol; se não corresponder a um desses idiomas, o jogo usa inglês. A escolha manual salva passa a ter prioridade.</p>
           <p>Os registros ficam na área de dados do aplicativo. O publicador não mantém cópia em servidor nem oferece sincronização entre aparelhos. Quando uma atualização altera a organização do progresso, pode ser criada uma cópia local do arquivo anterior para a migração.</p>
+          <p>Separadamente do progresso, o cache próprio do direito de compra guarda o produto, o pacote do aplicativo e o estado do acesso, sem tokens ou dados bancários. A biblioteca de diagnóstico mantém sua própria fila persistente local para o envio técnico descrito na seção 4.</p>
         </section>
         <section>
-          <h2>4. Narração e serviços usados pelo jogo</h2>
-          <p>Músicas, efeitos e narrações são reproduzidos a partir de arquivos incluídos no aplicativo. A narração do livro não envia textos para um serviço de voz online nem usa o recurso de texto para fala do aparelho durante a brincadeira. A versão atual não integra serviços de anúncios, análise de uso, conta online ou Google Play Billing, e não envia os registros locais para serviços externos.</p>
-          <p>O sistema operacional e a loja usados para instalar ou atualizar o aplicativo podem tratar dados conforme suas próprias configurações e políticas. Isso não constitui envio de progresso pelo jogo. Eventuais cópias de segurança e restaurações feitas pelo sistema dependem do aparelho e da conta configurada pela família.</p>
+          <h2>4. Narração, serviços de terceiros e diagnósticos técnicos</h2>
+          <p>Músicas, efeitos e narrações são reproduzidos a partir de arquivos incluídos no aplicativo. A narração do livro não envia textos para um serviço de voz online nem usa o recurso de texto para fala do aparelho durante a brincadeira.</p>
+          <p>O jogo integra a biblioteca Google Play Billing 9.1.0. Ela inicia automaticamente e coleta e compartilha com o Google diagnósticos técnicos por DataTransport/CCT, inclusive quando ninguém realiza uma compra. Os registros incluem metadados técnicos do aplicativo e do dispositivo e um identificador temporário de sessão da biblioteca. A finalidade documentada é diagnosticar problemas, melhorar o desempenho e dar suporte a erros; isso é separado do progresso e das preferências locais e não é um SDK próprio de análise das brincadeiras.</p>
+          <p>O transporte dos diagnósticos usa HTTPS e uma fila persistente local. Portanto, esse tratamento não é apenas temporário em memória (não efêmero). A coleta e o compartilhamento de diagnóstico e do identificador temporário são obrigatórios no funcionamento implementado: não há opção no jogo para desativar essa telemetria e deixar de comprar não a desativa. O enquadramento desses dados nas categorias Diagnóstico e Identificadores do dispositivo/outros IDs, com finalidade Análise, é uma interpretação fundamentada das regras gerais de Segurança dos dados do Google Play, não uma confirmação específica da equipe Google Billing.</p>
+          <p>Não foi comprovada anonimização completa desses registros. O identificador temporário de sessão não deve ser entendido como garantia de anonimato. As práticas descritas não demonstram uso de identificador de publicidade, Android ID, Firebase Analytics ou Crashlytics.</p>
+          <p>O Google trata os dados dos seus serviços conforme a <a href="https://policies.google.com/privacy">Política de Privacidade do Google</a>. O sistema operacional e a loja também podem tratar dados de instalação, atualização, cópia de segurança e restauração segundo suas próprias configurações e políticas. Isso não constitui envio do progresso pelo jogo ao publicador.</p>
         </section>
         <section>
-          <h2>5. Compra planejada</h2>
-          <p>Está planejada uma compra única pelo Google Play para liberar o direito de acessar as fases 4 a 10. A integração ainda não foi implementada. A versão atual não processa compras nem recebe dados de compra pelo Google Play Billing. Antes de disponibilizar essa função, esta política será atualizada para descrever os dados e serviços efetivamente utilizados. O planejamento não significa que a compra já esteja disponível.</p>
+          <h2>5. Compra, consulta e restauração pelo Google Play</h2>
+          <p>As fases 1 a 3 são gratuitas. Uma compra única, não consumível, libera o direito de acessar as fases 4 a 10. Não há assinatura nem cobrança recorrente. A compra não pula a progressão: as fases continuam sendo desbloqueadas conforme o avanço. O pagamento é processado pelo Google Play. Na área de compra há um desafio numérico destinado ao responsável; ele não é uma verificação jurídica de idade ou identidade.</p>
+          <p>A integração implementa compra, consulta e restauração de compras existentes e confirmação das transações. Para essas funções, o jogo recebe informações da compra, incluindo referência/token, estado e produto, e encaminha o token ao Google Play para confirmar a transação. O cache próprio guarda produto, pacote do aplicativo e estado do direito de acesso; não grava tokens ou dados bancários. O código do jogo não acessa cartão ou dados bancários e não envia os dados da compra a um backend do publicador.</p>
+          <p>O histórico de compras é coletado para a funcionalidade do aplicativo, em conexão com a compra opcional ou a consulta/restauração de um direito existente, e não é tratado apenas de forma efêmera. No enquadramento de Segurança dos dados, a coleta do histórico é opcional e tem finalidade Funcionalidade do app. O compartilhamento não é declarado pela exceção do processamento esperado da compra/restauração iniciada pelo usuário. Essa interpretação das regras gerais não é uma confirmação específica da equipe Google Billing e não significa que não haja transmissão ao Google para processar essas ações. Ela não se aplica aos diagnósticos automáticos da seção 4.</p>
+          <p>A implementação dessas funções não equivale a homologação da compra ou da restauração em aparelho, nem a aprovação específica pelo Google. Este documento não afirma que esses testes ou aprovações tenham ocorrido.</p>
         </section>
         <section>
           <h2>6. Retenção, redefinição e exclusão local</h2>
           <p>O progresso e as preferências permanecem no aparelho enquanto os arquivos do aplicativo forem mantidos. Em Configurações, “Redefinir progresso” pede uma confirmação por conta numérica destinada ao adulto. Uma resposta correta seguida da confirmação apaga o avanço das fases, as recompensas e o estado das páginas do livro; só a fase 1 volta a estar liberada. O idioma e os três volumes permanecem salvos.</p>
           <p>Redefinir progresso não apaga uma eventual cópia local criada para migração. Para remover também preferências e demais arquivos locais do aplicativo, use a opção de limpar armazenamento/dados nas configurações do Android. Desinstalação e restauração de cópias feitas pelo sistema seguem as configurações do aparelho. O publicador não consegue apagar remotamente arquivos no aparelho nem recuperar o progresso que foi removido.</p>
+          <p>O desafio numérico é uma barreira destinada ao responsável, não uma verificação jurídica de idade ou identidade. Redefinir progresso não cancela a compra, não remove o direito de compra vinculado ao Google Play e não exclui registros de compra ou diagnósticos tratados pelo Google. O direito de acesso é separado do avanço nas fases.</p>
+          <p>Limpar armazenamento/dados também remove o cache próprio do direito de acesso e a fila local de diagnósticos; isso não cancela a compra nem apaga dados já enviados ao Google. A consulta/restauração do direito depende dos registros do Google Play e pode exigir conexão e a conta usada na compra. O publicador não controla a retenção ou exclusão nos servidores do Google e não dispõe de prazo de retenção confirmado para esses diagnósticos, nem de garantia de exclusão automática. Solicitações relativas a dados tratados pelo Google devem seguir os canais e controles de privacidade desse serviço.</p>
         </section>
         <section>
           <h2>7. Contato de suporte e privacidade</h2>
@@ -72,8 +81,8 @@
         </section>
         <section>
           <h2>9. Segurança e alterações</h2>
-          <p>Os dados da jornada são mantidos na área local do aplicativo; sua proteção depende também da segurança e dos controles de acesso do aparelho. O site dos documentos utiliza HTTPS. Mensagens de suporte são transmitidas e armazenadas pelos provedores de e-mail envolvidos, conforme as proteções desses serviços.</p>
-          <p>Quando as práticas do jogo ou destes canais mudarem, esta política e sua data de atualização serão revistas. A introdução da compra planejada exige uma nova conferência das práticas antes de sua disponibilização. Para dúvidas sobre esta política, use <a href="mailto:vcdevelopstudio@gmail.com">vcdevelopstudio@gmail.com</a>.</p>
+          <p>Os dados da jornada e o cache do direito de acesso são mantidos na área local do aplicativo; sua proteção depende também da segurança e dos controles de acesso do aparelho. O transporte dos diagnósticos técnicos usa HTTPS, com fila persistente local. O site dos documentos utiliza HTTPS. Mensagens de suporte são transmitidas e armazenadas pelos provedores de e-mail envolvidos, conforme as proteções desses serviços.</p>
+          <p>Quando as práticas do jogo ou destes canais mudarem, esta política e sua data de atualização serão revistas. Para dúvidas sobre esta política, use <a href="mailto:vcdevelopstudio@gmail.com">vcdevelopstudio@gmail.com</a>.</p>
         </section>
       </article>
     </main>
