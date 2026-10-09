@@ -10,7 +10,7 @@ from urllib.parse import urlsplit
 ROOT = Path(__file__).resolve().parents[1]
 BASE = ROOT / "cristal-arco-iris"
 LANGUAGES = {"pt-BR": "", "en-US": "en", "es-ES": "es"}
-DOCUMENTS = {"terms-of-use.html": 9, "privacy-policy.html": 12}
+DOCUMENTS = {"terms-of-use.html": 11, "privacy-policy.html": 15}
 
 
 class Page(HTMLParser):

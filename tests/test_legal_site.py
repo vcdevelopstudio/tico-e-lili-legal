@@ -49,6 +49,9 @@ class LegalSiteContractTest(unittest.TestCase):
             "changes",
             "website",
             "contact",
+            "age_signals",
+            "access_cache",
+            "sdk_diagnostics",
         ]
         expected_back_labels = {
             "pt-BR": "Voltar",
@@ -76,6 +79,8 @@ class LegalSiteContractTest(unittest.TestCase):
             "support",
             "updates",
             "consumer_rights",
+            "access_cache",
+            "age_signals",
         ]
         self.assertEqual(list(terms), LANGUAGES)
         for language, document in terms.items():

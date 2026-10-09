@@ -31,11 +31,11 @@
     <main id="legal-document">
       <article id="document-content" class="legal-content" tabindex="-1">
         <h1>Terms of Use</h1>
-        <p class="updated">Updated October 3, 2026</p>
+        <p class="updated">Updated October 9, 2026</p>
         <p class="publisher">Developer/publisher: VC Develop Studio</p>
         <section id="personal_use">
           <h2>1. Personal use</h2>
-          <p>Tico e Lili: Cristal Arco-Íris is licensed for personal, non-commercial use by children and families, subject to these terms and the applicable store rules.</p>
+          <p>Tico e Lili: Cristal Arco-Íris is licensed for personal, non-commercial use by children and families, subject to these terms and the applicable store rules. The descriptions of the local purchased-access cache and Play Age Signals apply only to versions that include these features; they do not automatically describe earlier versions that remain installed. The access cache and Play Age Signals are prepared for an update after the version 1.0.2 shown in the store; they should not be attributed to version 1.0.2 merely because they exist in the current code. Availability depends on the installed version, and this revision does not announce the release of the update.</p>
         </section>
         <section id="one_time_purchase">
           <h2>2. One-time full-game purchase</h2>
@@ -47,11 +47,11 @@
         </section>
         <section id="google_play">
           <h2>4. Google Play</h2>
-          <p>Google Play processes payment and provides refund-request channels, subject to its rules and rights guaranteed by applicable law. The app uses the localized price, product identifiers, purchase state, purchase token and acknowledgment status to identify the purchase, confirm or restore access and acknowledge the purchase with Google Play. The token is used for acknowledgment; no persistence in files or recording in logs was identified in the code examined, nor was receipt of card details by the studio identified in the flow examined. The Privacy Policy explains this processing and the limits of the review. Purchasing, querying and restoring access involve the store’s online services. Resetting progress does not cancel the purchase linked to the store account.</p>
+          <p>Google Play processes payment and provides refund-request channels, subject to its rules and rights guaranteed by applicable law. The app uses the localized price, product identifiers, purchase state, purchase token and acknowledgment status to identify the purchase, confirm or restore access and acknowledge the purchase with Google Play. The token is used for acknowledgment; no persistence in files or recording in logs was identified in the code examined, nor was receipt of card details by the studio identified in the flow examined. The Privacy Policy explains this processing and the limits of the review. Purchasing, querying and restoring access involve the store’s online services. Resetting progress does not cancel the purchase linked to the store account. The SDK’s technical diagnostics and persistent queue are described in section 15 of the Privacy Policy. They may occur when Billing initializes, even without a purchase, and are distinct from card details processed directly by Google Play.</p>
         </section>
         <section id="adult_responsibility">
           <h2>5. Responsibility for purchases</h2>
-          <p>The adult responsible for the device and store account must authorize and supervise purchases. The game&#x27;s parental challenge separates that decision from a child&#x27;s activity.</p>
+          <p>The adult responsible for the device and store account must authorize and supervise purchases and use Google Play controls. The arithmetic question separates the purchase decision from play; it does not verify age, identity or legal consent. In versions that include Play Age Signals, platform statuses and unavailable signals are handled as described in section 11.</p>
         </section>
         <section id="intellectual_property">
           <h2>6. Intellectual property</h2>
@@ -68,6 +68,14 @@
         <section id="consumer_rights">
           <h2>9. Consumer rights</h2>
           <p>Nothing in these terms limits mandatory consumer rights granted under applicable law.</p>
+        </section>
+        <section id="access_cache">
+          <h2>10. Local purchased-access cache</h2>
+          <p>In versions that include the local cache, a store-confirmed purchase allows access to be saved for reopening offline, if saving succeeds. A pending purchase does not grant new access. The cache contains no card details or token and is separate from progress and the Google Play account. When connectivity and services are available, access is reconciled with the store. A completed valid query with no confirmed or pending purchase of the product disables local access to paid stages; network failures or incomplete responses do not remove previously confirmed access. This absence may be related to a refund, revocation or account change, without the app identifying the cause. Revocation is not detected offline, and the store may take time to update. Progress remains saved, and purchasing does not bypass completion of earlier stages. Clearing data removes the cache; restoration depends on confirmation under the appropriate account, without automatically requiring another purchase. This mechanism does not synchronize progress between devices or provide tamper-proof protection. Section 14 of the Privacy Policy describes the stored data.</p>
+        </section>
+        <section id="age_signals">
+          <h2>11. Play Age Signals and the purchase flow</h2>
+          <p>In versions that include Play Age Signals, the available age range and Google Play statuses support child protection and the handling of new purchases, as described in section 13 of the Privacy Policy. Signals are held in memory in the code examined; the app does not directly request an identity document or date of birth. A missing signal, refusal to share or error does not prove adulthood. Without a known explicit block, the purchase flow may continue with the adult gate and Google Play controls. A platform verification requirement or pending or declined significant-change approval blocks new purchases; errors do not remove blocks already known during the process. This block does not erase progress or itself revoke purchased access, which is subject to reconciliation with the store. The arithmetic question does not verify age, identity or legal consent.</p>
         </section>
         <p class="policy-link"><a href="mailto:vcdevelopstudio@gmail.com">vcdevelopstudio@gmail.com</a></p>
       </article>

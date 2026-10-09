@@ -1,24 +1,24 @@
 {
   "pt-BR": {
     "title": "Política de Privacidade",
-    "updated": "Atualizada em 3 de outubro de 2026",
+    "updated": "Atualizada em 9 de outubro de 2026",
     "back": "Voltar",
     "contact": "vcdevelopstudio@gmail.com",
     "sections": [
       {
         "id": "overview",
         "title": "1. Visão geral",
-        "body": "Tico e Lili: Cristal Arco-Íris foi criado para crianças e famílias. No código do aplicativo examinado, não foram encontradas integrações de anúncios, análise de uso, conta própria ou chat. As descrições do funcionamento do aplicativo nesta política se baseiam nesse código; não são uma garantia sobre todos os tratamentos dos serviços externos mencionados abaixo."
+        "body": "Tico e Lili: Cristal Arco-Íris foi criado para crianças e famílias. No código do aplicativo examinado, não foram encontradas integrações de anúncios, análise comportamental das brincadeiras, conta própria ou chat. Isso não significa ausência de coleta pelos SDKs: os diagnósticos técnicos do Billing são descritos na seção 15. As descrições do funcionamento do aplicativo nesta política se baseiam nesse código; não são uma garantia sobre todos os tratamentos dos serviços externos mencionados abaixo. As descrições de cache local de acesso comprado e Play Age Signals aplicam-se somente às versões que incorporam essas funcionalidades; não descrevem automaticamente versões anteriores ainda instaladas. Cache de acesso e Play Age Signals estão preparados para uma atualização posterior à versão 1.0.2 apresentada na loja; não devem ser atribuídos à versão 1.0.2 apenas porque constam do código atual. A disponibilidade depende da versão instalada, e esta revisão não anuncia o lançamento da atualização."
       },
       {
         "id": "local_data",
         "title": "2. Progresso e preferências locais",
-        "body": "As fases concluídas, a fase atual, o idioma, o volume geral e os ajustes de repetição de sons ficam na área de dados do aplicativo no dispositivo. Servem para continuar a jornada e manter as preferências da família. Esses registros não são enviados a um servidor do estúdio e o jogo não oferece sincronização do progresso entre aparelhos."
+        "body": "As fases concluídas, a fase atual, o idioma, o volume geral e os ajustes de repetição de sons ficam na área de dados do aplicativo no dispositivo. Servem para continuar a jornada e manter as preferências da família. Esses registros não são enviados a um servidor do estúdio e o jogo não oferece sincronização do progresso entre aparelhos. Nas versões com cache de acesso comprado, há também um arquivo local separado, descrito na seção 14; ele não é um registro do avanço nas fases."
       },
       {
         "id": "billing",
         "title": "3. Google Play Billing",
-        "body": "O Google Play processa o pagamento da compra única para liberar as fases 4 a 10. O aplicativo utiliza o preço localizado e metadados do produto e da transação: identificadores de produto, estado da compra, token de compra e indicador de reconhecimento (se a compra já foi reconhecida junto ao Google Play). Essas informações permitem identificar a compra, confirmar ou restaurar o direito de acesso e reconhecer a compra; o token é utilizado nesse reconhecimento. No código do aplicativo examinado, não foi identificada persistência do token em arquivos nem registro em logs. Esse uso não deve ser confundido com armazenamento permanente pelo estúdio. O Google trata os dados de pagamento conforme suas próprias práticas; não foi identificado recebimento de dados do cartão pelo estúdio no fluxo examinado. Comprar, consultar e restaurar o acesso envolvem serviços online do Google Play. A análise do código não abrange uma inspeção completa do aplicativo distribuído (AAB), do tráfego dos SDKs ou de todos os serviços do Google.",
+        "body": "O Google Play processa o pagamento da compra única para liberar as fases 4 a 10. O aplicativo utiliza o preço localizado e metadados do produto e da transação: identificadores de produto, estado da compra, token de compra e indicador de reconhecimento (se a compra já foi reconhecida junto ao Google Play). Essas informações permitem identificar a compra, confirmar ou restaurar o direito de acesso e reconhecer a compra; o token é utilizado nesse reconhecimento. No código do aplicativo examinado, não foi identificada persistência do token em arquivos nem registro em logs. Esse uso não deve ser confundido com armazenamento permanente pelo estúdio. O Google trata os dados de pagamento conforme suas próprias práticas; não foi identificado recebimento de dados do cartão pelo estúdio no fluxo examinado. Comprar, consultar e restaurar o acesso envolvem serviços online do Google Play. A análise do código não abrange uma inspeção completa do aplicativo distribuído (AAB), do tráfego dos SDKs ou de todos os serviços do Google. O token é enviado ao Google Play para reconhecer a compra. Os diagnósticos técnicos independentes desse fluxo são descritos na seção 15.",
         "links": [
           {
             "label": "Política de Privacidade do Google",
@@ -29,17 +29,17 @@
       {
         "id": "tts",
         "title": "4. Narração do dispositivo",
-        "body": "O convite para chamar uma pessoa adulta na tela de compra pode ser narrado pelo recurso de texto para fala (TTS) do dispositivo, quando houver uma voz compatível com o idioma escolhido. O jogo fornece o texto do convite ao mecanismo de voz selecionado pelo sistema. O provedor configurado pela família pode realizar o processamento localmente ou usar serviços online, conforme suas configurações e política; por isso, não afirmamos que todo TTS funciona sem internet. Músicas e efeitos do jogo são reproduzidos de arquivos incluídos no aplicativo. Não há gravação da voz da criança para essa narração."
+        "body": "O convite para chamar uma pessoa adulta na tela de compra pode ser narrado pelo recurso de texto para fala (TTS) do dispositivo, quando houver uma voz compatível com o idioma escolhido. O jogo fornece o texto do convite ao mecanismo de voz selecionado pelo sistema. O provedor configurado pela família pode realizar o processamento localmente ou usar serviços online, conforme suas configurações e política; por isso, não afirmamos que todo TTS funciona sem internet. Músicas e efeitos do jogo são reproduzidos de arquivos incluídos no aplicativo. Não há gravação da voz da criança para essa narração. A voz é usada para chamar os pais ou responsáveis na barreira de compra; não há narração das fases nem gravação da voz das crianças."
       },
       {
         "id": "children",
         "title": "5. Dados de crianças",
-        "body": "Não solicitamos nome, e-mail, idade, foto, localização ou cadastro da criança. O desafio parental separa as decisões de compra da atividade infantil e a redefinição do progresso exige uma confirmação destinada ao adulto. Os dados técnicos de compra relacionados à conta da loja são descritos na seção 3; o contato voluntário de pais e responsáveis é descrito na seção 12."
+        "body": "O aplicativo não solicita diretamente nome, e-mail, documento de identidade, data de nascimento, foto, localização ou cadastro da criança. Nas versões com Play Age Signals, pode receber faixa etária e estados da plataforma, conforme a seção 13. A conta matemática separa a decisão de compra da brincadeira; não verifica idade, identidade ou consentimento legal. A pessoa responsável deve supervisionar compras e utilizar os controles da conta Google Play. A redefinição do progresso exige confirmação destinada ao adulto. Os metadados de compra estão descritos na seção 3, o cache local na seção 14 e o contato voluntário de pais e responsáveis na seção 12."
       },
       {
         "id": "sharing",
         "title": "6. Compartilhamento",
-        "body": "Não vendemos dados pessoais. O progresso e as preferências locais não são enviados pelo jogo ao estúdio. Google Play Billing e o provedor de TTS configurado no aparelho tratam as informações necessárias às funções descritas nas seções 3 e 4, conforme suas próprias práticas. O atendimento por e-mail e as visitas ao site dos documentos são atividades separadas, descritas nas seções 11 e 12."
+        "body": "Não vendemos dados pessoais. O progresso e as preferências locais não são enviados pelo jogo ao estúdio. Google Play Billing e o provedor de TTS configurado no aparelho tratam as informações necessárias às funções descritas nas seções 3 e 4, conforme suas próprias práticas. O atendimento por e-mail e as visitas ao site dos documentos são atividades separadas, descritas nas seções 11 e 12. Nas versões com Play Age Signals, o Google Play pode fornecer ao aplicativo os sinais descritos na seção 13; o código examinado não os envia a servidor do estúdio nem os utiliza para publicidade. Os diagnósticos técnicos da seção 15 podem ser enviados pelos SDKs ao Google mesmo sem compra. A ausência de anúncios ou de servidor próprio do estúdio não significa ausência desse tratamento."
       },
       {
         "id": "security",
@@ -49,12 +49,12 @@
       {
         "id": "retention",
         "title": "8. Retenção",
-        "body": "O progresso e as preferências permanecem no dispositivo enquanto os arquivos do aplicativo forem mantidos. Redefinir o progresso substitui o avanço das fases pelo estado inicial e preserva as preferências. Limpar o armazenamento/dados do aplicativo nas configurações do Android remove seus arquivos locais. Desinstalação e eventual restauração de cópias feitas pelo sistema dependem das configurações do aparelho. O estúdio não mantém uma cópia do progresso. A conservação dos registros da loja, do provedor de voz, da hospedagem e das mensagens de suporte segue os tratamentos separados descritos nesta política."
+        "body": "O progresso e as preferências permanecem no dispositivo enquanto os arquivos do aplicativo forem mantidos. Redefinir o progresso substitui o avanço das fases pelo estado inicial e preserva as preferências. Limpar o armazenamento/dados do aplicativo nas configurações do Android remove seus arquivos locais. Desinstalação e eventual restauração de cópias feitas pelo sistema dependem das configurações do aparelho. O estúdio não mantém uma cópia do progresso. A conservação dos registros da loja, do provedor de voz, da hospedagem e das mensagens de suporte segue os tratamentos separados descritos nesta política. Nas versões que incorporam esses recursos, o cache de acesso permanece no arquivo local até atualização pela reconciliação ou remoção dos dados do aplicativo, conforme a seção 14. Os sinais de idade são mantidos somente em memória, conforme a seção 13. A fila local de diagnósticos do SDK, descrita na seção 15, é distinta do cache de acesso e dos sinais de idade em memória. A remoção local não comprova exclusão de registros já transmitidos ao Google."
       },
       {
         "id": "deletion",
         "title": "9. Exclusão",
-        "body": "Em Configurações, “Redefinir progresso” pede uma resposta correta a uma conta numérica e a confirmação antes de voltar à fase 1 e apagar as fases concluídas. O idioma, o volume e os demais ajustes permanecem salvos. Essa ação não cancela nem exclui a compra vinculada à conta do Google Play. Para remover também as preferências e demais arquivos locais, use a opção de limpar armazenamento/dados do aplicativo nas configurações do Android. O estúdio não consegue apagar remotamente dados no aparelho. Dados mantidos pelo Google Play e por outros provedores devem ser gerenciados pelos canais desses serviços."
+        "body": "Em Configurações, “Redefinir progresso” pede uma resposta correta a uma conta numérica e a confirmação antes de voltar à fase 1 e apagar as fases concluídas. O idioma, o volume e os demais ajustes permanecem salvos. Essa ação não cancela nem exclui a compra vinculada à conta do Google Play. Para remover também as preferências e demais arquivos locais, use a opção de limpar armazenamento/dados do aplicativo nas configurações do Android. O estúdio não consegue apagar remotamente dados no aparelho. Dados mantidos pelo Google Play e por outros provedores devem ser gerenciados pelos canais desses serviços. Nas versões com cache de acesso, limpar os dados locais também remove esse cache; isso não cancela a compra na conta do Google Play. Os sinais de idade não formam um arquivo local a excluir. Limpar os dados do aplicativo remove seus arquivos e filas locais, mas não apaga automaticamente registros já transmitidos a terceiros. Para mensagens enviadas ao estúdio, use o contato da seção 12; para dados tratados pelo Google e demais provedores, use seus canais e políticas, sem garantia de exclusão imediata ou de prazo não confirmado."
       },
       {
         "id": "changes",
@@ -86,30 +86,57 @@
             "url": "https://policies.google.com/privacy"
           }
         ]
+      },
+      {
+        "id": "age_signals",
+        "title": "13. Play Age Signals e fluxo de compra",
+        "body": "Nas versões que incorporam Play Age Signals, o aplicativo solicita ao Google Play a faixa etária e os estados de compartilhamento e de aprovação de mudanças significativas, quando disponíveis. A plataforma pode apresentar uma solicitação de compartilhamento conforme a conta, a supervisão e suas configurações. A finalidade é apoiar a proteção infantil e tratar o fluxo de novas compras conforme os estados recebidos, sem usar a faixa como prova de identidade ou maioridade. No código examinado, esses sinais ficam somente em memória, sem gravação em arquivos, logs ou envio a servidor do estúdio. A faixa é descartada quando o aplicativo é pausado e consultada novamente ao retornar; estados de bloqueio conhecidos podem permanecer em memória durante o processo. O aplicativo não solicita diretamente documento de identidade ou data de nascimento, nem lê o identificador de instalação ou a data de aprovação retornáveis pela API. Ausência de sinal, recusa de compartilhamento ou erro não comprova maioridade. Sem bloqueio explícito conhecido, o fluxo de compra pode continuar com a barreira adulta e os controles do Google Play. Uma exigência de verificação no Play ou aprovação de mudança significativa pendente ou negada bloqueia novas compras; um erro de consulta não apaga um bloqueio já conhecido durante o processo. Esse bloqueio de novas compras não apaga o progresso nem revoga por si só o acesso já adquirido, que continua sujeito à confirmação da loja. O Google trata informações de conta, idade e supervisão conforme suas próprias políticas.",
+        "links": [
+          {
+            "label": "Play Age Signals — Google",
+            "url": "https://developer.android.com/google/play/age-signals/request-age-signals"
+          }
+        ]
+      },
+      {
+        "id": "access_cache",
+        "title": "14. Cache local de acesso comprado",
+        "body": "Nas versões que incorporam esse recurso, o aplicativo armazena localmente o identificador do produto, a versão do formato e um indicador de acesso previamente confirmado pelo Google Play. O arquivo é separado do progresso e das preferências e permite continuar nas fases compradas ao reabrir o jogo offline, se o cache tiver sido salvo com sucesso. Esse cache não contém dados de cartão, token de compra nem identificador de pedido. Ele não é uma conta da loja, não sincroniza o progresso entre aparelhos e não é uma proteção inviolável contra adulteração. Quando há conexão e os serviços estão disponíveis, o aplicativo consulta o Google Play para reconciliar o acesso. Uma consulta concluída com sucesso, com lista válida sem nenhuma compra confirmada ou pendente do produto, desativa o acesso local às fases pagas; falha de rede ou resposta incompleta não remove o acesso previamente confirmado. O Google Play pode levar tempo para atualizar suas informações e uma revogação não é detectada enquanto o aparelho está offline. O progresso permanece salvo. Limpar os dados do aplicativo remove também o cache; recuperar o acesso depende de nova confirmação pela loja na conta apropriada, sem exigir automaticamente outra compra."
+      },
+      {
+        "id": "sdk_diagnostics",
+        "title": "15. Diagnósticos técnicos do Billing",
+        "body": "A integração examinada utiliza Google Play Billing 9.1.0 e seu transporte de diagnósticos. Esses componentes registram eventos de funcionamento da API, como sucesso, falha e problemas de conexão, para diagnóstico e melhoria do serviço. O transporte pode acrescentar informações técnicas do aplicativo e do dispositivo, como versões, modelo, sistema, tipo de rede, idioma e configuração regional. A biblioteca também utiliza identificadores técnicos de instância do cliente e de operações; isso não estabelece que sejam identificadores de publicidade nem dados anônimos. Os registros são encaminhados aos serviços do Google e podem permanecer em uma fila local persistente em disco para envio posterior. Portanto, esse fluxo não é descrito como processamento somente em memória ou efêmero. No código consultado, a conexão do Billing começa na inicialização do aplicativo com monetização ativa, antes de uma compra ou da resposta ao desafio parental. Não comprar não equivale a desativar esses diagnósticos. Esse tratamento é separado dos dados de cartão coletados diretamente pelo Google Play, do cache de acesso e da análise das brincadeiras. A descrição se baseia na biblioteca e no código examinados, não em uma captura completa do tráfego ou na inspeção do pacote atualmente distribuído. Não foi confirmado um prazo de retenção, anonimização ou exclusão desses registros nos servidores do Google; não prometemos essas condições.",
+        "links": [
+          {
+            "label": "Google Play Billing — Google",
+            "url": "https://developer.android.com/google/play/billing/release-notes"
+          }
+        ]
       }
     ],
     "publisher": "Responsável/publicador: VC Develop Studio"
   },
   "en-US": {
     "title": "Privacy Policy",
-    "updated": "Updated October 3, 2026",
+    "updated": "Updated October 9, 2026",
     "back": "Back",
     "contact": "vcdevelopstudio@gmail.com",
     "sections": [
       {
         "id": "overview",
         "title": "1. Overview",
-        "body": "Tico e Lili: Cristal Arco-Íris was made for children and families. No integrations for advertising, analytics, studio-managed accounts or chat were found in the app code examined. The descriptions of app behavior in this policy are based on that code; they are not a guarantee about all processing by the external services described below."
+        "body": "Tico e Lili: Cristal Arco-Íris was made for children and families. No integrations for advertising, behavioral analytics of play, studio-managed accounts or chat were found in the app code examined. This does not mean that SDKs collect no data: Billing technical diagnostics are described in section 15. The descriptions of app behavior in this policy are based on that code; they are not a guarantee about all processing by the external services described below. The descriptions of the local purchased-access cache and Play Age Signals apply only to versions that include these features; they do not automatically describe earlier versions that remain installed. The access cache and Play Age Signals are prepared for an update after the version 1.0.2 shown in the store; they should not be attributed to version 1.0.2 merely because they exist in the current code. Availability depends on the installed version, and this revision does not announce the release of the update."
       },
       {
         "id": "local_data",
         "title": "2. Local progress and preferences",
-        "body": "Completed stages, the current stage, language, overall volume and sound-repetition settings stay in the app data area on the device. They let you continue the journey and keep family preferences. These records are not sent to a studio server, and the game does not provide progress synchronization between devices."
+        "body": "Completed stages, the current stage, language, overall volume and sound-repetition settings stay in the app data area on the device. They let you continue the journey and keep family preferences. These records are not sent to a studio server, and the game does not provide progress synchronization between devices. Versions with a purchased-access cache also have a separate local file, described in section 14; it is not a record of stage progress."
       },
       {
         "id": "billing",
         "title": "3. Google Play Billing",
-        "body": "Google Play processes payment for the one-time purchase unlocking stages 4–10. The app uses the localized price and product and transaction metadata: product identifiers, purchase state, purchase token and acknowledgment status (whether the purchase has already been acknowledged with Google Play). This information enables the app to identify the purchase, confirm or restore access and acknowledge the purchase; the token is used for that acknowledgment. No persistence of the token in files or recording in logs was identified in the app code examined. This use should not be confused with permanent storage by the studio. Google handles payment data under its own practices; no receipt of card details by the studio was identified in the flow examined. Purchasing, querying and restoring access involve Google Play online services. The code review does not cover a complete inspection of the distributed app (AAB), SDK traffic or all Google services.",
+        "body": "Google Play processes payment for the one-time purchase unlocking stages 4–10. The app uses the localized price and product and transaction metadata: product identifiers, purchase state, purchase token and acknowledgment status (whether the purchase has already been acknowledged with Google Play). This information enables the app to identify the purchase, confirm or restore access and acknowledge the purchase; the token is used for that acknowledgment. No persistence of the token in files or recording in logs was identified in the app code examined. This use should not be confused with permanent storage by the studio. Google handles payment data under its own practices; no receipt of card details by the studio was identified in the flow examined. Purchasing, querying and restoring access involve Google Play online services. The code review does not cover a complete inspection of the distributed app (AAB), SDK traffic or all Google services. The token is sent to Google Play to acknowledge the purchase. Technical diagnostics independent of this flow are described in section 15.",
         "links": [
           {
             "label": "Google Privacy Policy",
@@ -120,17 +147,17 @@
       {
         "id": "tts",
         "title": "4. Device narration",
-        "body": "The invitation to call an adult on the purchase screen may be narrated using device text-to-speech (TTS), when a voice compatible with the selected language is available. The game provides the invitation text to the voice engine selected by the system. The provider configured by the family may process it locally or use online services, depending on its settings and policy; we therefore do not claim that all TTS works offline. Game music and sound effects play from files included in the app. The narration does not record the child’s voice."
+        "body": "The invitation to call an adult on the purchase screen may be narrated using device text-to-speech (TTS), when a voice compatible with the selected language is available. The game provides the invitation text to the voice engine selected by the system. The provider configured by the family may process it locally or use online services, depending on its settings and policy; we therefore do not claim that all TTS works offline. Game music and sound effects play from files included in the app. The narration does not record the child’s voice. Voice is used to call parents or guardians at the purchase gate; there is no stage narration or recording of children’s voices."
       },
       {
         "id": "children",
         "title": "5. Children's data",
-        "body": "We do not request a child’s name, email address, age, photo, location or registration. The parental challenge separates purchase decisions from the child’s activity, and resetting progress requires confirmation intended for an adult. Technical purchase data associated with the store account is described in section 3; voluntary contact by parents and guardians is described in section 12."
+        "body": "The app does not directly request a child’s name, email address, identity document, date of birth, photo, location or registration. Versions with Play Age Signals may receive an age range and platform statuses, as described in section 13. The arithmetic question separates the purchase decision from play; it does not verify age, identity or legal consent. A responsible adult should supervise purchases and use Google Play account controls. Resetting progress requires confirmation intended for an adult. Purchase metadata is described in section 3, the local cache in section 14 and voluntary contact by parents and guardians in section 12."
       },
       {
         "id": "sharing",
         "title": "6. Sharing",
-        "body": "We do not sell personal data. The game does not send local progress or preferences to the studio. Google Play Billing and the device’s configured TTS provider handle information needed for the functions described in sections 3 and 4 under their own practices. Email support and visits to the document website are separate activities described in sections 11 and 12."
+        "body": "We do not sell personal data. The game does not send local progress or preferences to the studio. Google Play Billing and the device’s configured TTS provider handle information needed for the functions described in sections 3 and 4 under their own practices. Email support and visits to the document website are separate activities described in sections 11 and 12. In versions with Play Age Signals, Google Play may provide the app with the signals described in section 13; the code examined does not send them to a studio server or use them for advertising. SDKs may send the technical diagnostics described in section 15 to Google even without a purchase. The absence of ads or a studio-owned server does not mean the absence of this processing."
       },
       {
         "id": "security",
@@ -140,12 +167,12 @@
       {
         "id": "retention",
         "title": "8. Retention",
-        "body": "Progress and preferences remain on the device while the app’s files are kept. Resetting progress replaces stage progress with the initial state and keeps preferences. Clearing app storage/data in Android settings removes its local files. Uninstalling and any restoration of system backups depend on device settings. The studio does not keep a copy of progress. Store, voice-provider, hosting and support-message records follow the separate handling described in this policy."
+        "body": "Progress and preferences remain on the device while the app’s files are kept. Resetting progress replaces stage progress with the initial state and keeps preferences. Clearing app storage/data in Android settings removes its local files. Uninstalling and any restoration of system backups depend on device settings. The studio does not keep a copy of progress. Store, voice-provider, hosting and support-message records follow the separate handling described in this policy. In versions that include these features, the access cache remains in the local file until updated through reconciliation or removed by clearing app data, as described in section 14. Age signals are held only in memory, as described in section 13. The SDK’s local diagnostic queue, described in section 15, is separate from the access cache and age signals held in memory. Local removal does not establish deletion of records already sent to Google."
       },
       {
         "id": "deletion",
         "title": "9. Deletion",
-        "body": "In Settings, “Reset progress” requires a correct answer to an arithmetic question and confirmation before returning to stage 1 and clearing completed stages. Language, volume and other settings remain saved. This action does not cancel or delete the purchase linked to the Google Play account. To also remove preferences and other local files, use the clear app storage/data option in Android settings. The studio cannot remotely erase device data. Data held by Google Play and other providers must be managed through those services’ channels."
+        "body": "In Settings, “Reset progress” requires a correct answer to an arithmetic question and confirmation before returning to stage 1 and clearing completed stages. Language, volume and other settings remain saved. This action does not cancel or delete the purchase linked to the Google Play account. To also remove preferences and other local files, use the clear app storage/data option in Android settings. The studio cannot remotely erase device data. Data held by Google Play and other providers must be managed through those services’ channels. In versions with an access cache, clearing local data also removes that cache; this does not cancel the purchase in the Google Play account. Age signals do not form a local file to delete. Clearing app data removes its local files and queues, but does not automatically erase records already sent to third parties. For messages sent to the studio, use the contact in section 12; for data handled by Google and other providers, use their channels and policies, without a guarantee of immediate deletion or an unconfirmed deadline."
       },
       {
         "id": "changes",
@@ -177,30 +204,57 @@
             "url": "https://policies.google.com/privacy"
           }
         ]
+      },
+      {
+        "id": "age_signals",
+        "title": "13. Play Age Signals and the purchase flow",
+        "body": "In versions that include Play Age Signals, the app requests an age range and sharing and significant-change approval statuses from Google Play, when available. The platform may display a sharing request depending on the account, supervision and settings. The purpose is to support child protection and handle new purchases according to the statuses received, without treating the age range as proof of identity or adulthood. In the code examined, these signals are held only in memory, without files, logs or transmission to a studio server. The age range is cleared when the app is paused and queried again on return; known blocking statuses may remain in memory during the process. The app does not directly request an identity document or date of birth, or read the installation identifier or approval date that the API can return. A missing signal, refusal to share or error does not prove adulthood. Without a known explicit block, the purchase flow may continue with the adult gate and Google Play controls. A Play verification requirement or pending or declined significant-change approval blocks new purchases; a query error does not clear a block already known during the process. This block on new purchases does not erase progress or itself revoke previously purchased access, which remains subject to store confirmation. Google handles account, age and supervision information under its own policies.",
+        "links": [
+          {
+            "label": "Play Age Signals — Google",
+            "url": "https://developer.android.com/google/play/age-signals/request-age-signals"
+          }
+        ]
+      },
+      {
+        "id": "access_cache",
+        "title": "14. Local purchased-access cache",
+        "body": "In versions that include this feature, the app stores the product identifier, format version and a flag indicating access previously confirmed by Google Play locally. The file is separate from progress and preferences and allows continued access to purchased stages when reopening the game offline, if the cache was saved successfully. This cache contains no card details, purchase token or order identifier. It is not a store account, does not synchronize progress between devices and is not tamper-proof. When connectivity and services are available, the app queries Google Play to reconcile access. A successful query with a valid list containing no confirmed or pending purchase of the product disables local access to paid stages; a network failure or incomplete response does not remove previously confirmed access. Google Play may take time to update its information, and revocation is not detected while the device is offline. Progress remains saved. Clearing app data also removes the cache; recovering access depends on fresh confirmation from the store under the appropriate account, without automatically requiring another purchase."
+      },
+      {
+        "id": "sdk_diagnostics",
+        "title": "15. Billing technical diagnostics",
+        "body": "The integration examined uses Google Play Billing 9.1.0 and its diagnostic transport. These components record API operation events, such as successes, failures and connection issues, for diagnosis and service improvement. The transport may add technical app and device information, such as versions, model, operating system, network type, language and locale. The library also uses technical client-instance and operation identifiers; this does not establish that they are advertising identifiers or anonymous data. Records are forwarded to Google services and may remain in a persistent local disk queue for later transmission. This flow is therefore not described as memory-only or ephemeral processing. In the code reviewed, the Billing connection starts when the app initializes with monetization active, before a purchase or an answer to the parental challenge. Not buying does not mean disabling these diagnostics. This processing is separate from card details collected directly by Google Play, the access cache and behavioral analytics of play. The description is based on the library and code examined, not a complete traffic capture or inspection of the currently distributed package. No retention period, anonymization or deletion of these records on Google servers has been confirmed; we do not promise these conditions.",
+        "links": [
+          {
+            "label": "Google Play Billing — Google",
+            "url": "https://developer.android.com/google/play/billing/release-notes"
+          }
+        ]
       }
     ],
     "publisher": "Developer/publisher: VC Develop Studio"
   },
   "es-ES": {
     "title": "Política de Privacidad",
-    "updated": "Actualizada el 3 de octubre de 2026",
+    "updated": "Actualizada el 9 de octubre de 2026",
     "back": "Volver",
     "contact": "vcdevelopstudio@gmail.com",
     "sections": [
       {
         "id": "overview",
         "title": "1. Descripción general",
-        "body": "Tico e Lili: Cristal Arco-Íris fue creado para niños y familias. En el código de la aplicación examinado no se encontraron integraciones de anuncios, análisis de uso, cuentas propias ni chat. Las descripciones del funcionamiento de la aplicación en esta política se basan en ese código; no son una garantía sobre todos los tratamientos de los servicios externos descritos a continuación."
+        "body": "Tico e Lili: Cristal Arco-Íris fue creado para niños y familias. En el código de la aplicación examinado no se encontraron integraciones de anuncios, análisis del comportamiento durante el juego, cuentas propias ni chat. Esto no significa que los SDK no recopilen datos: los diagnósticos técnicos de Billing se describen en la sección 15. Las descripciones del funcionamiento de la aplicación en esta política se basan en ese código; no son una garantía sobre todos los tratamientos de los servicios externos descritos a continuación. Las descripciones de la caché local del acceso comprado y Play Age Signals se aplican solo a las versiones que incorporan estas funciones; no describen automáticamente versiones anteriores que sigan instaladas. La caché de acceso y Play Age Signals están preparados para una actualización posterior a la versión 1.0.2 que aparece en la tienda; no deben atribuirse a la versión 1.0.2 solo porque existan en el código actual. Su disponibilidad depende de la versión instalada y esta revisión no anuncia el lanzamiento de la actualización."
       },
       {
         "id": "local_data",
         "title": "2. Progreso y preferencias locales",
-        "body": "Las fases completadas, la fase actual, el idioma, el volumen general y los ajustes de repetición de sonidos permanecen en el área de datos de la aplicación en el dispositivo. Permiten continuar la aventura y mantener las preferencias de la familia. Estos registros no se envían a un servidor del estudio y el juego no ofrece sincronización del progreso entre dispositivos."
+        "body": "Las fases completadas, la fase actual, el idioma, el volumen general y los ajustes de repetición de sonidos permanecen en el área de datos de la aplicación en el dispositivo. Permiten continuar la aventura y mantener las preferencias de la familia. Estos registros no se envían a un servidor del estudio y el juego no ofrece sincronización del progreso entre dispositivos. Las versiones con caché del acceso comprado también tienen un archivo local separado, descrito en la sección 14; no es un registro del avance en las fases."
       },
       {
         "id": "billing",
         "title": "3. Google Play Billing",
-        "body": "Google Play procesa el pago de la compra única que permite acceder a las fases 4 a 10. La aplicación utiliza el precio localizado y metadatos del producto y de la transacción: identificadores de producto, estado de la compra, token de compra e indicador de reconocimiento (si la compra ya se ha reconocido ante Google Play). Esta información permite identificar la compra, confirmar o restaurar el acceso y reconocer la compra; el token se utiliza para ese reconocimiento. En el código de la aplicación examinado no se identificó persistencia del token en archivos ni registro en logs. Este uso no debe confundirse con almacenamiento permanente por parte del estudio. Google trata los datos de pago según sus propias prácticas; no se identificó recepción de datos de la tarjeta por parte del estudio en el flujo examinado. Comprar, consultar y restaurar el acceso implica utilizar servicios en línea de Google Play. La revisión del código no abarca una inspección completa de la aplicación distribuida (AAB), del tráfico de los SDK ni de todos los servicios de Google.",
+        "body": "Google Play procesa el pago de la compra única que permite acceder a las fases 4 a 10. La aplicación utiliza el precio localizado y metadatos del producto y de la transacción: identificadores de producto, estado de la compra, token de compra e indicador de reconocimiento (si la compra ya se ha reconocido ante Google Play). Esta información permite identificar la compra, confirmar o restaurar el acceso y reconocer la compra; el token se utiliza para ese reconocimiento. En el código de la aplicación examinado no se identificó persistencia del token en archivos ni registro en logs. Este uso no debe confundirse con almacenamiento permanente por parte del estudio. Google trata los datos de pago según sus propias prácticas; no se identificó recepción de datos de la tarjeta por parte del estudio en el flujo examinado. Comprar, consultar y restaurar el acceso implica utilizar servicios en línea de Google Play. La revisión del código no abarca una inspección completa de la aplicación distribuida (AAB), del tráfico de los SDK ni de todos los servicios de Google. El token se envía a Google Play para reconocer la compra. Los diagnósticos técnicos independientes de este flujo se describen en la sección 15.",
         "links": [
           {
             "label": "Política de Privacidad de Google",
@@ -211,17 +265,17 @@
       {
         "id": "tts",
         "title": "4. Narración del dispositivo",
-        "body": "La invitación a llamar a una persona adulta en la pantalla de compra puede narrarse mediante el servicio de texto a voz (TTS) del dispositivo, si existe una voz compatible con el idioma elegido. El juego proporciona el texto de la invitación al motor de voz seleccionado por el sistema. El proveedor configurado por la familia puede procesarlo localmente o utilizar servicios en línea, según su configuración y política; por eso no afirmamos que todo TTS funcione sin internet. La música y los efectos del juego se reproducen desde archivos incluidos en la aplicación. Esta narración no graba la voz del niño."
+        "body": "La invitación a llamar a una persona adulta en la pantalla de compra puede narrarse mediante el servicio de texto a voz (TTS) del dispositivo, si existe una voz compatible con el idioma elegido. El juego proporciona el texto de la invitación al motor de voz seleccionado por el sistema. El proveedor configurado por la familia puede procesarlo localmente o utilizar servicios en línea, según su configuración y política; por eso no afirmamos que todo TTS funcione sin internet. La música y los efectos del juego se reproducen desde archivos incluidos en la aplicación. Esta narración no graba la voz del niño. La voz se utiliza para llamar a los padres o responsables en la barrera de compra; no hay narración de las fases ni grabación de las voces de los niños."
       },
       {
         "id": "children",
         "title": "5. Datos de niños",
-        "body": "No solicitamos nombre, correo, edad, foto, ubicación ni registro del niño. El desafío parental separa las decisiones de compra de la actividad infantil y reiniciar el progreso exige una confirmación destinada al adulto. Los datos técnicos de compra asociados a la cuenta de la tienda se describen en la sección 3; el contacto voluntario de padres y responsables se describe en la sección 12."
+        "body": "La aplicación no solicita directamente nombre, correo, documento de identidad, fecha de nacimiento, foto, ubicación ni registro del niño. Las versiones con Play Age Signals pueden recibir un intervalo de edad y estados de la plataforma, según la sección 13. La operación matemática separa la decisión de compra del juego; no verifica edad, identidad ni consentimiento legal. La persona responsable debe supervisar las compras y utilizar los controles de la cuenta Google Play. Reiniciar el progreso requiere una confirmación destinada al adulto. Los metadatos de compra se describen en la sección 3, la caché local en la sección 14 y el contacto voluntario de padres y responsables en la sección 12."
       },
       {
         "id": "sharing",
         "title": "6. Compartir datos",
-        "body": "No vendemos datos personales. El juego no envía el progreso ni las preferencias locales al estudio. Google Play Billing y el proveedor de TTS configurado en el dispositivo tratan la información necesaria para las funciones descritas en las secciones 3 y 4, según sus propias prácticas. El soporte por correo y las visitas al sitio de los documentos son actividades separadas, descritas en las secciones 11 y 12."
+        "body": "No vendemos datos personales. El juego no envía el progreso ni las preferencias locales al estudio. Google Play Billing y el proveedor de TTS configurado en el dispositivo tratan la información necesaria para las funciones descritas en las secciones 3 y 4, según sus propias prácticas. El soporte por correo y las visitas al sitio de los documentos son actividades separadas, descritas en las secciones 11 y 12. En las versiones con Play Age Signals, Google Play puede proporcionar a la aplicación las señales descritas en la sección 13; el código examinado no las envía a un servidor del estudio ni las utiliza para publicidad. Los SDK pueden enviar a Google los diagnósticos técnicos de la sección 15 incluso sin compra. La ausencia de anuncios o de un servidor propio del estudio no significa la ausencia de este tratamiento."
       },
       {
         "id": "security",
@@ -231,12 +285,12 @@
       {
         "id": "retention",
         "title": "8. Conservación",
-        "body": "El progreso y las preferencias permanecen en el dispositivo mientras se conserven los archivos de la aplicación. Reiniciar el progreso sustituye el avance de las fases por el estado inicial y mantiene las preferencias. Borrar el almacenamiento/datos de la aplicación en la configuración de Android elimina sus archivos locales. La desinstalación y una posible restauración de copias del sistema dependen de la configuración del dispositivo. El estudio no conserva una copia del progreso. Los registros de la tienda, del proveedor de voz, del alojamiento y de los mensajes de soporte siguen los tratamientos separados descritos en esta política."
+        "body": "El progreso y las preferencias permanecen en el dispositivo mientras se conserven los archivos de la aplicación. Reiniciar el progreso sustituye el avance de las fases por el estado inicial y mantiene las preferencias. Borrar el almacenamiento/datos de la aplicación en la configuración de Android elimina sus archivos locales. La desinstalación y una posible restauración de copias del sistema dependen de la configuración del dispositivo. El estudio no conserva una copia del progreso. Los registros de la tienda, del proveedor de voz, del alojamiento y de los mensajes de soporte siguen los tratamientos separados descritos en esta política. En las versiones que incorporan estas funciones, la caché de acceso permanece en el archivo local hasta su actualización mediante conciliación o su eliminación al borrar los datos de la aplicación, según la sección 14. Las señales de edad se mantienen solo en memoria, según la sección 13. La cola local de diagnósticos del SDK, descrita en la sección 15, es distinta de la caché de acceso y de las señales de edad en memoria. Su eliminación local no demuestra que se hayan eliminado los registros ya enviados a Google."
       },
       {
         "id": "deletion",
         "title": "9. Eliminación",
-        "body": "En Configuración, “Reiniciar progreso” exige responder correctamente a una operación aritmética y confirmar antes de volver a la fase 1 y borrar las fases completadas. El idioma, el volumen y los demás ajustes permanecen guardados. Esta acción no cancela ni elimina la compra vinculada a la cuenta de Google Play. Para eliminar también las preferencias y los demás archivos locales, use la opción de borrar almacenamiento/datos de la aplicación en la configuración de Android. El estudio no puede borrar remotamente los datos del dispositivo. Los datos conservados por Google Play y otros proveedores deben gestionarse por los canales de esos servicios."
+        "body": "En Configuración, “Reiniciar progreso” exige responder correctamente a una operación aritmética y confirmar antes de volver a la fase 1 y borrar las fases completadas. El idioma, el volumen y los demás ajustes permanecen guardados. Esta acción no cancela ni elimina la compra vinculada a la cuenta de Google Play. Para eliminar también las preferencias y los demás archivos locales, use la opción de borrar almacenamiento/datos de la aplicación en la configuración de Android. El estudio no puede borrar remotamente los datos del dispositivo. Los datos conservados por Google Play y otros proveedores deben gestionarse por los canales de esos servicios. En las versiones con caché de acceso, borrar los datos locales también elimina esa caché; esto no cancela la compra en la cuenta de Google Play. Las señales de edad no forman un archivo local que eliminar. Borrar los datos de la aplicación elimina sus archivos y colas locales, pero no borra automáticamente los registros ya enviados a terceros. Para mensajes enviados al estudio, utilice el contacto de la sección 12; para datos tratados por Google y otros proveedores, utilice sus canales y políticas, sin garantía de eliminación inmediata ni de un plazo no confirmado."
       },
       {
         "id": "changes",
@@ -266,6 +320,33 @@
           {
             "label": "Política de Privacidad de Google",
             "url": "https://policies.google.com/privacy"
+          }
+        ]
+      },
+      {
+        "id": "age_signals",
+        "title": "13. Play Age Signals y el flujo de compra",
+        "body": "En las versiones que incorporan Play Age Signals, la aplicación solicita a Google Play un intervalo de edad y los estados de uso compartido y aprobación de cambios significativos, cuando están disponibles. La plataforma puede mostrar una solicitud para compartir información según la cuenta, la supervisión y la configuración. La finalidad es apoyar la protección infantil y gestionar las nuevas compras según los estados recibidos, sin tratar el intervalo de edad como prueba de identidad o mayoría de edad. En el código examinado, estas señales se mantienen solo en memoria, sin archivos, logs ni envío a un servidor del estudio. El intervalo se descarta cuando se pausa la aplicación y se consulta de nuevo al volver; los estados de bloqueo conocidos pueden permanecer en memoria durante el proceso. La aplicación no solicita directamente un documento de identidad ni la fecha de nacimiento, ni lee el identificador de instalación o la fecha de aprobación que la API puede devolver. La ausencia de señal, la negativa a compartirla o un error no demuestra la mayoría de edad. Sin un bloqueo explícito conocido, el flujo de compra puede continuar con la barrera para adultos y los controles de Google Play. Una exigencia de verificación en Play o una aprobación de cambios significativos pendiente o denegada bloquea nuevas compras; un error de consulta no elimina un bloqueo ya conocido durante el proceso. Este bloqueo de nuevas compras no borra el progreso ni revoca por sí solo el acceso adquirido, que sigue sujeto a confirmación de la tienda. Google trata la información de cuenta, edad y supervisión conforme a sus propias políticas.",
+        "links": [
+          {
+            "label": "Play Age Signals — Google",
+            "url": "https://developer.android.com/google/play/age-signals/request-age-signals"
+          }
+        ]
+      },
+      {
+        "id": "access_cache",
+        "title": "14. Caché local del acceso comprado",
+        "body": "En las versiones que incorporan esta función, la aplicación guarda localmente el identificador del producto, la versión del formato y un indicador de acceso previamente confirmado por Google Play. El archivo está separado del progreso y las preferencias y permite continuar en las fases compradas al volver a abrir el juego sin conexión, si la caché se guardó correctamente. Esta caché no contiene datos de tarjeta, token de compra ni identificador de pedido. No es una cuenta de la tienda, no sincroniza el progreso entre dispositivos ni es una protección inviolable frente a manipulaciones. Cuando hay conexión y los servicios están disponibles, la aplicación consulta Google Play para conciliar el acceso. Una consulta completada con éxito, con una lista válida sin ninguna compra confirmada o pendiente del producto, desactiva el acceso local a las fases de pago; un fallo de red o una respuesta incompleta no elimina el acceso previamente confirmado. Google Play puede tardar en actualizar su información y no se detecta una revocación mientras el dispositivo está sin conexión. El progreso permanece guardado. Borrar los datos de la aplicación también elimina la caché; recuperar el acceso depende de una nueva confirmación de la tienda con la cuenta adecuada, sin exigir automáticamente otra compra."
+      },
+      {
+        "id": "sdk_diagnostics",
+        "title": "15. Diagnósticos técnicos de Billing",
+        "body": "La integración examinada utiliza Google Play Billing 9.1.0 y su transporte de diagnósticos. Estos componentes registran eventos de funcionamiento de la API, como éxitos, fallos y problemas de conexión, para el diagnóstico y la mejora del servicio. El transporte puede añadir información técnica de la aplicación y del dispositivo, como versiones, modelo, sistema operativo, tipo de red, idioma y configuración regional. La biblioteca también utiliza identificadores técnicos de instancia del cliente y de operaciones; esto no establece que sean identificadores publicitarios ni datos anónimos. Los registros se envían a los servicios de Google y pueden permanecer en una cola local persistente en disco para su envío posterior. Por tanto, este flujo no se describe como procesamiento solo en memoria o efímero. En el código revisado, la conexión de Billing comienza al iniciar la aplicación con monetización activa, antes de una compra o de responder al desafío parental. No comprar no equivale a desactivar estos diagnósticos. Este tratamiento es independiente de los datos de tarjeta recopilados directamente por Google Play, de la caché de acceso y del análisis del comportamiento durante el juego. La descripción se basa en la biblioteca y el código examinados, no en una captura completa del tráfico ni en la inspección del paquete distribuido actualmente. No se ha confirmado un plazo de conservación, anonimización o eliminación de estos registros en los servidores de Google; no prometemos esas condiciones.",
+        "links": [
+          {
+            "label": "Google Play Billing — Google",
+            "url": "https://developer.android.com/google/play/billing/release-notes"
           }
         ]
       }
