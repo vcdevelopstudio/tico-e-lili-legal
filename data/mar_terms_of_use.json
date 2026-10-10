@@ -1,0 +1,146 @@
+{
+  "pt-BR": {
+    "title": "Termos de Uso",
+    "updated": "Minuta de 10 de outubro de 2026 — versão futura com compras; não vigente.",
+    "publisher": "Responsável/publicador: VC Develop Studio",
+    "contact": "vcdevelopstudio@gmail.com",
+    "sections": [
+      {
+        "id": "scope",
+        "title": "1. Sobre o jogo e estes termos",
+        "body": "Esta minuta de Termos de Uso foi preparada para a futura versão de Tico e Lili: Mistérios do Fundo do Mar com compras pelo Google Play Billing. Dirige-se aos pais e responsáveis que acompanham a criança. O jogo reúne brincadeiras sobre o fundo do mar, um livro de descobertas e um bônus musical, em português, inglês e espanhol. A versão de desenvolvimento atual ainda não integra compras. Esta minuta precisa ser conferida conforme a integração final antes de entrar em vigor."
+      },
+      {
+        "id": "family",
+        "title": "2. Uso pela família",
+        "body": "O jogo é disponibilizado para uso pessoal e não comercial. A pessoa responsável deve acompanhar o uso pela criança, as configurações do aparelho e as decisões de compra. As atividades têm conteúdo educativo, sem promessa de resultados específicos de aprendizagem ou substituição do acompanhamento de familiares e educadores. A conta numérica destinada ao adulto é uma barreira de acesso, não uma verificação jurídica de idade, identidade ou consentimento."
+      },
+      {
+        "id": "purchase",
+        "title": "3. Fases gratuitas e compra única",
+        "body": "O modelo previsto oferece as fases 1 a 3 gratuitamente. Uma compra única, não consumível, permitirá acessar as fases 4 a 10, sem assinatura ou cobrança recorrente. A compra não pula a progressão: as fases continuam dependendo do avanço no jogo, e lembranças e páginas do livro continuam vinculadas à conclusão das atividades. A área de compra e restauração será precedida por um desafio numérico destinado ao responsável. Acertar a conta não realiza uma compra automaticamente. O preço e as condições serão apresentados no fluxo do Google Play antes da confirmação. Este texto não anuncia que as compras já estejam disponíveis."
+      },
+      {
+        "id": "restore",
+        "title": "4. Confirmação de compra, restauração e reembolsos",
+        "body": "Pagamento, confirmação e consulta do direito de acesso utilizarão o Google Play Billing. Comprar, consultar ou restaurar podem exigir conexão, disponibilidade dos serviços e a conta Google Play utilizada na compra. Uma compra pendente, cancelada ou não concluída não será tratada como acesso adquirido. O acesso comprado e o progresso das fases são distintos: restaurar uma compra não recupera o progresso ou as músicas removidos do aparelho. As condições de persistência do acesso e uso offline deverão corresponder à implementação final; esta minuta não garante aquisição, restauração ou manutenção de acesso offline ainda não validada. Pedidos de reembolso seguem os canais e as condições aplicáveis do Google Play, sem afastar direitos obrigatórios da pessoa consumidora."
+      },
+      {
+        "id": "local_data",
+        "title": "5. Progresso, configurações e bônus musical",
+        "body": "O progresso, o idioma, os volumes e a biblioteca musical ficam no aparelho. “Redefinir progresso”, em Configurações, exige resposta correta a uma conta e confirmação; reinicia as fases, lembranças e páginas lidas, preservando idioma, volumes e músicas salvas do bônus. Pode permanecer uma cópia local anterior do progresso. No bônus, “Gravar” registra as notas tocadas, e não a voz ou sons do ambiente. A opção de apagar uma música a remove da lista ativa, mas uma cópia anterior da biblioteca pode continuar no aparelho. Limpar armazenamento/dados nas configurações do Android remove os arquivos locais do aplicativo. Não há serviço próprio de sincronização ou recuperação do progresso ou das músicas. Cópias e restaurações pelo sistema dependem das configurações do aparelho. Redefinir progresso ou limpar dados não equivale a cancelar uma compra na conta Google Play; o efeito sobre eventual cache de acesso deverá ser conferido na integração final."
+      },
+      {
+        "id": "privacy",
+        "title": "6. Privacidade e serviços de terceiros",
+        "body": "A Política de Privacidade deste jogo descreve os registros locais, o bônus musical sem microfone, suporte e visitas ao site, além do tratamento previsto para compras e diagnósticos do Google Play Billing. A versão atual não tem anúncios, conta própria, chat ou servidor do estúdio. A integração futura de compras pode envolver dados de transação e diagnósticos técnicos tratados pelo Google, inclusive independentemente da realização de uma compra, conforme a biblioteca escolhida. A descrição definitiva dependerá da integração comercial final. Abrir os documentos legais leva ao navegador e pode exigir conexão."
+      },
+      {
+        "id": "rights",
+        "title": "7. Conteúdo e direitos",
+        "body": "O software, os personagens, as ilustrações, os textos, as músicas incluídas no aplicativo e os demais materiais estão sujeitos aos direitos de seus respectivos titulares e às licenças aplicáveis. O uso do jogo não transfere a propriedade desses materiais. Reprodução, distribuição, alteração ou exploração comercial dependem de autorização ou de permissão na licença aplicável, respeitadas as possibilidades previstas em lei. Salvar composições no bônus não constitui sua publicação pelo estúdio; elas permanecem no aparelho."
+      },
+      {
+        "id": "updates",
+        "title": "8. Funcionamento, suporte e alterações",
+        "body": "O funcionamento depende de aparelho e sistema compatíveis. O jogo pode receber correções e alterações de conteúdo. Não há promessa de ausência de falhas nem de conservação de dados após limpeza, troca de aparelho ou restauração do sistema. Pais e responsáveis podem enviar dúvidas para vcdevelopstudio@gmail.com, evitando dados pessoais da criança que não sejam necessários ao atendimento. Esta minuta será revista antes da versão comercial; após entrar em vigor, o texto e a data serão atualizados quando necessário. Nada nestes termos limita direitos obrigatórios previstos na legislação aplicável."
+      }
+    ]
+  },
+  "en-US": {
+    "title": "Terms of Use",
+    "updated": "Draft dated October 10, 2026 — future purchase version; not effective.",
+    "publisher": "Publisher: VC Develop Studio",
+    "contact": "vcdevelopstudio@gmail.com",
+    "sections": [
+      {
+        "id": "scope",
+        "title": "1. About the game and these terms",
+        "body": "These draft Terms of Use were prepared for the future version of Tico e Lili: Mistérios do Fundo do Mar with Google Play Billing purchases. They are addressed to parents and guardians accompanying children. The game includes underwater activities, a discovery book and a musical bonus, in Portuguese, English and Spanish. The current development version does not yet integrate purchases. This draft must be checked against the final integration before taking effect."
+      },
+      {
+        "id": "family",
+        "title": "2. Family use",
+        "body": "The game is provided for personal, non-commercial use. A responsible adult should supervise the child's use, device settings and purchase decisions. Activities have educational content without promising specific learning outcomes or replacing guidance from family members and educators. The numerical challenge intended for adults is an access barrier, not legal verification of age, identity or consent."
+      },
+      {
+        "id": "purchase",
+        "title": "3. Free stages and one-time purchase",
+        "body": "The planned model provides stages 1–3 free of charge. A one-time, non-consumable purchase will allow access to stages 4–10, without a subscription or recurring charges. The purchase does not skip progression: stages continue to depend on advancement in the game, and keepsakes and book pages remain linked to completed activities. A numerical challenge intended for a responsible adult will precede the purchase and restoration area. Answering correctly does not automatically make a purchase. The price and conditions will appear in the Google Play flow before confirmation. This text does not announce that purchases are already available."
+      },
+      {
+        "id": "restore",
+        "title": "4. Purchase confirmation, restoration and refunds",
+        "body": "Payment, confirmation and access queries will use Google Play Billing. Buying, querying or restoring may require a connection, service availability and the Google Play account used for purchase. A pending, canceled or incomplete purchase will not be treated as acquired access. Purchased access and stage progress are distinct: restoring a purchase does not recover progress or songs removed from the device. Access persistence and offline use conditions must match the final implementation; this draft does not guarantee acquisition, restoration or continued offline access that has not yet been validated. Refund requests follow Google Play's applicable channels and conditions without limiting mandatory consumer rights."
+      },
+      {
+        "id": "local_data",
+        "title": "5. Progress, settings and musical bonus",
+        "body": "Progress, language, volumes and the music library stay on the device. “Reset progress” in Settings requires a correct numerical answer and confirmation; it resets stages, keepsakes and read pages while preserving language, volumes and saved bonus songs. A previous local progress copy may remain. In the bonus, “Record” stores played notes rather than voices or ambient sounds. Deleting a song removes it from the active list, but a previous library copy may remain on the device. Clearing storage/data in Android settings removes the app's local files. There is no studio-managed synchronization or recovery service for progress or songs. System backups and restorations depend on device settings. Resetting progress or clearing data does not cancel a purchase in the Google Play account; its effect on any access cache must be checked in the final integration."
+      },
+      {
+        "id": "privacy",
+        "title": "6. Privacy and third-party services",
+        "body": "The game's Privacy Policy describes local records, the musical bonus without microphone recording, support and website visits, as well as planned processing for Google Play Billing purchases and diagnostics. The current version has no advertising, studio-managed account, chat or studio server. The future purchase integration may involve transaction data and technical diagnostics processed by Google, including independently of a purchase, depending on the library selected. The final description depends on the commercial integration. Opening legal documents takes readers to the browser and may require a connection."
+      },
+      {
+        "id": "rights",
+        "title": "7. Content and rights",
+        "body": "The software, characters, illustrations, texts, music included in the app and other materials are subject to their respective owners' rights and applicable licenses. Using the game does not transfer ownership of these materials. Reproduction, distribution, modification or commercial use requires authorization or permission under the applicable license, subject to rights provided by law. Saving bonus compositions does not publish them through the studio; they remain on the device."
+      },
+      {
+        "id": "updates",
+        "title": "8. Operation, support and changes",
+        "body": "Operation depends on a compatible device and system. The game may receive fixes and content changes. There is no promise of fault-free operation or data preservation after clearing data, changing devices or system restoration. Parents and guardians may contact vcdevelopstudio@gmail.com, avoiding children's personal data unnecessary for support. This draft will be reviewed before the commercial version; after taking effect, the text and date will be updated as needed. These terms do not limit mandatory rights under applicable law."
+      }
+    ]
+  },
+  "es-ES": {
+    "title": "Términos de Uso",
+    "updated": "Borrador del 10 de octubre de 2026 — futura versión con compras; no vigente.",
+    "publisher": "Responsable/editor: VC Develop Studio",
+    "contact": "vcdevelopstudio@gmail.com",
+    "sections": [
+      {
+        "id": "scope",
+        "title": "1. Sobre el juego y estos términos",
+        "body": "Este borrador de Términos de Uso se preparó para la futura versión de Tico e Lili: Mistérios do Fundo do Mar con compras mediante Google Play Billing. Se dirige a madres, padres y tutores que acompañan al menor. El juego reúne actividades sobre el fondo del mar, un libro de descubrimientos y un bono musical, en portugués, inglés y español. La versión de desarrollo actual todavía no integra compras. Este borrador debe comprobarse según la integración final antes de entrar en vigor."
+      },
+      {
+        "id": "family",
+        "title": "2. Uso en familia",
+        "body": "El juego se ofrece para uso personal y no comercial. La persona responsable debe supervisar el uso por el menor, los ajustes del dispositivo y las decisiones de compra. Las actividades tienen contenido educativo, sin prometer resultados concretos de aprendizaje ni sustituir la orientación de familiares y educadores. El desafío numérico destinado a la persona adulta es una barrera de acceso, no una verificación jurídica de edad, identidad o consentimiento."
+      },
+      {
+        "id": "purchase",
+        "title": "3. Fases gratuitas y compra única",
+        "body": "El modelo previsto ofrece las fases 1 a 3 gratis. Una compra única, no consumible, permitirá acceder a las fases 4 a 10, sin suscripción ni cobros recurrentes. La compra no salta la progresión: las fases siguen dependiendo del avance en el juego, y los recuerdos y las páginas del libro continúan vinculados a las actividades completadas. Un desafío numérico destinado a la persona responsable precederá al área de compra y restauración. Responder correctamente no realiza una compra automáticamente. El precio y las condiciones se mostrarán en el flujo de Google Play antes de confirmar. Este texto no anuncia que las compras ya estén disponibles."
+      },
+      {
+        "id": "restore",
+        "title": "4. Confirmación de compra, restauración y reembolsos",
+        "body": "El pago, la confirmación y la consulta del derecho de acceso utilizarán Google Play Billing. Comprar, consultar o restaurar pueden requerir conexión, disponibilidad de los servicios y la cuenta Google Play utilizada para la compra. Una compra pendiente, cancelada o incompleta no se considerará acceso adquirido. El acceso comprado y el progreso de las fases son distintos: restaurar una compra no recupera el progreso ni las canciones borrados del dispositivo. Las condiciones de persistencia del acceso y uso sin conexión deberán corresponder a la implementación final; este borrador no garantiza adquisición, restauración ni mantenimiento de acceso sin conexión todavía no validados. Las solicitudes de reembolso siguen los canales y condiciones aplicables de Google Play, sin limitar los derechos obligatorios de las personas consumidoras."
+      },
+      {
+        "id": "local_data",
+        "title": "5. Progreso, ajustes y bono musical",
+        "body": "El progreso, el idioma, los volúmenes y la biblioteca musical permanecen en el dispositivo. “Restablecer progreso”, en Ajustes, exige una respuesta numérica correcta y confirmación; reinicia fases, recuerdos y páginas leídas, conservando idioma, volúmenes y canciones guardadas del bono. Puede permanecer una copia local anterior del progreso. En el bono, “Grabar” registra las notas tocadas, no voces ni sonidos del entorno. Borrar una canción la retira de la lista activa, pero una copia anterior de la biblioteca puede permanecer en el dispositivo. Borrar almacenamiento/datos en los ajustes de Android elimina los archivos locales de la aplicación. No existe servicio propio de sincronización o recuperación del progreso ni de las canciones. Las copias y restauraciones del sistema dependen de los ajustes del dispositivo. Restablecer el progreso o borrar datos no cancela una compra en la cuenta Google Play; el efecto sobre una posible caché de acceso deberá comprobarse en la integración final."
+      },
+      {
+        "id": "privacy",
+        "title": "6. Privacidad y servicios de terceros",
+        "body": "La Política de Privacidad del juego describe los registros locales, el bono musical sin grabación por micrófono, soporte y visitas al sitio, además del tratamiento previsto para compras y diagnósticos de Google Play Billing. La versión actual no tiene anuncios, cuenta propia, chat ni servidor del estudio. La futura integración de compras puede implicar datos de transacción y diagnósticos técnicos tratados por Google, incluso independientemente de una compra, según la biblioteca elegida. La descripción definitiva dependerá de la integración comercial final. Abrir los documentos legales lleva al navegador y puede requerir conexión."
+      },
+      {
+        "id": "rights",
+        "title": "7. Contenido y derechos",
+        "body": "El software, los personajes, las ilustraciones, los textos, la música incluida en la aplicación y los demás materiales están sujetos a los derechos de sus respectivos titulares y a las licencias aplicables. Usar el juego no transfiere la propiedad de esos materiales. La reproducción, distribución, modificación o explotación comercial requieren autorización o permiso de la licencia aplicable, respetando las posibilidades previstas por ley. Guardar composiciones del bono no constituye su publicación por el estudio; permanecen en el dispositivo."
+      },
+      {
+        "id": "updates",
+        "title": "8. Funcionamiento, soporte y cambios",
+        "body": "El funcionamiento depende de un dispositivo y sistema compatibles. El juego puede recibir correcciones y cambios de contenido. No se promete ausencia de fallos ni conservación de datos tras borrarlos, cambiar de dispositivo o restaurar el sistema. Madres, padres y tutores pueden escribir a vcdevelopstudio@gmail.com, evitando datos personales del menor innecesarios para la atención. Este borrador se revisará antes de la versión comercial; tras entrar en vigor, el texto y la fecha se actualizarán cuando sea necesario. Estos términos no limitan los derechos obligatorios previstos en la legislación aplicable."
+      }
+    ]
+  }
+}

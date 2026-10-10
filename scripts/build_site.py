@@ -7,7 +7,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 def public_files():
     files = [ROOT / name for name in ['index.html', 'privacy-policy.html', 'terms-of-use.html', '.nojekyll', 'assets/site.css', 'assets/site.js', 'data/privacy_policy.json', 'data/terms_of_use.json']]
-    for game in ['cristal-arco-iris', 'fauna-flora-brasil']:
+    for game in ['cristal-arco-iris', 'fauna-flora-brasil', 'misterios-fundo-do-mar']:
         for folder in ['', 'en', 'es']:
             files.extend(ROOT / game / folder / name for name in ['privacy-policy.html', 'terms-of-use.html'])
         files.append(ROOT / game / 'assets/legal.css')
