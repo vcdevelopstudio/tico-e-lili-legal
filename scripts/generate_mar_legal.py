@@ -1,8 +1,8 @@
-"""Generate draft Mar pages with the shared Cristal renderer.
+"""Generate Mar legal pages with the shared Cristal renderer.
 
 Run: python scripts/generate_mar_legal.py
 Sources: data/mar_privacy_policy.json and data/mar_terms_of_use.json.
-Published drafts retain their notice and noindex until the purchase integration is reviewed.
+The JSON sources describe the commercial integration and its validation limits.
 """
 import generate_cristal_legal as renderer
 
@@ -17,12 +17,6 @@ renderer.DOCUMENTS = {
 
 def generate():
     renderer.generate()
-    for folder in renderer.LANGUAGES.values():
-        for document in renderer.DOCUMENTS:
-            path = renderer.BASE / folder / document
-            html = path.read_text(encoding='utf-8')
-            html = html.replace('  <head>\n', '  <head>\n    <meta name="robots" content="noindex, nofollow">\n', 1)
-            path.write_text(html, encoding='utf-8')
 
 
 if __name__ == '__main__':

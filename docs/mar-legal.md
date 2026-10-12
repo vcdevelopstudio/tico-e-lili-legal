@@ -1,104 +1,103 @@
 # Documentos legais de Tico e Lili: Mistérios do Fundo do Mar
 
-Preparados em 10/10/2026 a pedido do responsável, para a futura versão com
-Google Play Billing: fases 1–3 gratuitas e compra única das fases 4–10,
-mantendo progressão por conclusão. Português, inglês e espanhol.
+Atualizados em 12/10/2026 para a versão comercial 0.1.0, código 5,
+preparada para teste fechado. A integração implementada usa
+GodotGooglePlayBilling 3.3.0 e Google Play Billing Library 9.1.0.
 
-## Estado e publicação
+## Escopo e publicação
 
-As seis páginas em `misterios-fundo-do-mar/` são **minutas não vigentes**.
-Têm aviso localizado e `noindex, nofollow`. A pedido expresso do responsável
-em 10/10/2026, foram incluídas na lista de publicação de
-`scripts/build_site.py` para disponibilizar os links que serão usados no jogo.
-Publicar as minutas não confirma a integração de compras nem sua vigência.
-Os textos e URLs dos jogos Cristal e Brasil permanecem preservados.
+As seis páginas PT/EN/ES mantêm as URLs originais. A revisão remove os
+avisos de minuta, integração futura e ausência de compras, além do
+`noindex, nofollow` inserido pelo gerador inicial. O pacote público continua
+com 32 arquivos. Somente dados, páginas, gerador e documentação do Mar
+foram alterados; os documentos dos outros jogos são preservados.
 
-Após conferir a integração comercial real, revisar as três traduções,
-substituir os avisos de minuta por data de vigência e eliminar as pendências
-do corpo dos documentos. Remover a inserção de `noindex` no gerador,
-gerar novamente. O pacote agora inclui as seis páginas e seu CSS; o teste
-de empacotamento confere 32 arquivos públicos, sem documentos internos.
-A publicação ocorrerá pelo fluxo Git aprovado para este repositório.
+A publicação usa o workflow existente, acionado por push em main. Após
+o deploy, conferir o conteúdo integral servido, sem login, nas seis URLs.
+HTTP 200 sozinho não comprova que os textos novos estejam disponíveis.
 
-## Fontes e diferenças
+## Fonte técnica
 
-- Estrutura e visual: páginas de `cristal-arco-iris/` e
-  `fauna-flora-brasil/`, fontes JSON do Cristal e gerador existente.
-- Nome completo aprovado: `plan/identidade-jogo.json` e `src/project.godot`
-  em `C:/Users/victo/ai-vc-develop/.repo/ticoelilimar`.
-  O título de loja abreviado é “Tico e Lili: Mistérios do Mar”.
-- Modelo comercial futuro e decisões ainda abertas: `plan/acesso-compra.md`.
-  Não há compras integradas no código examinado.
-- Dados reais: `src/scripts/game_state.gd`, `settings.gd`, `sound.gd`,
-  `bonus_music.gd` e `bonus_music_model.gd` do Mar.
-- Progresso: idioma, três volumes, fases concluídas, lembranças reveladas,
-  páginas lidas e cópia anterior para recuperação.
-- Bônus: notas e tempos, duração até 30 segundos, identificadores e títulos
-  opcionais; biblioteca própria com cópia anterior. Não captura microfone.
-- Reset preserva preferências e biblioteca musical; não elimina todas as
-  cópias anteriores. Apagar uma música retira a lista ativa, mas a cópia
-  anterior pode permanecer. Limpar dados remove os arquivos locais.
-- Não importar TTS, Play Age Signals ou formatos de cache dos outros jogos
-  como se já existissem no Mar.
+Contexto completo fornecido pelo responsável:
 
-As fontes externas foram consultadas em 10/10/2026:
+`C:/Users/victo/ai-vc-develop/.repo/ticoelilimar/tasks/us/US-017-google-play-billing/evidencias/ciclos/CICLO-005/prompt-paginas-legais.txt`
 
-- [Integração do Google Play Billing](https://developer.android.com/google/play/billing/integrate)
+Conferidos também os scripts `billing_service.gd`, `billing_policy.gd`
+e o reset em `settings.gd` do projeto Mar. A caracterização do SDK/DEX
+é a inspeção estática relatada no contexto, não uma captura de tráfego
+realizada nesta entrega nem auditoria dos servidores Google.
+
+## Comportamento descrito
+
+- Fases 1–3 gratuitas; compra única permanente, não consumível, para acesso
+  às fases 4–10, sem assinatura. A progressão por conclusão é preservada.
+  O bônus musical exige concluir a fase 10. Preço localizado consultado da
+  Play, sem preço universal fixado no texto.
+- Produto configurado: `tico_lili_mar_full_game`, opção `full-game`.
+  Pacote comercial: `com.engvcdevelop.ticoelilimar`.
+- Startup comercial inicia Billing e consulta catálogo/propriedade; retorno
+  ao app reconsulta; Restaurar consulta Play. Tokens/estado tratados em
+  memória para consulta e ACK; sem backend de validação do estúdio.
+- Cache próprio separado: produto, package, ambiente e booleano owned.
+  Não persiste token, conta/e-mail, cartão ou pedido.
+- Reset preserva compra, idioma, volumes e biblioteca musical; pode deixar
+  cópia anterior do progresso. Restaurar compra recupera direito de acesso,
+  não progresso nem músicas. Limpar dados remove arquivos/cache/filas locais,
+  sem cancelar a compra ou excluir registros Google.
+- Progresso, preferências, livro e músicas locais. Bônus registra notas,
+  tempos e títulos, sem microfone. Sem conta própria, chat, anúncios,
+  analytics de gameplay, câmera ou localização. Narração local, sem TTS
+  online. Release desativa backup automático do app (`allowBackup=false`).
+- SDK: logger PLAY_BILLING_LIBRARY, DataTransport/CCT; ID aleatório de
+  instância/sessão, package/versão SDK, Android, marca/modelo/fabricante,
+  memória e Build.FINGERPRINT. Não confundir com Build.SERIAL,
+  AAID/IMEI/Android ID persistente, Firebase Analytics ou Crashlytics.
+- DataTransport 3.1.8 usa fila SQLite persistente. Diagnósticos automáticos
+  operam antes da área parental e sem compra, sem opt-out implementado.
+  Não prometer anonimato, efemeridade ou retenção/exclusão Google.
+- Conta matemática é barreira de navegação, não verificação legal de
+  idade/identidade/consentimento nem neutral age screen.
+
+## Limites preservados
+
+Transação, ACK, restauração e reinício offline físicos ainda não
+homologados no contexto de 12/10/2026. Cache implementado não comprova
+acesso offline após reinício em aparelho. Compra, preço e restauração
+exigem rede. A publicação dos documentos não anuncia aprovação,
+lançamento ou disponibilidade do jogo na Play.
+
+Categorias/finalidades de Segurança dos dados são interpretação
+fundamentada das regras gerais, não confirmação específica Google.
+A exceção de compartilhamento esperado de uma ação iniciada pelo usuário
+não é aplicada automaticamente aos diagnósticos, nem eles são tratados
+automaticamente como prestador em nome do estúdio.
+
+## Fontes externas conferidas em 12/10/2026
+
+- [Segurança dos dados](https://support.google.com/googleplay/android-developer/answer/10787469?hl=en)
+- [Políticas para famílias](https://support.google.com/googleplay/android-developer/answer/9893335?hl=en)
 - [Versões do Google Play Billing](https://developer.android.com/google/play/billing/release-notes)
-- [Segurança dos dados e responsabilidade por SDKs](https://support.google.com/googleplay/android-developer/answer/10787469?hl=en)
-- [Dados de visitantes do GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#data-collection)
-- [Política de Privacidade do Google](https://policies.google.com/privacy)
+- [Testes do Google Play Billing](https://developer.android.com/google/play/billing/test)
 
-## Conferir antes da vigência
+## Manutenção e verificação
 
-- Biblioteca e versão realmente exportadas; dados técnicos, identificadores,
-  destinatários, finalidades, início da coleta, fila persistente e opção de
-  desativação. Não assumir Billing 9.1.0 apenas pelos jogos de referência.
-- Produto, preço, estado de compra, reconhecimento e restauração; confirmar
-  uso e eventual persistência de tokens, logs e verificação por servidor.
-- Cache do direito de acesso: campos e retenção, comportamento no reset,
-  limpeza de dados, reinício offline, revogação e reconciliação com a loja.
-- Barreira do responsável, controle do acesso 3+7 e progressão; não tratar
-  compra pendente ou cancelada como acesso adquirido.
-- Quaisquer novos SDKs, permissões, backend, Age Signals ou processamento de
-  áudio introduzidos na integração. A minuta não autoriza adicioná-los.
-- Correspondência entre AAB final, páginas, ficha de loja e Segurança dos
-  dados. A minuta não comprova testes comerciais ou aprovação pelo Google.
-
-## Manutenção e endereços previstos
-
-Fontes editáveis: `data/mar_privacy_policy.json` e
-`data/mar_terms_of_use.json`. Gerar com:
+Fontes: `data/mar_privacy_policy.json` e `data/mar_terms_of_use.json`.
+Gerador próprio reutiliza o renderer do Cristal sem alterar os textos dele.
 
 ```powershell
 python scripts/generate_mar_legal.py
 python -m unittest discover -s tests -v
 ```
 
-O gerador reutiliza o renderer do Cristal, com fontes e destino próprios.
-O CSS segue o padrão do Brasil e as bandeiras existentes são compartilhadas.
+Verificar correspondência entre JSONs e HTML, navegação PT/EN/ES, recursos
+locais, remoção de afirmações antigas, data, limites comerciais e
+reprodução determinística. Após o deploy, ler e comparar os seis corpos
+públicos com os arquivos gerados; registrar o SHA e o resultado do workflow
+na entrega. Suporte e privacidade: VC Develop Studio,
+vcdevelopstudio@gmail.com. Atendimento por e-mail e visitas ao
+GitHub Pages/IPs continuam descritos separadamente.
 
-Os endereços em português são:
-
-- https://vcdevelopstudio.github.io/tico-e-lili-legal/misterios-fundo-do-mar/privacy-policy.html
-- https://vcdevelopstudio.github.io/tico-e-lili-legal/misterios-fundo-do-mar/terms-of-use.html
-
-Inglês usa `/en/` e espanhol `/es/` antes do nome do arquivo.
-Conferir as respostas HTTP e o conteúdo após o deploy antes de entregar os links.
-`src/scripts/settings.gd` do jogo tem `terms_url` e `privacy_url` exportados,
-atualmente vazios; esta entrega prepara as páginas, sem alterar o jogo.
-
-## Verificação realizada
-
-Em 10/10/2026, os 18 testes existentes passaram. Uma conferência adicional
-das seis novas páginas validou idioma, seções, correspondência integral com
-os JSONs, nome e contato, aviso de minuta, navegação entre idiomas,
-existência dos recursos locais e links externos HTTPS. Gerar novamente
-produziu os mesmos bytes. Na preparação inicial, as minutas estavam fora do
-pacote público. Na publicação autorizada, o teste passou após incluir as seis
-páginas e o CSS no pacote, preservando os documentos dos outros jogos.
-
-O CSS é o mesmo das páginas do Brasil. A inspeção visual no navegador não
-foi concluída: o ambiente restringe sockets locais e o navegador não permite
-abrir arquivos pelo protocolo `file:`. A validação desta entrega é estrutural
-e de conteúdo; revisar a aparência no navegador local antes da publicação.
+Verificação local de 12/10/2026: 18 testes existentes passaram. As seis
+páginas corresponderam integralmente às fontes JSON, com versão/data,
+seções coerentes, links entre idiomas e recursos válidos, sem avisos antigos
+ou noindex. Gerar novamente preservou o conteúdo dos seis arquivos.

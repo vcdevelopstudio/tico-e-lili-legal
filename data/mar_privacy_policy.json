@@ -1,19 +1,19 @@
 {
   "pt-BR": {
     "title": "Política de Privacidade",
-    "updated": "Minuta de 10 de outubro de 2026 — versão futura com compras; não vigente.",
+    "updated": "Atualizada em 12 de outubro de 2026",
     "publisher": "Responsável/publicador: VC Develop Studio",
     "contact": "vcdevelopstudio@gmail.com",
     "sections": [
       {
         "id": "scope",
         "title": "1. Aplicação desta política",
-        "body": "Esta minuta de Política de Privacidade foi preparada para a futura versão de Tico e Lili: Mistérios do Fundo do Mar com compras pelo Google Play Billing. Dirige-se aos pais e responsáveis. O jogo oferece brincadeiras sobre o fundo do mar, um livro de descobertas e um bônus musical, em português, inglês e espanhol. A versão de desenvolvimento atual ainda não integra compras. Esta minuta precisa ser conferida e atualizada conforme a integração comercial final antes de entrar em vigor."
+        "body": "Esta Política de Privacidade descreve Tico e Lili: Mistérios do Fundo do Mar na versão comercial 0.1.0, código 5, preparada para teste fechado, com integração Google Play Billing 9.1.0. Dirige-se aos pais e responsáveis. O jogo oferece brincadeiras sobre o fundo do mar, um livro de descobertas e um bônus musical, em português, inglês e espanhol. A descrição desta versão não anuncia aprovação pelo Google nem disponibilidade do jogo na Play."
       },
       {
         "id": "children",
         "title": "2. Crianças e dados pessoais",
-        "body": "O jogo não solicita cadastro da criança, nome, e-mail, documento, data de nascimento, foto ou localização. As brincadeiras não utilizam câmera ou microfone. Não há anúncios, chat, conta própria, servidor do estúdio ou integração de análise comportamental das brincadeiras no projeto atual. A futura integração de compras envolve tratamento de dados pelos serviços do Google, descrito nas seções 5 e 6; por isso, ausência de anúncios não significa ausência de coleta por terceiros. Pais e responsáveis devem acompanhar o uso do aparelho e as decisões de compra."
+        "body": "O jogo não solicita cadastro da criança, nome, e-mail, documento, data de nascimento, foto ou localização. As brincadeiras não utilizam câmera ou microfone. Não há anúncios, chat, conta própria, servidor do estúdio ou SDK de anúncios ou análise comportamental das brincadeiras. Google Play Billing trata informações de compra e diagnósticos técnicos, conforme as seções 5 e 6, inclusive antes da área do responsável e sem compra. A conta matemática é uma barreira de navegação destinada ao adulto; não verifica juridicamente idade, identidade ou consentimento e não é uma tela neutra de seleção de idade. Pais e responsáveis devem acompanhar o uso do aparelho e utilizar os controles da conta Google Play."
       },
       {
         "id": "local_data",
@@ -28,37 +28,46 @@
       {
         "id": "billing",
         "title": "5. Compra e restauração pelo Google Play",
-        "body": "O modelo previsto oferece as fases 1 a 3 gratuitamente e uma compra única, não consumível, para acessar as fases 4 a 10, sem assinatura ou cobrança recorrente. O acesso continua sujeito à progressão por conclusão das fases. O Google Play processa o pagamento. A integração planejada utilizará informações de produto e transação, como preço localizado, identificador do produto, estado da compra, token de compra e situação de reconhecimento, para consultar, confirmar ou restaurar o direito de acesso e reconhecer a transação junto à loja. O estúdio não solicita os dados do cartão. Compra, consulta e restauração podem exigir conexão e a conta Google Play utilizada na compra. A forma de guardar o direito de acesso e os metadados de transação, inclusive eventuais tokens, deverá ser descrita conforme a implementação final; esta minuta não afirma que exista hoje um cache de acesso, verificação por servidor ou armazenamento de tokens. A conta numérica prevista antes da área de compra é uma barreira destinada ao responsável, não uma verificação jurídica de idade, identidade ou consentimento."
+        "body": "As fases 1 a 3 são gratuitas. Uma compra única, permanente e não consumível dá direito de acesso às fases 4 a 10, sem assinatura ou cobrança recorrente. A compra mantém a progressão: não conclui fases nem revela lembranças ou páginas do livro automaticamente. O bônus musical exige concluir a fase 10. O preço localizado é consultado no Google Play e apresentado antes da confirmação; não há preço universal fixado por esta política. O Google Play processa o pagamento; o aplicativo não acessa dados de cartão. A integração recebe produto, estado e token de compra e situação de reconhecimento para consultar o direito de acesso e reconhecer a transação (ACK) junto à loja. Tokens e estados retornados pela Play são tratados em memória para essas operações; o cache próprio do jogo não grava tokens, conta, e-mail, dados de cartão ou identificador de pedido. Não há validação por servidor do estúdio. A versão comercial inicia o Billing e as consultas de catálogo e propriedade ao abrir o aplicativo, reconsulta ao retornar e consulta o Google Play quando o responsável escolhe “Restaurar”. Compra, preço, consulta e restauração exigem conexão e os serviços da loja; recuperar o direito depende da conta usada na compra. O uso em memória pelo aplicativo não significa que o Google processe todos os registros apenas de forma efêmera. O histórico e as informações de compra têm finalidade de funcionalidade de compra e restauração, em conexão com a compra opcional ou consulta de um direito existente. No formulário Segurança dos dados, a transmissão esperada para uma ação iniciada pelo usuário pode se enquadrar na exceção de compartilhamento dessa ação; isso não significa ausência de transmissão ao Google e não se aplica automaticamente aos diagnósticos do SDK."
       },
       {
         "id": "diagnostics",
         "title": "6. Serviços do Google e diagnósticos técnicos",
-        "body": "A futura biblioteca de compras pode tratar e enviar ao Google dados técnicos do aplicativo e do dispositivo e identificadores de operações ou da instância da biblioteca para diagnóstico e funcionamento do serviço. Esse tratamento deve ser conferido na versão efetivamente integrada, inclusive quanto à inicialização antes de uma compra, ao envio automático, à existência de fila persistente local e à possibilidade de desativação. Nos jogos usados como referência, Billing 9.1.0 utiliza transporte de diagnósticos e fila local; essa configuração não está automaticamente confirmada para este jogo. Não prometemos anonimização, tratamento somente em memória ou ausência de diagnóstico quando a família não compra. Antes da publicação, esta seção deverá informar os dados, finalidades, destinatários e condições reais de coleta da integração escolhida. O Google trata os dados dos seus serviços conforme sua própria Política de Privacidade. O sistema e a loja também podem tratar instalação, atualização e cópias de segurança conforme suas configurações.",
+        "body": "A versão comercial integra GodotGooglePlayBilling 3.3.0 e Google Play Billing Library 9.1.0. A inspeção estática do SDK e do pacote final identificou o mecanismo de diagnósticos PLAY_BILLING_LIBRARY e o transporte DataTransport/CCT. Ele registra eventos operacionais de sucesso, falha e conexão para diagnóstico, desempenho e funcionamento do serviço, encaminhados ao Google. O mecanismo inclui um identificador aleatório por instância/sessão da biblioteca, pacote do aplicativo, versão do SDK, versão do Android, marca, modelo, fabricante, informações de memória e identificador da compilação do sistema (Build.FINGERPRINT, não o número de série Build.SERIAL). O identificador da sessão não é um identificador de publicidade (AAID), IMEI ou Android ID persistente; não é garantia de anonimato. DataTransport 3.1.8 mantém uma fila persistente local em SQLite para envio posterior; portanto, esse tratamento não é apenas em memória ou efêmero. O Billing inicia antes da área parental e sem compra. Não existe opção no jogo para desativar esses diagnósticos, e deixar de comprar não os desativa. Os diagnósticos e identificadores técnicos são distintos do progresso e da análise das brincadeiras; as dependências de codificação e transporte não equivalem a Firebase Analytics ou Crashlytics. A descrição se baseia na inspeção estática de um mecanismo alcançável, não em captura completa de tráfego ou auditoria dos servidores Google. Não foram confirmados anonimização, prazo de retenção ou exclusão automática no Google. O enquadramento como Diagnósticos e Dispositivo/outros IDs, coletados automaticamente, obrigatórios e não efêmeros, para funcionalidade e análise técnica, é uma interpretação fundamentada das regras de Segurança dos dados, não aprovação específica do Google. O encaminhamento ao Google é distinto da compra iniciada pelo usuário; não aplicamos automaticamente aos diagnósticos a exceção de prestador em nome do estúdio. O Google trata os dados dos seus serviços conforme sua Política de Privacidade.",
         "links": [
           {
             "label": "Política de Privacidade do Google",
             "url": "https://policies.google.com/privacy"
+          },
+          {
+            "label": "Regras de Segurança dos dados do Google Play",
+            "url": "https://support.google.com/googleplay/android-developer/answer/10787469?hl=en"
           }
         ]
       },
       {
+        "id": "access_cache",
+        "title": "7. Cache local de acesso comprado",
+        "body": "Separadamente do progresso e das músicas, o aplicativo mantém um cache local do direito de acesso com identificador do produto, pacote do aplicativo, ambiente e indicador booleano de acesso adquirido (owned). Esse arquivo não contém token, conta ou e-mail, dados de cartão nem identificador de pedido. Ele conserva o estado local de acesso para leitura pelo código; não é uma cópia da conta Google Play nem sincroniza progresso. As consultas à loja reconciliam esse estado: uma resposta válida pode alterar o acesso, enquanto falha de rede não comprova ausência de compra. A existência do cache não comprova reinício offline homologado. Comprar, consultar preço e restaurar exigem rede; não garantimos funcionamento do acesso comprado após reinício sem conexão antes da validação física. O cache permanece até atualização do estado ou remoção dos dados locais."
+      },
+      {
         "id": "retention",
-        "title": "7. Retenção e exclusão dos dados locais",
-        "body": "Em Configurações, “Redefinir progresso” pede a resposta correta a uma conta numérica e a confirmação. A ação reinicia o avanço das fases, as lembranças e as páginas lidas; preserva o idioma, os volumes e a biblioteca de músicas do bônus. A resposta à conta não verifica juridicamente a idade ou a identidade. A redefinição pode manter a cópia local anterior do progresso. Na biblioteca do bônus, a opção de apagar uma música a remove da lista ativa após confirmação; uma cópia anterior do arquivo pode continuar no aparelho. Para remover preferências, músicas, progresso e cópias locais, use a opção de limpar armazenamento/dados do aplicativo nas configurações do Android. Desinstalação e eventual restauração pelo sistema dependem das configurações do aparelho. O estúdio não apaga remotamente nem recupera esses arquivos. Na versão com compras, redefinir progresso ou remover arquivos locais não equivale a cancelar a compra na conta Google Play. A relação entre redefinição, cache de acesso e restauração deverá ser conferida na integração final. A remoção local não apaga automaticamente registros de compra ou diagnósticos já enviados ao Google; esses dados são gerenciados pelos canais desse serviço."
+        "title": "8. Retenção e exclusão dos dados locais",
+        "body": "Em Configurações, “Redefinir progresso” exige a resposta correta a uma conta e a confirmação. Reinicia as fases, lembranças e páginas lidas, preservando idioma, volumes, biblioteca musical e o direito de compra. Pode manter uma cópia local anterior do progresso. Na biblioteca do bônus, apagar uma música a retira da lista ativa após confirmação, mas uma cópia anterior pode permanecer. “Restaurar compra” consulta o Google Play para recuperar o direito de acesso; não restaura progresso nem músicas apagadas. Para remover preferências, músicas, progresso, cópias, cache de acesso e filas locais, use limpar armazenamento/dados nas configurações do Android. Essa limpeza não cancela a compra na conta Play; recuperar o acesso requer nova consulta/restauração pela loja. A versão Release desativa o backup automático do aplicativo (allowBackup=false); não oferecemos sincronização ou recuperação dos arquivos por servidor do estúdio. Desinstalar e limpar dados podem causar perda dos arquivos locais. A remoção local não exclui registros de compra nem diagnósticos já enviados ao Google. O estúdio não apaga remotamente arquivos no aparelho ou registros nos servidores Google; dados tratados pelo Google devem ser gerenciados pelos seus canais e políticas, sem promessa de prazo de exclusão não confirmado."
       },
       {
         "id": "security",
-        "title": "8. Compartilhamento e segurança",
-        "body": "Não vendemos dados pessoais. O progresso, as preferências e as composições do bônus ficam na área de dados do aplicativo, cuja proteção depende também do sistema, das atualizações e dos controles do aparelho. A futura compra utiliza os serviços do Google Play. O atendimento por e-mail e a visita ao site destes documentos são tratamentos separados, explicados nas seções 9 e 10. Não há promessa de segurança absoluta nem de prazo de retenção ou exclusão de dados que estejam sob controle de terceiros."
+        "title": "9. Compartilhamento e segurança",
+        "body": "Não vendemos dados pessoais. Progresso, preferências, composições e cache ficam na área de dados do aplicativo, cuja proteção depende também do sistema, das atualizações e dos controles do aparelho. As informações de compra e os diagnósticos descritos nas seções 5 e 6 são tratados pelos serviços Google. Suporte por e-mail e visitas ao site são atividades separadas, descritas nas seções 10 e 11. Não há promessa de segurança absoluta nem de retenção ou exclusão de dados de terceiros em prazo não confirmado."
       },
       {
         "id": "contact",
-        "title": "9. Contato e direitos de privacidade",
+        "title": "10. Contato e direitos de privacidade",
         "body": "O responsável/publicador é VC Develop Studio. Pais e responsáveis podem escrever para vcdevelopstudio@gmail.com para suporte, informações sobre privacidade e pedidos de acesso, correção ou exclusão dos dados enviados ao estúdio, conforme a legislação aplicável. Ao enviar uma mensagem, você fornece seu endereço de e-mail e o conteúdo escolhido; usamos essas informações para atender à solicitação e as conservamos pelo período necessário ao atendimento e às obrigações legais aplicáveis. O Gmail utilizado no atendimento e seu provedor de e-mail tratam as mensagens conforme suas políticas. Evite enviar nomes, fotos ou outros dados pessoais da criança que não sejam necessários para explicar o problema. Não existe conta própria do jogo a excluir. O estúdio não mantém cópia do progresso ou das músicas para recuperar ou apagar remotamente."
       },
       {
         "id": "website",
-        "title": "10. Visitas ao site dos documentos",
+        "title": "11. Visitas ao site dos documentos",
         "body": "O site dos documentos utiliza GitHub Pages e não exige login. Seu código não adiciona anúncios, ferramentas de análise de uso, cookies ou armazenamento de preferências no navegador. Ao abrir as páginas, o navegador se comunica com a hospedagem. O GitHub informa que registra e armazena o endereço IP dos visitantes por segurança, mesmo sem login. Esse tratamento é separado do funcionamento do jogo e segue as políticas do GitHub. Links para estes documentos abrem o navegador e podem exigir conexão.",
         "links": [
           {
@@ -73,26 +82,26 @@
       },
       {
         "id": "changes",
-        "title": "11. Alterações e vigência",
-        "body": "Esta minuta não anuncia a disponibilidade das compras nem a publicação de uma nova versão do jogo. Será revista antes da versão comercial para corresponder aos serviços e fluxos efetivamente utilizados. Após entrar em vigor, a política poderá ser atualizada quando o jogo, seus serviços ou os requisitos aplicáveis mudarem; a data no início indicará a revisão."
+        "title": "12. Alterações e vigência",
+        "body": "Esta política foi atualizada em 12 de outubro de 2026 para descrever a integração comercial da versão 0.1.0, código 5, preparada para teste fechado. Podemos revê-la quando o jogo, seus serviços ou requisitos aplicáveis mudarem, atualizando a data inicial. A integração implementada não comprova homologação física de transação, reconhecimento, restauração ou reinício offline. Esta revisão não anuncia aprovação ou disponibilidade do jogo na Google Play."
       }
     ]
   },
   "en-US": {
     "title": "Privacy Policy",
-    "updated": "Draft dated October 10, 2026 — future purchase version; not effective.",
+    "updated": "Updated October 12, 2026",
     "publisher": "Publisher: VC Develop Studio",
     "contact": "vcdevelopstudio@gmail.com",
     "sections": [
       {
         "id": "scope",
         "title": "1. Scope of this policy",
-        "body": "This draft Privacy Policy was prepared for the future version of Tico e Lili: Mistérios do Fundo do Mar with Google Play Billing purchases. It is addressed to parents and guardians. The game includes underwater activities, a discovery book and a musical bonus, in Portuguese, English and Spanish. The current development version does not yet integrate purchases. This draft must be checked and updated against the final commercial integration before taking effect."
+        "body": "This Privacy Policy describes Tico e Lili: Mistérios do Fundo do Mar commercial version 0.1.0, code 5, prepared for closed testing, with Google Play Billing 9.1.0 integration. It is addressed to parents and guardians. The game includes underwater activities, a discovery book and a musical bonus, in Portuguese, English and Spanish. Describing this version does not announce Google approval or game availability on Play."
       },
       {
         "id": "children",
         "title": "2. Children and personal data",
-        "body": "The game does not ask children to register or provide their name, email, identity document, date of birth, photo or location. Activities do not use the camera or microphone. The current project has no advertising, chat, studio-managed account, studio server or behavioral analytics integration for play. The future purchase integration involves data processing by Google services, described in sections 5 and 6; absence of advertising does not mean absence of third-party collection. Parents and guardians should supervise device use and purchase decisions."
+        "body": "The game does not ask children to register or provide their name, email, identity document, date of birth, photo or location. Activities do not use the camera or microphone. There is no advertising, chat, studio-managed account, studio server, advertising SDK or behavioral analytics SDK for play. Google Play Billing processes purchase information and technical diagnostics as described in sections 5 and 6, including before the adult area and without a purchase. The mathematical challenge is a navigation barrier intended for adults; it does not legally verify age, identity or consent and is not a neutral age screen. Parents and guardians should supervise device use and use Google Play account controls."
       },
       {
         "id": "local_data",
@@ -107,37 +116,46 @@
       {
         "id": "billing",
         "title": "5. Google Play purchases and restoration",
-        "body": "The planned model provides stages 1–3 free of charge and a one-time, non-consumable purchase for access to stages 4–10, without a subscription or recurring charges. Access remains subject to progression through completed stages. Google Play processes payment. The planned integration will use product and transaction information, such as localized price, product identifier, purchase state, purchase token and acknowledgment status, to query, confirm or restore access and acknowledge the transaction with the store. The studio does not request card details. Purchases, queries and restoration may require a connection and the Google Play account used for purchase. Storage of access rights and transaction metadata, including any tokens, must be described according to the final implementation; this draft does not state that an access cache, server verification or token storage exists today. The planned numerical challenge before the purchase area is a barrier intended for a responsible adult, not legal verification of age, identity or consent."
+        "body": "Stages 1–3 are free of charge. A permanent, one-time, non-consumable purchase grants access rights to stages 4–10 without a subscription or recurring charges. Purchase preserves progression: it does not automatically complete stages or reveal keepsakes or book pages. The musical bonus requires completion of stage 10. The localized price is queried from Google Play and shown before confirmation; this policy sets no universal price. Google Play processes payment; the app does not access card details. The integration receives the product, purchase state and token, and acknowledgment status to query access rights and acknowledge the transaction (ACK) with the store. Tokens and states returned by Play are handled in memory for these operations; the game's own cache does not store tokens, accounts, email, card data or order identifiers. There is no studio server verification. The commercial version starts Billing and catalog and ownership queries on app startup, queries again on return and queries Google Play when the adult selects “Restore”. Purchasing, prices, queries and restoration require a connection and store services; recovering access depends on the account used for purchase. The app's memory-only handling does not mean that Google processes all records ephemerally. Purchase history and information serve purchase and restoration functionality, in connection with an optional purchase or a query for an existing entitlement. In the Data safety form, expected transmission for a user-initiated action may fall under that action's sharing exception; this does not mean no transmission to Google and does not automatically apply to SDK diagnostics."
       },
       {
         "id": "diagnostics",
         "title": "6. Google services and technical diagnostics",
-        "body": "The future billing library may process and send Google technical app and device data and identifiers for operations or the library instance for diagnostics and service operation. This processing must be checked in the version actually integrated, including startup before a purchase, automatic transmission, a persistent local queue and any ability to disable it. In the reference games, Billing 9.1.0 uses diagnostic transport and a local queue; this configuration is not automatically confirmed for this game. We do not promise anonymization, memory-only processing or absence of diagnostics when a family does not purchase. Before publication, this section must state the actual data, purposes, recipients and collection conditions of the selected integration. Google processes its service data under its own Privacy Policy. The system and store may also process installation, updates and backups according to their settings.",
+        "body": "The commercial version integrates GodotGooglePlayBilling 3.3.0 and Google Play Billing Library 9.1.0. Static inspection of the SDK and final package identified the PLAY_BILLING_LIBRARY diagnostic mechanism and DataTransport/CCT transport. It records operational success, failure and connection events for diagnostics, performance and service operation, forwarded to Google. The mechanism includes a random identifier per library instance/session, app package, SDK version, Android version, brand, model, manufacturer, memory information and system build fingerprint (Build.FINGERPRINT, not the Build.SERIAL serial number). The session identifier is not an advertising identifier (AAID), IMEI or persistent Android ID; it does not guarantee anonymity. DataTransport 3.1.8 maintains a persistent local SQLite queue for later transmission; this processing is therefore not memory-only or ephemeral. Billing starts before the parental area and without a purchase. The game provides no option to disable these diagnostics, and not purchasing does not disable them. Diagnostics and technical identifiers are separate from progress and play analytics; encoding and transport dependencies do not amount to Firebase Analytics or Crashlytics. This description is based on static inspection of a reachable mechanism, not complete traffic capture or an audit of Google servers. Anonymization, retention periods and automatic deletion at Google have not been confirmed. Classification as Diagnostics and Device or other IDs, automatically collected, required and non-ephemeral, for functionality and technical analytics, is a reasoned interpretation of Data safety rules rather than specific Google approval. Forwarding to Google is separate from a user-initiated purchase; we do not automatically apply the studio service-provider exception to diagnostics. Google processes its service data under its Privacy Policy.",
         "links": [
           {
             "label": "Google Privacy Policy",
             "url": "https://policies.google.com/privacy"
+          },
+          {
+            "label": "Google Play Data safety rules",
+            "url": "https://support.google.com/googleplay/android-developer/answer/10787469?hl=en"
           }
         ]
       },
       {
+        "id": "access_cache",
+        "title": "7. Local purchased-access cache",
+        "body": "Separately from progress and songs, the app maintains a local access-rights cache with the product identifier, app package, environment and a boolean purchased-access flag (owned). This file contains no token, account or email, card data or order identifier. It retains the local access state for the code to read; it is not a copy of the Google Play account and does not synchronize progress. Store queries reconcile this state: a valid response may change access, while a network failure does not prove absence of a purchase. Having a cache does not establish validated offline restart. Purchasing, price queries and restoration require a network connection; we do not guarantee purchased access after an offline restart before physical validation. The cache remains until its state is updated or local data is removed."
+      },
+      {
         "id": "retention",
-        "title": "7. Retention and deletion of local data",
-        "body": "In Settings, “Reset progress” requires the correct answer to a numerical challenge and confirmation. It resets stage progress, keepsakes and read pages; the language, volumes and bonus music library remain. Answering the challenge does not legally verify age or identity. Resetting may retain the previous local progress copy. In the bonus library, deleting a song removes it from the active list after confirmation; a previous file copy may remain on the device. To remove preferences, songs, progress and local copies, use the app's clear storage/data option in Android settings. Uninstallation and any system restoration depend on device settings. The studio cannot remotely delete or recover these files. In the purchase version, resetting progress or removing local files does not cancel a purchase in the Google Play account. The relationship between reset, access cache and restoration must be checked in the final integration. Local removal does not automatically delete purchase records or diagnostics already sent to Google; these are managed through that service's channels."
+        "title": "8. Retention and deletion of local data",
+        "body": "In Settings, “Reset progress” requires a correct numerical answer and confirmation. It resets stages, keepsakes and read pages while preserving language, volumes, the music library and purchase rights. A previous local progress copy may remain. Deleting a bonus song removes it from the active list after confirmation, but a previous copy may remain. “Restore purchase” queries Google Play to recover access rights; it does not restore deleted progress or songs. To remove preferences, songs, progress, copies, the access cache and local queues, use clear storage/data in Android settings. This does not cancel the purchase in the Play account; recovering access requires a new store query/restoration. The Release version disables automatic app backup (allowBackup=false); we offer no studio-server synchronization or file recovery. Uninstalling and clearing data may cause loss of local files. Local removal does not delete purchase records or diagnostics already sent to Google. The studio cannot remotely delete files on the device or records on Google servers; data processed by Google must be managed through its channels and policies, without promises of an unconfirmed deletion deadline."
       },
       {
         "id": "security",
-        "title": "8. Sharing and security",
-        "body": "We do not sell personal data. Progress, preferences and bonus compositions stay in the app data area, whose protection also depends on the system, updates and device controls. Future purchases use Google Play services. Email support and visits to this document website are separate processing activities, explained in sections 9 and 10. We do not promise absolute security or a retention or deletion period for data controlled by third parties."
+        "title": "9. Sharing and security",
+        "body": "We do not sell personal data. Progress, preferences, compositions and the cache stay in the app data area, whose protection also depends on the system, updates and device controls. Purchase information and diagnostics described in sections 5 and 6 are processed by Google services. Email support and website visits are separate activities, described in sections 10 and 11. We do not promise absolute security or third-party data retention or deletion within an unconfirmed period."
       },
       {
         "id": "contact",
-        "title": "9. Contact and privacy rights",
+        "title": "10. Contact and privacy rights",
         "body": "The publisher is VC Develop Studio. Parents and guardians may contact vcdevelopstudio@gmail.com for support, privacy information and requests to access, correct or delete data sent to the studio, under applicable law. When you send a message, you provide your email address and chosen content; we use this information to handle the request and retain it for the time needed for support and applicable legal obligations. Gmail used for support and your email provider process messages under their policies. Avoid sending children's names, photos or other personal data unnecessary to explain the problem. There is no studio-managed game account to delete. The studio holds no copy of progress or songs to recover or delete remotely."
       },
       {
         "id": "website",
-        "title": "10. Visits to the document website",
+        "title": "11. Visits to the document website",
         "body": "The document website uses GitHub Pages and requires no login. Its code adds no advertising, usage analytics, cookies or preference storage in the browser. Opening a page connects your browser to the hosting provider. GitHub states that it logs and stores visitors' IP addresses for security, even without login. This processing is separate from game operation and follows GitHub's policies. Links to these documents open the browser and may require a connection.",
         "links": [
           {
@@ -152,26 +170,26 @@
       },
       {
         "id": "changes",
-        "title": "11. Changes and effective status",
-        "body": "This draft does not announce purchase availability or publication of a new game version. It will be reviewed before the commercial version to match the services and flows actually used. After taking effect, the policy may be updated when the game, its services or applicable requirements change; the date at the beginning will indicate the revision."
+        "title": "12. Changes and effective status",
+        "body": "This policy was updated on October 12, 2026 to describe the commercial integration in version 0.1.0, code 5, prepared for closed testing. We may revise it when the game, its services or applicable requirements change, updating the opening date. An implemented integration does not establish physical validation of transactions, acknowledgment, restoration or offline restart. This revision does not announce approval or game availability on Google Play."
       }
     ]
   },
   "es-ES": {
     "title": "Política de Privacidad",
-    "updated": "Borrador del 10 de octubre de 2026 — futura versión con compras; no vigente.",
+    "updated": "Actualizada el 12 de octubre de 2026",
     "publisher": "Responsable/editor: VC Develop Studio",
     "contact": "vcdevelopstudio@gmail.com",
     "sections": [
       {
         "id": "scope",
         "title": "1. Aplicación de esta política",
-        "body": "Este borrador de Política de Privacidad se preparó para la futura versión de Tico e Lili: Mistérios do Fundo do Mar con compras mediante Google Play Billing. Se dirige a madres, padres y tutores. El juego incluye actividades sobre el fondo del mar, un libro de descubrimientos y un bono musical, en portugués, inglés y español. La versión de desarrollo actual todavía no integra compras. Este borrador debe comprobarse y actualizarse según la integración comercial final antes de entrar en vigor."
+        "body": "Esta Política de Privacidad describe Tico e Lili: Mistérios do Fundo do Mar en su versión comercial 0.1.0, código 5, preparada para pruebas cerradas, con integración de Google Play Billing 9.1.0. Se dirige a madres, padres y tutores. El juego incluye actividades sobre el fondo del mar, un libro de descubrimientos y un bono musical, en portugués, inglés y español. Describir esta versión no anuncia aprobación de Google ni disponibilidad del juego en Play."
       },
       {
         "id": "children",
         "title": "2. Menores y datos personales",
-        "body": "El juego no solicita registro del menor, nombre, correo electrónico, documento de identidad, fecha de nacimiento, foto ni ubicación. Las actividades no utilizan cámara ni micrófono. El proyecto actual no tiene anuncios, chat, cuenta propia, servidor del estudio ni integración de análisis del comportamiento durante el juego. La futura integración de compras implica tratamiento de datos por los servicios de Google, descrito en las secciones 5 y 6; la ausencia de anuncios no significa ausencia de recogida por terceros. Las personas responsables deben supervisar el uso del dispositivo y las decisiones de compra."
+        "body": "El juego no solicita registro del menor, nombre, correo electrónico, documento de identidad, fecha de nacimiento, foto ni ubicación. Las actividades no utilizan cámara ni micrófono. No hay anuncios, chat, cuenta propia, servidor del estudio, SDK de anuncios ni análisis del comportamiento durante el juego. Google Play Billing trata información de compra y diagnósticos técnicos según las secciones 5 y 6, incluso antes del área de la persona responsable y sin compra. El desafío matemático es una barrera de navegación destinada a la persona adulta; no verifica jurídicamente edad, identidad o consentimiento ni es una pantalla neutral de selección de edad. Las personas responsables deben supervisar el dispositivo y utilizar los controles de la cuenta Google Play."
       },
       {
         "id": "local_data",
@@ -186,37 +204,46 @@
       {
         "id": "billing",
         "title": "5. Compra y restauración mediante Google Play",
-        "body": "El modelo previsto ofrece las fases 1 a 3 gratis y una compra única, no consumible, para acceder a las fases 4 a 10, sin suscripción ni cobros recurrentes. El acceso sigue sujeto al avance mediante fases completadas. Google Play procesa el pago. La integración prevista utilizará información del producto y la transacción, como precio localizado, identificador del producto, estado de la compra, token de compra y estado de reconocimiento, para consultar, confirmar o restaurar el acceso y reconocer la transacción ante la tienda. El estudio no solicita datos de tarjeta. Comprar, consultar y restaurar pueden requerir conexión y la cuenta Google Play utilizada para la compra. El almacenamiento del derecho de acceso y de los metadatos de transacción, incluidos los posibles tokens, deberá describirse según la implementación final; este borrador no afirma que hoy exista una caché de acceso, verificación por servidor o almacenamiento de tokens. El desafío numérico previsto antes del área de compra es una barrera destinada a la persona adulta responsable, no una verificación jurídica de edad, identidad o consentimiento."
+        "body": "Las fases 1 a 3 son gratuitas. Una compra única, permanente y no consumible concede el derecho de acceso a las fases 4 a 10, sin suscripción ni cobros recurrentes. La compra conserva la progresión: no completa fases ni revela recuerdos o páginas automáticamente. El bono musical exige completar la fase 10. El precio localizado se consulta en Google Play y se muestra antes de confirmar; esta política no establece un precio universal. Google Play procesa el pago; la aplicación no accede a datos de tarjeta. La integración recibe producto, estado y token de compra y estado de reconocimiento para consultar el acceso y reconocer la transacción (ACK) ante la tienda. Los tokens y estados devueltos por Play se tratan en memoria para estas operaciones; la caché propia del juego no guarda tokens, cuentas, correo, datos de tarjeta ni identificadores de pedido. No hay verificación por servidor del estudio. La versión comercial inicia Billing y las consultas de catálogo y propiedad al abrir la aplicación, vuelve a consultar al regresar y consulta Google Play cuando la persona responsable elige “Restaurar”. La compra, el precio, las consultas y la restauración requieren conexión y servicios de la tienda; recuperar el acceso depende de la cuenta utilizada para comprar. El tratamiento en memoria por la aplicación no implica que Google trate todos los registros de forma efímera. El historial y la información de compra sirven para la funcionalidad de compra y restauración, en relación con la compra opcional o la consulta de un derecho existente. En el formulario Seguridad de los datos, la transmisión esperada para una acción iniciada por el usuario puede acogerse a la excepción de comunicación de datos de esa acción; esto no significa ausencia de transmisión a Google ni se aplica automáticamente a los diagnósticos del SDK."
       },
       {
         "id": "diagnostics",
         "title": "6. Servicios de Google y diagnósticos técnicos",
-        "body": "La futura biblioteca de compras puede tratar y enviar a Google datos técnicos de la aplicación y del dispositivo e identificadores de operaciones o de la instancia de la biblioteca para diagnóstico y funcionamiento del servicio. Este tratamiento debe comprobarse en la versión efectivamente integrada, incluida la inicialización antes de una compra, el envío automático, la existencia de una cola local persistente y la posibilidad de desactivación. En los juegos de referencia, Billing 9.1.0 utiliza transporte de diagnósticos y cola local; esa configuración no queda automáticamente confirmada para este juego. No prometemos anonimización, tratamiento solo en memoria ni ausencia de diagnósticos cuando la familia no compra. Antes de la publicación, esta sección deberá informar los datos, finalidades, destinatarios y condiciones reales de recogida de la integración elegida. Google trata los datos de sus servicios según su propia Política de Privacidad. El sistema y la tienda también pueden tratar instalación, actualizaciones y copias de seguridad según sus ajustes.",
+        "body": "La versión comercial integra GodotGooglePlayBilling 3.3.0 y Google Play Billing Library 9.1.0. La inspección estática del SDK y del paquete final identificó el mecanismo de diagnósticos PLAY_BILLING_LIBRARY y el transporte DataTransport/CCT. Registra eventos operativos de éxito, fallo y conexión para diagnóstico, rendimiento y funcionamiento del servicio, remitidos a Google. El mecanismo incluye un identificador aleatorio por instancia/sesión de la biblioteca, paquete de la aplicación, versión del SDK, versión de Android, marca, modelo, fabricante, información de memoria e identificador de compilación del sistema (Build.FINGERPRINT, no el número de serie Build.SERIAL). El identificador de sesión no es un identificador de publicidad (AAID), IMEI ni Android ID persistente; no garantiza anonimato. DataTransport 3.1.8 mantiene una cola local persistente en SQLite para el envío posterior; por tanto, el tratamiento no es solo en memoria ni efímero. Billing se inicia antes del área parental y sin compra. El juego no ofrece una opción para desactivar estos diagnósticos y no comprar no los desactiva. Los diagnósticos e identificadores técnicos son distintos del progreso y del análisis de las actividades; las dependencias de codificación y transporte no equivalen a Firebase Analytics o Crashlytics. Esta descripción se basa en la inspección estática de un mecanismo alcanzable, no en una captura completa del tráfico ni una auditoría de servidores Google. No se han confirmado anonimización, plazos de conservación ni eliminación automática en Google. La clasificación como Diagnósticos y Dispositivo u otros IDs, recogidos automáticamente, obligatorios y no efímeros, para funcionalidad y análisis técnico, es una interpretación fundamentada de las reglas de Seguridad de los datos, no una aprobación específica de Google. El envío a Google es distinto de una compra iniciada por el usuario; no aplicamos automáticamente a los diagnósticos la excepción de proveedor en nombre del estudio. Google trata los datos de sus servicios según su Política de Privacidad.",
         "links": [
           {
             "label": "Política de Privacidad de Google",
             "url": "https://policies.google.com/privacy"
+          },
+          {
+            "label": "Reglas de Seguridad de los datos de Google Play",
+            "url": "https://support.google.com/googleplay/android-developer/answer/10787469?hl=en"
           }
         ]
       },
       {
+        "id": "access_cache",
+        "title": "7. Caché local del acceso comprado",
+        "body": "Separadamente del progreso y las canciones, la aplicación mantiene una caché local del derecho de acceso con identificador del producto, paquete de la aplicación, entorno e indicador booleano de acceso comprado (owned). Este archivo no contiene token, cuenta o correo, datos de tarjeta ni identificador de pedido. Conserva el estado local de acceso para su lectura por el código; no es una copia de la cuenta Google Play ni sincroniza el progreso. Las consultas a la tienda concilian este estado: una respuesta válida puede modificar el acceso, mientras que un fallo de red no demuestra ausencia de compra. La existencia de la caché no acredita un reinicio sin conexión validado. Comprar, consultar el precio y restaurar requieren red; no garantizamos acceso comprado tras reiniciar sin conexión antes de la validación física. La caché permanece hasta actualizar su estado o eliminar los datos locales."
+      },
+      {
         "id": "retention",
-        "title": "7. Conservación y eliminación de datos locales",
-        "body": "En Ajustes, “Restablecer progreso” pide la respuesta correcta a una operación numérica y la confirmación. La acción reinicia el avance de las fases, los recuerdos y las páginas leídas; conserva el idioma, los volúmenes y la biblioteca musical del bono. Responder al desafío no verifica jurídicamente la edad ni la identidad. El restablecimiento puede conservar la copia local anterior del progreso. En la biblioteca del bono, borrar una canción la retira de la lista activa tras confirmar; una copia anterior del archivo puede permanecer en el dispositivo. Para eliminar preferencias, canciones, progreso y copias locales, utilice la opción de borrar almacenamiento/datos de la aplicación en los ajustes de Android. La desinstalación y una posible restauración por el sistema dependen de los ajustes del dispositivo. El estudio no borra ni recupera estos archivos remotamente. En la versión con compras, restablecer el progreso o borrar archivos locales no equivale a cancelar la compra en la cuenta Google Play. La relación entre restablecimiento, caché de acceso y restauración deberá comprobarse en la integración final. El borrado local no elimina automáticamente registros de compra o diagnósticos ya enviados a Google; esos datos se gestionan mediante los canales del servicio."
+        "title": "8. Conservación y eliminación de datos locales",
+        "body": "En Ajustes, “Restablecer progreso” exige una respuesta numérica correcta y confirmación. Reinicia fases, recuerdos y páginas leídas, conservando idioma, volúmenes, biblioteca musical y derecho de compra. Puede quedar una copia local anterior del progreso. Borrar una canción del bono la retira de la lista activa tras confirmar, pero puede quedar una copia anterior. “Restaurar compra” consulta Google Play para recuperar el derecho de acceso; no restaura progreso ni canciones borrados. Para eliminar preferencias, canciones, progreso, copias, caché de acceso y colas locales, utilice borrar almacenamiento/datos en los ajustes de Android. Esto no cancela la compra en la cuenta Play; recuperar el acceso requiere una nueva consulta/restauración ante la tienda. La versión Release desactiva el backup automático de la aplicación (allowBackup=false); no ofrecemos sincronización ni recuperación de archivos mediante un servidor del estudio. Desinstalar y borrar datos pueden causar pérdida de archivos locales. El borrado local no elimina registros de compra ni diagnósticos ya enviados a Google. El estudio no borra remotamente archivos del dispositivo ni registros en servidores Google; los datos tratados por Google deben gestionarse mediante sus canales y políticas, sin prometer un plazo de eliminación no confirmado."
       },
       {
         "id": "security",
-        "title": "8. Comunicación de datos y seguridad",
-        "body": "No vendemos datos personales. El progreso, las preferencias y las composiciones del bono permanecen en el área de datos de la aplicación, cuya protección también depende del sistema, sus actualizaciones y los controles del dispositivo. La futura compra utiliza servicios de Google Play. La atención por correo y la visita al sitio de estos documentos son tratamientos separados, explicados en las secciones 9 y 10. No prometemos seguridad absoluta ni un plazo de conservación o eliminación de datos controlados por terceros."
+        "title": "9. Comunicación de datos y seguridad",
+        "body": "No vendemos datos personales. El progreso, las preferencias, las composiciones y la caché permanecen en el área de datos de la aplicación, cuya protección también depende del sistema, las actualizaciones y los controles del dispositivo. La información de compra y los diagnósticos de las secciones 5 y 6 son tratados por servicios Google. El soporte por correo y las visitas al sitio son actividades separadas, descritas en las secciones 10 y 11. No prometemos seguridad absoluta ni conservación o eliminación de datos de terceros dentro de un plazo no confirmado."
       },
       {
         "id": "contact",
-        "title": "9. Contacto y derechos de privacidad",
+        "title": "10. Contacto y derechos de privacidad",
         "body": "El responsable/editor es VC Develop Studio. Madres, padres y tutores pueden escribir a vcdevelopstudio@gmail.com para soporte, información sobre privacidad y solicitudes de acceso, rectificación o eliminación de los datos enviados al estudio, conforme a la legislación aplicable. Al enviar un mensaje, proporciona su dirección de correo y el contenido elegido; utilizamos esa información para atender la solicitud y la conservamos durante el tiempo necesario para la atención y las obligaciones legales aplicables. Gmail utilizado en la atención y su proveedor de correo tratan los mensajes según sus políticas. Evite enviar nombres, fotos u otros datos personales del menor que no sean necesarios para explicar el problema. No existe cuenta propia del juego que eliminar. El estudio no mantiene copias del progreso ni de las canciones para recuperarlas o borrarlas remotamente."
       },
       {
         "id": "website",
-        "title": "10. Visitas al sitio de los documentos",
+        "title": "11. Visitas al sitio de los documentos",
         "body": "El sitio de los documentos utiliza GitHub Pages y no exige iniciar sesión. Su código no añade anuncios, herramientas de análisis de uso, cookies ni almacenamiento de preferencias en el navegador. Al abrir las páginas, el navegador se comunica con el alojamiento. GitHub informa que registra y almacena la dirección IP de los visitantes por seguridad, incluso sin iniciar sesión. Este tratamiento es independiente del funcionamiento del juego y sigue las políticas de GitHub. Los enlaces a estos documentos abren el navegador y pueden requerir conexión.",
         "links": [
           {
@@ -231,8 +258,8 @@
       },
       {
         "id": "changes",
-        "title": "11. Cambios y vigencia",
-        "body": "Este borrador no anuncia la disponibilidad de compras ni la publicación de una nueva versión del juego. Se revisará antes de la versión comercial para reflejar los servicios y flujos efectivamente utilizados. Tras entrar en vigor, la política podrá actualizarse cuando cambien el juego, sus servicios o los requisitos aplicables; la fecha inicial indicará la revisión."
+        "title": "12. Cambios y vigencia",
+        "body": "Esta política se actualizó el 12 de octubre de 2026 para describir la integración comercial de la versión 0.1.0, código 5, preparada para pruebas cerradas. Podemos revisarla cuando cambien el juego, sus servicios o los requisitos aplicables, actualizando la fecha inicial. La integración implementada no acredita validación física de transacciones, reconocimiento, restauración ni reinicio sin conexión. Esta revisión no anuncia aprobación ni disponibilidad del juego en Google Play."
       }
     ]
   }
