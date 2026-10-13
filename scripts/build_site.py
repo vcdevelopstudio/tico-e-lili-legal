@@ -12,6 +12,10 @@ def public_files():
             files.extend(ROOT / game / folder / name for name in ['privacy-policy.html', 'terms-of-use.html'])
         files.append(ROOT / game / 'assets/legal.css')
     files.extend(ROOT / 'fauna-flora-brasil/assets' / name for name in ['br.svg', 'us.svg', 'es.svg'])
+    for folder in ['', 'en', 'es']:
+        files.extend(ROOT / 'viagem-pelo-espaco' / folder / name
+                     for name in ['privacy-policy.html', 'terms-of-use.html'])
+    files.append(ROOT / 'viagem-pelo-espaco/assets/legal.css')
     return files
 
 

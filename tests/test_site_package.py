@@ -15,7 +15,7 @@ class PackageTest(unittest.TestCase):
             output = Path(temporary) / 'site'
             module.build(output)
             files = {p.relative_to(output).as_posix() for p in output.rglob('*') if p.is_file()}
-            self.assertEqual(len(files), 32)
+            self.assertEqual(len(files), 39)
             self.assertFalse(any(p.startswith(('docs/', 'tests/', 'scripts/', '.github/')) for p in files))
             self.assertFalse(any(p.endswith(('.png', '.py', '.jpg')) for p in files))
             for relative in files:
@@ -26,3 +26,7 @@ class PackageTest(unittest.TestCase):
                 for document in ['privacy-policy.html', 'terms-of-use.html']:
                     self.assertIn(f'misterios-fundo-do-mar/{folder}{document}', files)
             self.assertIn('misterios-fundo-do-mar/assets/legal.css', files)
+            for folder in ['', 'en/', 'es/']:
+                for document in ['privacy-policy.html', 'terms-of-use.html']:
+                    self.assertIn(f'viagem-pelo-espaco/{folder}{document}', files)
+            self.assertIn('viagem-pelo-espaco/assets/legal.css', files)
