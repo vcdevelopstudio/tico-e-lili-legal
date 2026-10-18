@@ -15,9 +15,11 @@ class PackageTest(unittest.TestCase):
             output = Path(temporary) / 'site'
             module.build(output)
             files = {p.relative_to(output).as_posix() for p in output.rglob('*') if p.is_file()}
-            self.assertEqual(len(files), 39)
-            self.assertFalse(any(p.startswith(('docs/', 'tests/', 'scripts/', '.github/')) for p in files))
-            self.assertFalse(any(p.endswith(('.png', '.py', '.jpg')) for p in files))
+            self.assertEqual(len(files), 41)
+            self.assertFalse(any(p.startswith(('tasks/', 'docs/', 'tests/', 'scripts/', '.github/')) for p in files))
+            self.assertEqual({p for p in files if p.endswith(('.png', '.py', '.jpg'))},
+                             {'catalogo/v1/icons/cristal-arco-iris-v2.png'})
+            self.assertIn('catalogo/v1/jogos.json', files)
             for relative in files:
                 self.assertEqual((output / relative).read_bytes(), (ROOT / relative).read_bytes())
             self.assertIn('fauna-flora-brasil/es/privacy-policy.html', files)

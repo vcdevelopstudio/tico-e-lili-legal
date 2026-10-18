@@ -16,6 +16,10 @@ def public_files():
         files.extend(ROOT / 'viagem-pelo-espaco' / folder / name
                      for name in ['privacy-policy.html', 'terms-of-use.html'])
     files.append(ROOT / 'viagem-pelo-espaco/assets/legal.css')
+    files.extend(ROOT / name for name in [
+        'catalogo/v1/jogos.json',
+        'catalogo/v1/icons/cristal-arco-iris-v2.png',
+    ])
     return files
 
 
