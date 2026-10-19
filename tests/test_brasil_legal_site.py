@@ -9,7 +9,7 @@ from urllib.parse import urlsplit
 ROOT = Path(__file__).resolve().parents[1]
 BASE = ROOT / "fauna-flora-brasil"
 LANGUAGES = {"pt-BR": "", "en-US": "en", "es-ES": "es"}
-DOCUMENTS = {"terms-of-use.html": 8, "privacy-policy.html": 9}
+DOCUMENTS = {"terms-of-use.html": 9, "privacy-policy.html": 10}
 
 
 class Page(HTMLParser):
