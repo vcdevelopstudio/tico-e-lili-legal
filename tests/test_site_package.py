@@ -15,7 +15,7 @@ class PackageTest(unittest.TestCase):
             output = Path(temporary) / 'site'
             module.build(output)
             files = {p.relative_to(output).as_posix() for p in output.rglob('*') if p.is_file()}
-            self.assertEqual(len(files), 41)
+            self.assertEqual(len(files), 42)
             self.assertFalse(any(p.startswith(('tasks/', 'docs/', 'tests/', 'scripts/', '.github/')) for p in files))
             self.assertEqual({p for p in files if p.endswith(('.png', '.py', '.jpg'))},
                              {'catalogo/v1/icons/cristal-arco-iris-v2.png'})

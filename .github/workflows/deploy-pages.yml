@@ -4,6 +4,14 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+    inputs:
+      bootstrap_mar_catalog:
+        description: Allow first publication of the Mar feed if it returns HTTP 404
+        required: false
+        type: boolean
+        default: false
+  schedule:
+    - cron: '17 */6 * * *'
 
 permissions:
   contents: read
@@ -22,6 +30,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Renew Mar catalog metadata
+        env:
+          BOOTSTRAP_MAR_CATALOG: ${{ github.event_name == 'workflow_dispatch' && inputs.bootstrap_mar_catalog }}
+        run: |
+          if [ "$BOOTSTRAP_MAR_CATALOG" = "true" ]; then
+            python3 scripts/refresh_catalog.py --bootstrap
+          else
+            python3 scripts/refresh_catalog.py
+          fi
       - name: Test site
         run: python3 -m unittest discover -s tests -v
       - name: Package public files only

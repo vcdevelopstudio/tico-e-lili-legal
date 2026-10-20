@@ -151,3 +151,41 @@ Conferidos os seis HTML, PT/EN/ES, numeração 13/9, links e data; a geração
 foi determinística. Feed e ícone públicos responderam diretamente por HTTPS;
 o JSON correspondeu ao arquivo local e o ícone ao hash declarado. O pacote
 e os documentos dos outros jogos não foram alterados.
+
+## Ativação solicitada em 20/10/2026
+
+O responsável pediu habilitar o recurso para preparar o lançamento. A
+configuração real do Mar foi ligada para a próxima build, com apenas o
+Cristal público na allowlist e o Mar fechado excluído. Instalações anteriores
+não mudam por atualizar documentos ou configuração-fonte.
+
+O smoke test isolado reproduziu quatro falhas: recurso desligado,
+endpoint/hosts vazios, pacotes vazios e feed incompatível. A revisão detectou
+que o Brasil exige exatamente os campos do schema original; acrescentar
+has_in_app_purchases ao feed compartilhado quebraria esse cliente. Por isso
+foi criada a variante https://vcdevelopstudio.github.io/tico-e-lili-legal/catalogo/mar/v1/jogos.json
+com o campo de compra exigido pelo Mar, preservando integralmente o feed
+catalogo/v1/jogos.json do Brasil e os mesmos ícones aprovados.
+
+O workflow Pages renova somente revision e valid_until dessa variante em
+cada deploy e a cada 6 horas. Usa revisão maior que a fonte, a publicação
+anterior e o relógio UTC em segundos, dentro do limite inteiro suportado.
+A validade é de 23 horas, respeitando o teto de 24h do cliente. O JSON
+versionado é uma semente de curadoria; os metadados do artefato publicado
+são derivados no build, sem commits automáticos ou mudanças de ofertas.
+Nenhum cron é garantia de execução: atraso ou falha podem tornar a lista
+indisponível. O cliente continua recusando dados expirados ou regressivos.
+
+Os seis documentos descrevem o catálogo habilitado na configuração da
+próxima versão, sem alegar que um APK/AAB antigo no teste fechado foi
+atualizado. Os trechos Billing permanecem preservados. Ativação de fonte,
+teste desktop, build Android, instalação, escuta e upload Play são resultados
+distintos e devem ser comunicados separadamente.
+
+Verificação da ativação: 28 testes Python e 193 verificações isoladas Godot
+passaram (32 policy, 16 service, 8 integrity, 15 flow, 122 runtime). O teste
+HTTPS real será registrado após servir a variante Mar. Revisão independente
+confirmou preservação do schema Brasil e bootstrap restrito: HTTP 404 falha
+normalmente; apenas workflow_dispatch com bootstrap_mar_catalog=true permite
+a primeira publicação. Renovações futuras usam a revisão pública anterior
+e falham em vez de reiniciar a sequência se o endpoint estiver ausente.
