@@ -189,3 +189,41 @@ confirmou preservação do schema Brasil e bootstrap restrito: HTTP 404 falha
 normalmente; apenas workflow_dispatch com bootstrap_mar_catalog=true permite
 a primeira publicação. Renovações futuras usam a revisão pública anterior
 e falham em vez de reiniciar a sequência se o endpoint estiver ausente.
+
+
+## Reconferência restrita ao site em 20/10/2026
+
+Escopo confirmado pelo responsável: somente tico-e-lili-legal; nenhum acesso
+ou alteração no jogo, builds, versões ou US nesta etapa. Fatos recebidos do
+chat de implementação: PROD0.1.0/code7 é AAB candidato sem upload;
+HML0.1.0-hml.040 em validação; catálogo habilitado na configuração candidata,
+sem homologação de operação enquanto o feed não estiver disponível.
+
+Atualizadas scope, more_games e encerramento dos dois documentos em PT/EN/ES:
+candidata/sem disponibilidade Play; possibilidade de usar conteúdo já baixado
+e ainda válido offline; prazo mínimo entre valid_until e24h; verificações de
+expiração/invalidação/revogação/revisão e limite de conhecer alterações remotas;
+nenhuma garantia de execução contínua do agendamento. Convite parental com
+arquivos locais PT/EN/ES. Rede por visita/Atualizar e downloads antes do gate,
+metadados/IP da hospedagem e ausência de identificadores adicionais do cliente
+preservados. As demais seções, inclusive Billing, são idênticas ao commit24aa5d3.
+Fontes oficiais de IP/finalidade e retenção geral do GitHub reconferidas:
+https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#data-collection
+https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement#security-and-retention
+Nenhuma duração específica de logs do Pages foi comprovada; não prometer
+anonimização ou prazo de exclusão.
+
+30 testes locais passaram. Novos testes da variante Mar comprovam oferta única
+do Cristal, compras internas, idiomas, host/hash do ícone, compatibilidade do
+feed original Brasil e renovação23h sem trocar curadoria. O feed original,
+ícone, workflow e permissões não foram modificados nesta reconferência.
+
+Deploy39420265380 de24aa5d3 falhou em20/10/2026 às09:10:36-03:00 na consulta
+inicial404, antes de testes/pacote/publicação. Último deploy observado com
+sucesso39417584143, commit4d214af, às08:48:40-03:00. A primeira publicação usa
+exclusivamente o workflow_dispatch já existente: branch main, opção
+bootstrap_mar_catalog=true. Sem esse evento explícito,404 interrompe a
+renovação. Credencial CLI já respondeu403; não contornar/reabrir a alternativa
+por mensagem de commit rejeitada nem alterar permissões. Responsável informado
+da ação exata. Commit no Git, testes locais e JSON semente não são prova do
+conteúdo efetivamente servido; reconferir feed/ícone/6páginas após deploy.
