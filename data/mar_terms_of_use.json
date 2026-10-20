@@ -1,14 +1,14 @@
 {
   "pt-BR": {
     "title": "Termos de Uso",
-    "updated": "Atualizados em 12 de outubro de 2026",
+    "updated": "Atualizados em 20 de outubro de 2026",
     "publisher": "Responsável/publicador: VC Develop Studio",
     "contact": "vcdevelopstudio@gmail.com",
     "sections": [
       {
         "id": "scope",
         "title": "1. Sobre o jogo e estes termos",
-        "body": "Estes Termos de Uso descrevem Tico e Lili: Mistérios do Fundo do Mar na versão comercial 0.1.0, código 5, preparada para teste fechado, com Google Play Billing 9.1.0. Dirigem-se aos pais e responsáveis que acompanham a criança. O jogo reúne brincadeiras sobre o fundo do mar, um livro de descobertas e um bônus musical, em português, inglês e espanhol. Esta revisão descreve a integração implementada; não anuncia aprovação nem disponibilidade do jogo na Google Play."
+        "body": "Estes Termos de Uso descrevem Tico e Lili: Mistérios do Fundo do Mar na versão comercial 0.1.0, código 5, preparada para teste fechado, com Google Play Billing 9.1.0. Dirigem-se aos pais e responsáveis que acompanham a criança. O jogo reúne brincadeiras sobre o fundo do mar, um livro de descobertas e um bônus musical, em português, inglês e espanhol. Esta revisão descreve a integração implementada; não anuncia aprovação nem disponibilidade do jogo na Google Play. O catálogo “Mais jogos” permanece desativado na configuração verificada em 20 de outubro de 2026; os fluxos dessa seção só se aplicam quando o recurso estiver habilitado."
       },
       {
         "id": "family",
@@ -33,7 +33,7 @@
       {
         "id": "privacy",
         "title": "6. Privacidade e serviços de terceiros",
-        "body": "A Política de Privacidade descreve progresso, preferências, músicas do bônus, cache de acesso, suporte por e-mail e visitas ao site, além dos dados de compra e diagnósticos do Google Play Billing 9.1.0. Não há anúncios, conta própria, chat, backend do estúdio ou análise comportamental das brincadeiras. O Billing inicia antes da área parental e sem compra; seus diagnósticos operacionais são encaminhados ao Google e podem ficar em fila persistente local. Não há opção no jogo para desativá-los, e não comprar não os desativa. Não prometemos anonimização nem exclusão de registros Google pelo estúdio. O aplicativo não acessa dados de cartão; tokens de compra são tratados em memória para consulta e reconhecimento e não são gravados no cache próprio. Abrir os documentos legais leva ao navegador e exige conexão para carregar o site."
+        "body": "A Política de Privacidade descreve progresso, preferências, músicas do bônus, cache de acesso, suporte por e-mail e visitas ao site, além dos dados de compra e diagnósticos do Google Play Billing 9.1.0. Não há publicidade de terceiros, conta própria, chat, backend do estúdio ou análise comportamental das brincadeiras. O Billing inicia antes da área parental e sem compra; seus diagnósticos operacionais são encaminhados ao Google e podem ficar em fila persistente local. Não há opção no jogo para desativá-los, e não comprar não os desativa. Não prometemos anonimização nem exclusão de registros Google pelo estúdio. O aplicativo não acessa dados de cartão; tokens de compra são tratados em memória para consulta e reconhecimento e não são gravados no cache próprio. Abrir os documentos legais leva ao navegador e exige conexão para carregar o site."
       },
       {
         "id": "rights",
@@ -41,22 +41,27 @@
         "body": "O software, os personagens, as ilustrações, os textos, as músicas incluídas no aplicativo e os demais materiais estão sujeitos aos direitos de seus respectivos titulares e às licenças aplicáveis. O uso do jogo não transfere a propriedade desses materiais. Reprodução, distribuição, alteração ou exploração comercial dependem de autorização ou de permissão na licença aplicável, respeitadas as possibilidades previstas em lei. Salvar composições no bônus não constitui sua publicação pelo estúdio; elas permanecem no aparelho."
       },
       {
+        "id": "more_games",
+        "title": "8. Seção voluntária Mais jogos",
+        "body": "“Mais jogos” é uma área opcional da inicial destinada a apresentar outros aplicativos do mesmo publicador. O catálogo remoto permanece desativado na configuração do Mar verificada em 20 de outubro de 2026; esta revisão não o ativa nem anuncia uma versão com ofertas online já disponíveis. Quando habilitado, consultará a lista e os ícones necessários na visita ou atualização voluntária, antes da barreira parental para abrir a loja. O conteúdo será entregue pelo GitHub Pages, no host vcdevelopstudio.github.io, conforme a seção 12 da Política de Privacidade. As ofertas dependem da validade dos dados e da manutenção pelo publicador; sem conteúdo válido, a área pode ficar vazia ou indisponível, permitindo voltar ou tentar atualizar. Não há garantia de lista offline ou retirada instantânea de uma oferta remota. O catálogo deve identificar nome, ícone, resumo e condições ou compras internas dos outros aplicativos; não promete gratuidade integral ou disponibilidade em todos os países, contas ou aparelhos. Somente aplicativos com publicação pública comprovada podem ser apresentados; testes fechados não constituem oferta pública. Escolher “Ver na Google Play” leva ao desafio parental para aquele destino e ação. Somente a resposta correta, com destino e revisão ainda válidos, permite solicitar a abertura da ficha oficial na loja ou navegador. Cancelar ou errar não abre a ficha; nova ação exige nova seleção e novo desafio. O convite de voz utiliza os recursos locais do Mar na configuração examinada. A conta não é prova jurídica de idade, identidade ou consentimento. Abrir uma ficha não instala nem compra outro aplicativo, não concede recompensa e não altera progresso ou compra do Mar. As condições e compras de cada outro aplicativo seguem sua oferta, ficha e termos próprios e não estão incluídas no desbloqueio deste jogo. O cache do catálogo, o progresso e o cache de acesso comprado são distintos. Os controles da família e da loja e os direitos obrigatórios da pessoa consumidora continuam aplicáveis."
+      },
+      {
         "id": "updates",
-        "title": "8. Funcionamento, suporte e alterações",
-        "body": "O funcionamento depende de aparelho e sistema compatíveis. O jogo pode receber correções e alterações de conteúdo. Não há promessa de ausência de falhas nem de conservação de dados após limpeza, troca de aparelho ou restauração do sistema. Pais e responsáveis podem escrever para vcdevelopstudio@gmail.com, evitando dados pessoais da criança desnecessários ao atendimento. O estúdio atende solicitações sobre os dados enviados ao suporte; dados de conta, pagamento e diagnósticos tratados pelo Google devem ser gerenciados pelos canais e políticas Google. Estes termos foram atualizados em 12 de outubro de 2026 para a versão 0.1.0, código 5, preparada para teste fechado, e podem ser revistos conforme mudanças no jogo ou requisitos aplicáveis. Esta revisão não comprova homologação física dos fluxos comerciais, aprovação ou disponibilidade do jogo na Play. Nada nestes termos limita direitos obrigatórios previstos na legislação aplicável."
+        "title": "9. Funcionamento, suporte e alterações",
+        "body": "O funcionamento depende de aparelho e sistema compatíveis. O jogo pode receber correções e alterações de conteúdo. Não há promessa de ausência de falhas nem de conservação de dados após limpeza, troca de aparelho ou restauração do sistema. Pais e responsáveis podem escrever para vcdevelopstudio@gmail.com, evitando dados pessoais da criança desnecessários ao atendimento. O estúdio atende solicitações sobre os dados enviados ao suporte; dados de conta, pagamento e diagnósticos tratados pelo Google devem ser gerenciados pelos canais e políticas Google. Estes termos foram atualizados em 20 de outubro de 2026 para a versão 0.1.0, código 5, preparada para teste fechado, e podem ser revistos conforme mudanças no jogo ou requisitos aplicáveis. Esta revisão não comprova homologação física dos fluxos comerciais, aprovação ou disponibilidade do jogo na Play. Nada nestes termos limita direitos obrigatórios previstos na legislação aplicável."
       }
     ]
   },
   "en-US": {
     "title": "Terms of Use",
-    "updated": "Updated October 12, 2026",
+    "updated": "Updated October 20, 2026",
     "publisher": "Publisher: VC Develop Studio",
     "contact": "vcdevelopstudio@gmail.com",
     "sections": [
       {
         "id": "scope",
         "title": "1. About the game and these terms",
-        "body": "These Terms of Use describe Tico e Lili: Mistérios do Fundo do Mar commercial version 0.1.0, code 5, prepared for closed testing, with Google Play Billing 9.1.0. They are addressed to parents and guardians accompanying children. The game includes underwater activities, a discovery book and a musical bonus, in Portuguese, English and Spanish. This revision describes the implemented integration; it does not announce approval or game availability on Google Play."
+        "body": "These Terms of Use describe Tico e Lili: Mistérios do Fundo do Mar commercial version 0.1.0, code 5, prepared for closed testing, with Google Play Billing 9.1.0. They are addressed to parents and guardians accompanying children. The game includes underwater activities, a discovery book and a musical bonus, in Portuguese, English and Spanish. This revision describes the implemented integration; it does not announce approval or game availability on Google Play. The “More games” catalog remains disabled in the configuration checked on October 20, 2026; the flows in that section apply only when the feature is enabled."
       },
       {
         "id": "family",
@@ -81,7 +86,7 @@
       {
         "id": "privacy",
         "title": "6. Privacy and third-party services",
-        "body": "The Privacy Policy describes progress, preferences, bonus songs, the access cache, email support and website visits, as well as Google Play Billing 9.1.0 purchase data and diagnostics. There is no advertising, studio-managed account, chat, studio backend or behavioral analytics of play. Billing starts before the parental area and without a purchase; its operational diagnostics are forwarded to Google and may stay in a persistent local queue. The game offers no option to disable them, and not purchasing does not disable them. We do not promise anonymization or deletion of Google records by the studio. The app does not access card details; purchase tokens are handled in memory for queries and acknowledgment and are not stored in the game's own cache. Opening legal documents takes readers to the browser and requires a connection to load the website."
+        "body": "The Privacy Policy describes progress, preferences, bonus songs, the access cache, email support and website visits, as well as Google Play Billing 9.1.0 purchase data and diagnostics. There is no third-party advertising, studio-managed account, chat, studio backend or behavioral analytics of play. Billing starts before the parental area and without a purchase; its operational diagnostics are forwarded to Google and may stay in a persistent local queue. The game offers no option to disable them, and not purchasing does not disable them. We do not promise anonymization or deletion of Google records by the studio. The app does not access card details; purchase tokens are handled in memory for queries and acknowledgment and are not stored in the game's own cache. Opening legal documents takes readers to the browser and requires a connection to load the website."
       },
       {
         "id": "rights",
@@ -89,22 +94,27 @@
         "body": "The software, characters, illustrations, texts, music included in the app and other materials are subject to their respective owners' rights and applicable licenses. Using the game does not transfer ownership of these materials. Reproduction, distribution, modification or commercial use requires authorization or permission under the applicable license, subject to rights provided by law. Saving bonus compositions does not publish them through the studio; they remain on the device."
       },
       {
+        "id": "more_games",
+        "title": "8. Optional More games area",
+        "body": "“More games” is an optional area on the initial menu for presenting other apps from the same publisher. The remote catalog remains disabled in the Mar configuration checked on October 20, 2026; this revision neither enables it nor announces a version with online offers already available. When enabled, it will request the list and necessary icons during a voluntary visit or refresh, before the parental gate for opening the store. GitHub Pages will deliver the content at vcdevelopstudio.github.io, as described in section 12 of the Privacy Policy. Offers depend on data validity and publisher maintenance; without valid content, the area may be empty or unavailable, with options to return or refresh. There is no guarantee of an offline list or instantaneous withdrawal of a remote offer. The catalog must identify other apps' names, icons, summaries and conditions or in-app purchases; it promises neither entirely free use nor availability in all countries, accounts or devices. Only apps with verified public publication may be presented; closed testing does not constitute a public offer. Selecting “View on Google Play” leads to the parental challenge for that destination and action. Only a correct answer, with destination and revision still valid, permits a request to open the official listing in the store or browser. Canceling or answering incorrectly does not open the listing; a new action requires a new selection and challenge. The voice invitation uses Mar's local resources in the configuration examined. The numerical challenge is not legal proof of age, identity or consent. Opening a listing does not install or purchase another app, grant rewards or change Mar progress or purchases. Each other app's conditions and purchases follow its own offer, listing and terms and are not included in this game's unlock. The catalog cache, progress and purchased-access cache are distinct. Family and store controls and mandatory consumer rights continue to apply."
+      },
+      {
         "id": "updates",
-        "title": "8. Operation, support and changes",
-        "body": "Operation depends on a compatible device and system. The game may receive fixes and content changes. There is no promise of fault-free operation or data preservation after clearing data, changing devices or system restoration. Parents and guardians may contact vcdevelopstudio@gmail.com, avoiding children's personal data unnecessary for support. The studio handles requests about data sent to support; account, payment and diagnostic data processed by Google must be managed through Google's channels and policies. These terms were updated on October 12, 2026 for version 0.1.0, code 5, prepared for closed testing, and may be revised as the game or applicable requirements change. This revision does not establish physical validation of commercial flows, approval or game availability on Play. These terms do not limit mandatory rights under applicable law."
+        "title": "9. Operation, support and changes",
+        "body": "Operation depends on a compatible device and system. The game may receive fixes and content changes. There is no promise of fault-free operation or data preservation after clearing data, changing devices or system restoration. Parents and guardians may contact vcdevelopstudio@gmail.com, avoiding children's personal data unnecessary for support. The studio handles requests about data sent to support; account, payment and diagnostic data processed by Google must be managed through Google's channels and policies. These terms were updated on October 20, 2026 for version 0.1.0, code 5, prepared for closed testing, and may be revised as the game or applicable requirements change. This revision does not establish physical validation of commercial flows, approval or game availability on Play. These terms do not limit mandatory rights under applicable law."
       }
     ]
   },
   "es-ES": {
     "title": "Términos de Uso",
-    "updated": "Actualizados el 12 de octubre de 2026",
+    "updated": "Actualizados el 20 de octubre de 2026",
     "publisher": "Responsable/editor: VC Develop Studio",
     "contact": "vcdevelopstudio@gmail.com",
     "sections": [
       {
         "id": "scope",
         "title": "1. Sobre el juego y estos términos",
-        "body": "Estos Términos de Uso describen Tico e Lili: Mistérios do Fundo do Mar en su versión comercial 0.1.0, código 5, preparada para pruebas cerradas, con Google Play Billing 9.1.0. Se dirigen a madres, padres y tutores que acompañan al menor. El juego incluye actividades sobre el fondo del mar, un libro de descubrimientos y un bono musical, en portugués, inglés y español. Esta revisión describe la integración implementada; no anuncia aprobación ni disponibilidad del juego en Google Play."
+        "body": "Estos Términos de Uso describen Tico e Lili: Mistérios do Fundo do Mar en su versión comercial 0.1.0, código 5, preparada para pruebas cerradas, con Google Play Billing 9.1.0. Se dirigen a madres, padres y tutores que acompañan al menor. El juego incluye actividades sobre el fondo del mar, un libro de descubrimientos y un bono musical, en portugués, inglés y español. Esta revisión describe la integración implementada; no anuncia aprobación ni disponibilidad del juego en Google Play. El catálogo “Más juegos” permanece desactivado en la configuración comprobada el 20 de octubre de 2026; los flujos de esa sección solo se aplican cuando la función esté habilitada."
       },
       {
         "id": "family",
@@ -129,7 +139,7 @@
       {
         "id": "privacy",
         "title": "6. Privacidad y servicios de terceros",
-        "body": "La Política de Privacidad describe progreso, preferencias, canciones del bono, caché de acceso, soporte por correo y visitas al sitio, además de datos de compra y diagnósticos de Google Play Billing 9.1.0. No hay anuncios, cuenta propia, chat, backend del estudio ni análisis del comportamiento durante el juego. Billing se inicia antes del área parental y sin compra; sus diagnósticos operativos se remiten a Google y pueden permanecer en una cola local persistente. El juego no ofrece una opción para desactivarlos y no comprar no los desactiva. No prometemos anonimización ni eliminación de registros Google por el estudio. La aplicación no accede a datos de tarjeta; los tokens de compra se tratan en memoria para consultas y reconocimiento y no se guardan en la caché propia. Abrir los documentos legales lleva al navegador y requiere conexión para cargar el sitio."
+        "body": "La Política de Privacidad describe progreso, preferencias, canciones del bono, caché de acceso, soporte por correo y visitas al sitio, además de datos de compra y diagnósticos de Google Play Billing 9.1.0. No hay publicidad de terceros, cuenta propia, chat, backend del estudio ni análisis del comportamiento durante el juego. Billing se inicia antes del área parental y sin compra; sus diagnósticos operativos se remiten a Google y pueden permanecer en una cola local persistente. El juego no ofrece una opción para desactivarlos y no comprar no los desactiva. No prometemos anonimización ni eliminación de registros Google por el estudio. La aplicación no accede a datos de tarjeta; los tokens de compra se tratan en memoria para consultas y reconocimiento y no se guardan en la caché propia. Abrir los documentos legales lleva al navegador y requiere conexión para cargar el sitio."
       },
       {
         "id": "rights",
@@ -137,9 +147,14 @@
         "body": "El software, los personajes, las ilustraciones, los textos, la música incluida en la aplicación y los demás materiales están sujetos a los derechos de sus respectivos titulares y a las licencias aplicables. Usar el juego no transfiere la propiedad de esos materiales. La reproducción, distribución, modificación o explotación comercial requieren autorización o permiso de la licencia aplicable, respetando las posibilidades previstas por ley. Guardar composiciones del bono no constituye su publicación por el estudio; permanecen en el dispositivo."
       },
       {
+        "id": "more_games",
+        "title": "8. Área voluntaria Más juegos",
+        "body": "“Más juegos” es un área opcional del menú inicial para presentar otras aplicaciones del mismo editor. El catálogo remoto permanece desactivado en la configuración del Mar comprobada el 20 de octubre de 2026; esta revisión no lo activa ni anuncia una versión con ofertas en línea ya disponibles. Cuando esté habilitado, consultará la lista y los iconos necesarios durante una visita o actualización voluntaria, antes del control parental para abrir la tienda. GitHub Pages servirá el contenido en el host vcdevelopstudio.github.io, según la sección 12 de la Política de Privacidad. Las ofertas dependen de la validez de los datos y del mantenimiento del editor; sin contenido válido, el área puede quedar vacía o no disponible, permitiendo volver o actualizar. No se garantiza lista sin conexión ni retirada instantánea de una oferta remota. El catálogo debe identificar nombre, icono, resumen y condiciones o compras integradas de las otras aplicaciones; no promete gratuidad total ni disponibilidad en todos los países, cuentas o dispositivos. Solo pueden presentarse aplicaciones con publicación pública comprobada; las pruebas cerradas no constituyen oferta pública. Elegir “Ver en Google Play” lleva al desafío parental para ese destino y acción. Solo la respuesta correcta, con destino y revisión todavía válidos, permite solicitar la apertura de la ficha oficial en la tienda o el navegador. Cancelar o responder incorrectamente no abre la ficha; una nueva acción exige nueva selección y desafío. El aviso de voz utiliza recursos locales del Mar en la configuración examinada. La operación numérica no es prueba jurídica de edad, identidad ni consentimiento. Abrir una ficha no instala ni compra otra aplicación, no concede recompensa ni modifica el progreso o la compra del Mar. Las condiciones y compras de cada otra aplicación siguen su oferta, ficha y términos propios y no están incluidas en el desbloqueo de este juego. La caché del catálogo, el progreso y la caché del acceso comprado son distintos. Los controles familiares y de la tienda y los derechos obligatorios de las personas consumidoras siguen siendo aplicables."
+      },
+      {
         "id": "updates",
-        "title": "8. Funcionamiento, soporte y cambios",
-        "body": "El funcionamiento depende de un dispositivo y sistema compatibles. El juego puede recibir correcciones y cambios de contenido. No se promete ausencia de fallos ni conservación de datos tras borrarlos, cambiar de dispositivo o restaurar el sistema. Madres, padres y tutores pueden escribir a vcdevelopstudio@gmail.com, evitando datos personales del menor innecesarios para la atención. El estudio atiende solicitudes sobre datos enviados al soporte; los datos de cuenta, pago y diagnósticos tratados por Google deben gestionarse mediante sus canales y políticas. Estos términos se actualizaron el 12 de octubre de 2026 para la versión 0.1.0, código 5, preparada para pruebas cerradas, y pueden revisarse según cambios en el juego o requisitos aplicables. Esta revisión no acredita validación física de los flujos comerciales, aprobación ni disponibilidad del juego en Play. Estos términos no limitan los derechos obligatorios previstos en la legislación aplicable."
+        "title": "9. Funcionamiento, soporte y cambios",
+        "body": "El funcionamiento depende de un dispositivo y sistema compatibles. El juego puede recibir correcciones y cambios de contenido. No se promete ausencia de fallos ni conservación de datos tras borrarlos, cambiar de dispositivo o restaurar el sistema. Madres, padres y tutores pueden escribir a vcdevelopstudio@gmail.com, evitando datos personales del menor innecesarios para la atención. El estudio atiende solicitudes sobre datos enviados al soporte; los datos de cuenta, pago y diagnósticos tratados por Google deben gestionarse mediante sus canales y políticas. Estos términos se actualizaron el 20 de octubre de 2026 para la versión 0.1.0, código 5, preparada para pruebas cerradas, y pueden revisarse según cambios en el juego o requisitos aplicables. Esta revisión no acredita validación física de los flujos comerciales, aprobación ni disponibilidad del juego en Play. Estos términos no limitan los derechos obligatorios previstos en la legislación aplicable."
       }
     ]
   }

@@ -101,3 +101,53 @@ Verificação local de 12/10/2026: 18 testes existentes passaram. As seis
 páginas corresponderam integralmente às fontes JSON, com versão/data,
 seções coerentes, links entre idiomas e recursos válidos, sem avisos antigos
 ou noindex. Gerar novamente preservou o conteúdo dos seis arquivos.
+
+## Atualização Mais jogos de 20/10/2026
+
+O responsável confirmou nesta conversa que endpoint, hospedagem e tratamento
+de dados devem seguir o que foi feito no Brasil. A referência foi conferida
+nos documentos Brasil publicados pelo commit 021ca8c e nas fontes do GitHub.
+Essa confirmação resolve a adoção documental da hospedagem para o Mar;
+não altera a configuração nem ativa o aplicativo.
+
+| Fato | Tratamento adotado nos documentos do Mar |
+| --- | --- |
+| Conteúdo e endpoint | VC Develop Studio; https://vcdevelopstudio.github.io/tico-e-lili-legal/catalogo/v1/jogos.json |
+| Operador e imagens | GitHub Pages, infraestrutura de entrega do GitHub; host vcdevelopstudio.github.io, ícones sob /tico-e-lili-legal/catalogo/v1/icons/ |
+| IP e logs | IP, caminho e cabeçalhos técnicos para entrega e segurança; Pages registra e armazena IP mesmo sem login. Sem garantia de anonimato, efemeridade ou exclusão imediata |
+| Retenção | Sem prazo específico confirmado para os logs do Pages. A declaração geral do GitHub usa finalidades e obrigações aplicáveis como critérios; não inventar dias nem confundir TTL das ofertas com retenção remota |
+| Ativação | Catálogo real do Mar continua enabled=false, endpoint e allowlists vazios, conforme leitura em 20/10/2026. Textos delimitam a condição de habilitação e não anunciam uma versão ativa |
+| Ofertas | Só pacotes com publicação pública comprovada podem ser exibidos; não inserir ofertas ou pacotes no Mar por esta entrega |
+
+As seis páginas recebem nova seção: 12 na privacidade e 8 nos termos. Os
+encerramentos passam a 13 e 9. Data de revisão: 20/10/2026. Escopo mantém
+explícito o catálogo desativado; o fluxo de downloads e saída para a loja só
+se aplica quando habilitado. A redação distingue promoção própria opcional
+de publicidade de terceiros, preservando os fatos de Billing.
+
+Preservadas as seções de compra, SDK/diagnósticos, cache comercial, reset,
+restauração, áudio e suporte. Não copiar do Brasil a versão 0.2.8, o TTS
+parental ou a regra específica de primeira aceitação por revisão. No Mar,
+o código examinado guarda accepted_at, invalidated e ícones por hash; a
+validade é limitada por valid_until e 24h desde a aceitação local, sem
+afirmar lista offline homologada. A voz parental examinada usa arquivos
+locais e prefer_native_voice=false. Nenhum código do jogo foi alterado.
+
+Fontes reconferidas em 20/10/2026:
+
+- https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#data-collection
+- https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement
+
+A minuta de 19/10/2026 em docs/minutas permanece um registro de trabalho
+fora do pacote público. As confirmações e o escopo condicional acima
+substituem suas pendências de publicação dos documentos. Configuração,
+ativação e validação física do catálogo pertencem à entrega do aplicativo.
+
+Verificação local desta atualização: os 24 testes existentes passaram. Uma
+comparação com HEAD confirmou a preservação integral das seções Billing,
+diagnósticos, cache comercial, retenção/reset, áudio, dados locais e suporte
+da política, além de compra/restauração, dados locais e direitos nos termos.
+Conferidos os seis HTML, PT/EN/ES, numeração 13/9, links e data; a geração
+foi determinística. Feed e ícone públicos responderam diretamente por HTTPS;
+o JSON correspondeu ao arquivo local e o ícone ao hash declarado. O pacote
+e os documentos dos outros jogos não foram alterados.
