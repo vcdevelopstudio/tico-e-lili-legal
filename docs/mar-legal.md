@@ -227,3 +227,28 @@ renovação. Credencial CLI já respondeu403; não contornar/reabrir a alternati
 por mensagem de commit rejeitada nem alterar permissões. Responsável informado
 da ação exata. Commit no Git, testes locais e JSON semente não são prova do
 conteúdo efetivamente servido; reconferir feed/ícone/6páginas após deploy.
+
+
+## Primeira publicação confirmada — 20/10/2026
+
+Responsável executou o workflow normal com bootstrap_mar_catalog=true.
+Run39428195554, commit061a76d34499f9d000e1286119c632219bbc898f, deploy concluído
+às10:11:06-03:00. Todos os30 testes do workflow passaram. A execução anterior
+sem bootstrap falhou; não foi contornada nem houve mudança de permissões.
+
+Conferência HTTPS direta em20/10/2026 às10:12:47-03:00:
+feedMar200,1217bytes, schema1, revisão1792501858, validade
+2026-10-21T12:10:57Z, futura dentro de24h. Oferta única Cristal público,
+has_in_app_purchases=true, textosPT/EN/ES e curadoria idêntica à fonte.
+Ícone200,512×512, SHA256
+3ede99424e81bbd2c339e405245b220f922c8cf2dbe34f9c250cf5df2956c115.
+As6páginas200, sem redirects, corpos completos idênticos aosHTML versionados.
+Feed Brasil200 e conteúdo original preservado. Billing permanece preservado.
+
+Esta verificação comprova o site servido, não homologação do aplicativo nem
+upload/disponibilidade/aprovação Play. Nenhum acesso ou alteração no jogo,
+builds, versões ou US nesta etapa. Este registro segue por push normal, sem
+bootstrap, para conferir também a renovação subsequente do feed. Os valores
+revision/valid_until acima identificam a primeira publicação, não constantes
+para publicações posteriores. O relatório local de verificação em
+ docs/verificacoes/mar-publicacao-2026-10-20.json registra os valores atuais.
