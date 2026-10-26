@@ -15,7 +15,7 @@ class PackageTest(unittest.TestCase):
             output = Path(temporary) / 'site'
             module.build(output)
             files = {p.relative_to(output).as_posix() for p in output.rglob('*') if p.is_file()}
-            self.assertEqual(len(files), 42)
+            self.assertEqual(len(files), 49)
             self.assertFalse(any(p.startswith(('tasks/', 'docs/', 'tests/', 'scripts/', '.github/')) for p in files))
             self.assertEqual({p for p in files if p.endswith(('.png', '.py', '.jpg'))},
                              {'catalogo/v1/icons/cristal-arco-iris-v2.png'})
@@ -32,3 +32,8 @@ class PackageTest(unittest.TestCase):
                 for document in ['privacy-policy.html', 'terms-of-use.html']:
                     self.assertIn(f'viagem-pelo-espaco/{folder}{document}', files)
             self.assertIn('viagem-pelo-espaco/assets/legal.css', files)
+
+            for folder in ['', 'en/', 'es/']:
+                for document in ['privacy-policy.html', 'terms-of-use.html']:
+                    self.assertIn(f'encantos-do-folclore/{folder}{document}', files)
+            self.assertIn('encantos-do-folclore/assets/legal.css', files)

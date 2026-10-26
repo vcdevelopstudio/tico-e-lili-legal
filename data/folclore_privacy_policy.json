@@ -1,0 +1,179 @@
+{
+  "pt-BR": {
+    "title": "Política de privacidade",
+    "updated": "Atualizada em 25 de outubro de 2026 — VC Develop Studio",
+    "publisher": "VC Develop Studio",
+    "contact": "vcdevelopstudio@gmail.com",
+    "sections": [
+      {
+        "id": "privacy-1",
+        "title": "1. Aplicação e contato",
+        "body": "Esta política descreve o tratamento de dados em Tico e Lili : Encantos do Folclore, pacote Android com.engvcdevelop.ticoelili.folclore. Para suporte ou questões de privacidade, escreva para vcdevelopstudio@gmail.com. Mensagens enviadas voluntariamente ao suporte são tratadas para responder à solicitação; não envie dados pessoais desnecessários da criança."
+      },
+      {
+        "id": "privacy-2",
+        "title": "2. Crianças e funcionamento do jogo",
+        "body": "O jogo foi pensado para crianças de 3–6 anos, com acompanhamento da família nas áreas destinadas aos adultos. Não oferece conta própria, chat, anúncios, gravação de voz, câmera ou localização. A conta matemática é uma barreira de navegação para os adultos; não verifica identidade, idade legal ou consentimento. Não integramos um serviço próprio de análise do comportamento nas brincadeiras. Os serviços de compra do Google têm práticas de dados distintas, descritas abaixo."
+      },
+      {
+        "id": "privacy-3",
+        "title": "3. Informações que permanecem no aparelho",
+        "body": "Progresso, preferências de idioma e volume, páginas do livro, lembranças e posições no pergaminho são salvos localmente. Os desenhos, composições e miniaturas que a família decide salvar no ateliê também ficam no aparelho, com arquivos locais de recuperação. Não há conta ou sincronização em nuvem do estúdio, nem envio dos desenhos ao estúdio pelo jogo. Músicas, efeitos e narrações do livro são arquivos incluídos no aplicativo."
+      },
+      {
+        "id": "privacy-4",
+        "title": "4. Compra única e restauração",
+        "body": "As fases 1–3 são gratuitas. Uma compra única, não consumível e sem assinatura dá acesso às fases 4–10. A progressão continua exigindo concluir as fases; comprar não conclui atividades automaticamente. O ateliê é liberado após concluir a fase 10. O preço localizado aparece pelo Google Play antes da confirmação. O Google Play processa os pagamentos; o aplicativo não recebe dados de cartão. A integração recebe informações do produto, estado, token, reconhecimento e comprovante assinado para consultar, reconhecer e restaurar o direito de acesso. O aplicativo guarda localmente um comprovante de compra assinado e os dados retornados pela loja necessários à sua validação, que podem incluir token e identificador do pedido. Esses registros são separados do progresso. Não há servidor de validação do estúdio. Comprar, consultar preço e restaurar acesso exigem internet e os serviços da loja. A restauração depende da conta Google usada na compra e não recupera automaticamente o progresso ou desenhos de outro aparelho."
+      },
+      {
+        "id": "privacy-5",
+        "title": "5. Diagnósticos dos serviços Google",
+        "body": "A versão comercial integra GodotGooglePlayBilling 3.3.0 e Google Play Billing Library 9.1.0. O SDK inclui diagnósticos operacionais e transporte de eventos ao Google, com fila persistente local DataTransport/CCT. As informações técnicas incluem eventos de conexão, sucesso e falha, identificador aleatório de instância/sessão da biblioteca, pacote e versões do aplicativo/SDK/Android, marca, modelo, fabricante, memória e identificador da compilação do sistema. Um identificador técnico de sessão não é o ID de publicidade AAID, IMEI ou número de série do aparelho, e não significa anonimato. O Billing é iniciado ao abrir o aplicativo comercial, antes da área dos adultos e independentemente de uma compra. O jogo não oferece uma opção para desativar esses diagnósticos; não comprar não os desativa. As filas persistentes não são um processamento apenas em memória. Esses diagnósticos técnicos são distintos de análises das brincadeiras. O Google trata dados dos seus serviços conforme sua Política de Privacidade. Não fixamos um prazo de retenção ou promessa de exclusão dos sistemas Google.",
+        "links": [
+          {
+            "label": "Política de Privacidade",
+            "url": "https://policies.google.com/privacy"
+          }
+        ]
+      },
+      {
+        "id": "privacy-6",
+        "title": "6. Destinatários, segurança e site",
+        "body": "Não vendemos os dados da criança nem enviamos seus desenhos ou progresso para um servidor do estúdio. Os dados necessários aos serviços da loja e os diagnósticos do SDK podem ser encaminhados ao Google para funcionamento, compra, restauração e diagnóstico técnico. A ausência de anúncios não elimina esses fluxos. Os serviços externos usam suas conexões protegidas; não há promessa de segurança absoluta. Os documentos públicos são hospedados no GitHub Pages. Quando uma pessoa abre o site, o provedor recebe os dados normais de conexão, como endereço IP, e pode mantê-los para segurança conforme suas políticas. Abrir documentos no navegador é diferente do armazenamento local do progresso. Consulte GitHub Pages: coleta de dados e a política do GitHub.",
+        "links": [
+          {
+            "label": "GitHub Pages: coleta de dados",
+            "url": "https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#data-collection"
+          },
+          {
+            "label": "política do GitHub",
+            "url": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement"
+          }
+        ]
+      },
+      {
+        "id": "privacy-7",
+        "title": "7. Retenção e exclusão",
+        "body": "Desenhos podem ser excluídos na galeria do ateliê. Redefinir o progresso reinicia a campanha, preservando preferências, desenhos salvos e o acesso comprado. Limpar os dados do aplicativo ou desinstalá-lo remove os arquivos locais; essas ações não cancelam compras ou apagam os registros do Google. O aplicativo comercial desativa seu backup automático Android e não fornece recuperação em nuvem pelo estúdio. Para questões sobre dados tratados pelos serviços Google, use também os controles e canais disponibilizados pelo Google. O suporte pode orientar sobre os arquivos locais e atender solicitações relativas aos dados efetivamente recebidos pelo estúdio."
+      }
+    ]
+  },
+  "en-US": {
+    "title": "Privacy policy",
+    "updated": "Updated October 25, 2026 — VC Develop Studio",
+    "publisher": "VC Develop Studio",
+    "contact": "vcdevelopstudio@gmail.com",
+    "sections": [
+      {
+        "id": "privacy-1",
+        "title": "1. Scope and contact",
+        "body": "This policy describes data handling in Tico e Lili : Encantos do Folclore, Android package com.engvcdevelop.ticoelili.folclore. For support or privacy questions, contact vcdevelopstudio@gmail.com. Information voluntarily sent to support is used to respond to the request. Please avoid sending unnecessary personal information about a child."
+      },
+      {
+        "id": "privacy-2",
+        "title": "2. Children and gameplay",
+        "body": "The game is intended for children aged 3–6, with family supervision of adult areas. It has no in-app account, chat, advertisements, voice recording, camera or location feature. The arithmetic gate is a navigation barrier for adults; it does not verify legal age, identity or consent. We do not integrate our own gameplay behavioral analytics service. Google purchase services have separate data practices described below."
+      },
+      {
+        "id": "privacy-3",
+        "title": "3. On-device information",
+        "body": "Progress, language and volume preferences, book pages, keepsakes and their positions are saved locally. Drawings, compositions and thumbnails that the family chooses to save in the art studio also remain on the device, with local recovery files. The studio does not provide a cloud account or synchronization and the game does not upload drawings to us. Music, sound effects and book narration are included audio files."
+      },
+      {
+        "id": "privacy-4",
+        "title": "4. One-time purchase and restoration",
+        "body": "Adventures 1–3 are free. One non-consumable purchase provides access to adventures 4–10, without a subscription. Activities must still be completed in sequence; buying does not complete them. The art studio unlocks after adventure 10 is completed. Google Play presents the localized price before confirmation. Google Play processes payments; the app does not receive payment-card details. The integration receives product, purchase state, token, acknowledgement and signed receipt information to query, acknowledge and restore access. The app stores a signed purchase receipt locally, including store-returned information needed to validate it, which may include a token and order identifier. These records are separate from progress. The studio has no receipt-validation backend. Purchases, price queries and restoration require internet and store services. Restoration depends on the Google account used for the purchase; it does not automatically recover progress or drawings from another device."
+      },
+      {
+        "id": "privacy-5",
+        "title": "5. Google service diagnostics",
+        "body": "The commercial version integrates GodotGooglePlayBilling 3.3.0 and Google Play Billing Library 9.1.0. The SDK includes operational diagnostics and event transport to Google, with a persistent local DataTransport/CCT queue. Technical information includes connection, success and failure events, a random library instance/session identifier, app/SDK/Android package and versions, device brand, model, manufacturer, memory and system build identifier. A technical session identifier is not the AAID advertising identifier, IMEI or hardware serial number, and does not establish anonymity. Billing starts when the commercial app opens, before the adult area and independently of a purchase. The game has no setting to disable these diagnostics; choosing not to purchase does not disable them. Persistent queues are not memory-only processing. Technical diagnostics are separate from gameplay analytics. Google handles its service data under its Privacy Policy. We do not promise a specific retention period or deletion from Google's systems.",
+        "links": [
+          {
+            "label": "Privacy Policy",
+            "url": "https://policies.google.com/privacy"
+          }
+        ]
+      },
+      {
+        "id": "privacy-6",
+        "title": "6. Recipients, security and website",
+        "body": "We do not sell children's data or send drawings and progress to a studio server. Store-service information and SDK diagnostics may be sent to Google for operation, purchasing, restoration and technical diagnostics. The absence of advertisements does not remove these flows. External services use their protected connections; no system offers an absolute security guarantee. Public documents are hosted on GitHub Pages. When someone opens the website, the provider receives ordinary connection information such as an IP address and may retain it for security under its policies. Browser visits are separate from local progress storage. See GitHub Pages data collection and GitHub's privacy statement.",
+        "links": [
+          {
+            "label": "GitHub Pages data collection",
+            "url": "https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#data-collection"
+          },
+          {
+            "label": "GitHub's privacy statement",
+            "url": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement"
+          }
+        ]
+      },
+      {
+        "id": "privacy-7",
+        "title": "7. Retention and deletion",
+        "body": "Drawings can be deleted in the art-studio gallery. Resetting progress restarts the campaign while preserving preferences, saved drawings and purchased access. Clearing app data or uninstalling removes local files; it does not cancel purchases or erase Google's records. The commercial app disables its automatic Android backup and the studio provides no cloud recovery. For Google-handled data, also use Google's controls and privacy channels. Support can explain local files and address requests concerning data actually received by the studio."
+      }
+    ]
+  },
+  "es-ES": {
+    "title": "Política de privacidad",
+    "updated": "Actualizada el 25 de octubre de 2026 — VC Develop Studio",
+    "publisher": "VC Develop Studio",
+    "contact": "vcdevelopstudio@gmail.com",
+    "sections": [
+      {
+        "id": "privacy-1",
+        "title": "1. Alcance y contacto",
+        "body": "Esta política describe el tratamiento de datos en Tico e Lili : Encantos do Folclore, paquete Android com.engvcdevelop.ticoelili.folclore. Para asistencia o consultas de privacidad: vcdevelopstudio@gmail.com. Los mensajes enviados voluntariamente al soporte se utilizan para responder a la solicitud. Evite enviar información personal innecesaria de menores."
+      },
+      {
+        "id": "privacy-2",
+        "title": "2. Menores y funcionamiento",
+        "body": "El juego está pensado para niños de 3–6 años, con supervisión familiar en las áreas de adultos. No ofrece cuenta propia, chat, anuncios, grabación de voz, cámara ni ubicación. La operación matemática es una barrera de navegación para adultos; no verifica identidad, edad legal ni consentimiento. No integramos un servicio propio de análisis del comportamiento en las actividades. Los servicios de compra de Google tienen prácticas de datos distintas, descritas a continuación."
+      },
+      {
+        "id": "privacy-3",
+        "title": "3. Información local",
+        "body": "El progreso, idioma, volumen, páginas del libro, recuerdos y sus posiciones se guardan localmente. Los dibujos, composiciones y miniaturas guardados en el taller también permanecen en el dispositivo, con archivos locales de recuperación. El estudio no ofrece cuenta ni sincronización en la nube y el juego no nos envía los dibujos. La música, los efectos y la narración del libro son archivos incluidos en la aplicación."
+      },
+      {
+        "id": "privacy-4",
+        "title": "4. Compra única y restauración",
+        "body": "Las aventuras 1–3 son gratuitas. Una compra no consumible permite acceder a las aventuras 4–10 sin suscripción. Sigue siendo necesario completar las actividades en secuencia; comprar no las completa. El taller se desbloquea tras completar la aventura 10. Google Play muestra el precio localizado antes de confirmar. Google Play procesa los pagos; la aplicación no recibe datos de tarjetas. La integración recibe información del producto, estado, token, reconocimiento y comprobante firmado para consultar, reconocer y restaurar el acceso. Guarda localmente un comprobante firmado con los datos devueltos por la tienda necesarios para validarlo, que pueden incluir token e identificador del pedido. Estos registros son independientes del progreso. El estudio no tiene un servidor de validación de recibos. Comprar, consultar el precio y restaurar requieren internet y los servicios de la tienda. La restauración depende de la cuenta Google de la compra; no recupera automáticamente progreso o dibujos de otro dispositivo."
+      },
+      {
+        "id": "privacy-5",
+        "title": "5. Diagnósticos de Google",
+        "body": "La versión comercial integra GodotGooglePlayBilling 3.3.0 y Google Play Billing Library 9.1.0. El SDK incluye diagnósticos operativos y transporte de eventos a Google, con una cola local persistente DataTransport/CCT. La información técnica incluye eventos de conexión, éxito y error, un identificador aleatorio de instancia/sesión de la biblioteca, paquete y versiones de la aplicación/SDK/Android, marca, modelo, fabricante, memoria e identificador de compilación del sistema. Un identificador técnico de sesión no es el identificador publicitario AAID, IMEI ni el número de serie del dispositivo, y no garantiza anonimato. Billing se inicia al abrir la aplicación comercial, antes del área de adultos y sin depender de una compra. El juego no permite desactivar estos diagnósticos; no comprar no los desactiva. Las colas persistentes no se procesan solamente en memoria. Los diagnósticos técnicos son distintos del análisis de las actividades. Google trata los datos de sus servicios según su Política de Privacidad. No prometemos un plazo específico de conservación ni la eliminación de datos de los sistemas Google.",
+        "links": [
+          {
+            "label": "Política de Privacidad",
+            "url": "https://policies.google.com/privacy"
+          }
+        ]
+      },
+      {
+        "id": "privacy-6",
+        "title": "6. Destinatarios, seguridad y sitio web",
+        "body": "No vendemos datos de menores ni enviamos dibujos o progreso a un servidor del estudio. La información de los servicios de compra y los diagnósticos pueden enviarse a Google para funcionamiento, compras, restauración y diagnóstico técnico. La ausencia de anuncios no elimina estos flujos. Los servicios externos usan sus conexiones protegidas; no existe una garantía absoluta de seguridad. Los documentos públicos se alojan en GitHub Pages. Al visitar el sitio, el proveedor recibe información normal de conexión, como la dirección IP, y puede conservarla por seguridad según sus políticas. Las visitas del navegador son distintas del almacenamiento local del progreso. Consulte la recopilación de datos de GitHub Pages y la política de GitHub.",
+        "links": [
+          {
+            "label": "la recopilación de datos de GitHub Pages",
+            "url": "https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#data-collection"
+          },
+          {
+            "label": "la política de GitHub",
+            "url": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement"
+          }
+        ]
+      },
+      {
+        "id": "privacy-7",
+        "title": "7. Conservación y eliminación",
+        "body": "Los dibujos se pueden eliminar en la galería del taller. Restablecer el progreso reinicia la campaña y conserva preferencias, dibujos y acceso comprado. Borrar datos de la aplicación o desinstalarla elimina archivos locales, sin cancelar compras ni borrar registros de Google. La aplicación comercial desactiva su copia automática Android y el estudio no ofrece recuperación en la nube. Para datos tratados por Google, use también sus controles y canales de privacidad. El soporte puede explicar los archivos locales y atender solicitudes relativas a datos efectivamente recibidos por el estudio."
+      }
+    ]
+  }
+}
