@@ -31,7 +31,7 @@
     <main id="legal-document">
       <article id="document-content" class="legal-content" tabindex="-1">
         <h1>Política de Privacidade</h1>
-        <p class="updated">Atualizada em 9 de outubro de 2026</p>
+        <p class="updated">Atualizada em 30 de outubro de 2026</p>
         <p class="publisher">Responsável/publicador: VC Develop Studio</p>
         <section id="overview">
           <h2>1. Visão geral</h2>
@@ -48,7 +48,7 @@
         </section>
         <section id="tts">
           <h2>4. Narração do dispositivo</h2>
-          <p>O convite para chamar uma pessoa adulta na tela de compra pode ser narrado pelo recurso de texto para fala (TTS) do dispositivo, quando houver uma voz compatível com o idioma escolhido. O jogo fornece o texto do convite ao mecanismo de voz selecionado pelo sistema. O provedor configurado pela família pode realizar o processamento localmente ou usar serviços online, conforme suas configurações e política; por isso, não afirmamos que todo TTS funciona sem internet. Músicas e efeitos do jogo são reproduzidos de arquivos incluídos no aplicativo. Não há gravação da voz da criança para essa narração. A voz é usada para chamar os pais ou responsáveis na barreira de compra; não há narração das fases nem gravação da voz das crianças.</p>
+          <p>O convite para chamar uma pessoa adulta na tela de compra pode ser narrado pelo recurso de texto para fala (TTS) do dispositivo, quando houver uma voz compatível com o idioma escolhido. O jogo fornece o texto do convite ao mecanismo de voz selecionado pelo sistema. O provedor configurado pela família pode realizar o processamento localmente ou usar serviços online, conforme suas configurações e política; por isso, não afirmamos que todo TTS funciona sem internet. Músicas e efeitos do jogo são reproduzidos de arquivos incluídos no aplicativo. Não há gravação da voz da criança para essa narração. A voz é usada para chamar os pais ou responsáveis nas barreiras de compra e, nas versões com Mais jogos, de saída para a loja; não há narração das fases nem gravação da voz das crianças.</p>
         </section>
         <section id="children">
           <h2>5. Dados de crianças</h2>
@@ -98,6 +98,13 @@
           <h2>15. Diagnósticos técnicos do Billing</h2>
           <p>A integração examinada utiliza Google Play Billing 9.1.0 e seu transporte de diagnósticos. Esses componentes registram eventos de funcionamento da API, como sucesso, falha e problemas de conexão, para diagnóstico e melhoria do serviço. O transporte pode acrescentar informações técnicas do aplicativo e do dispositivo, como versões, modelo, sistema, tipo de rede, idioma e configuração regional. A biblioteca também utiliza identificadores técnicos de instância do cliente e de operações; isso não estabelece que sejam identificadores de publicidade nem dados anônimos. Os registros são encaminhados aos serviços do Google e podem permanecer em uma fila local persistente em disco para envio posterior. Portanto, esse fluxo não é descrito como processamento somente em memória ou efêmero. No código consultado, a conexão do Billing começa na inicialização do aplicativo com monetização ativa, antes de uma compra ou da resposta ao desafio parental. Não comprar não equivale a desativar esses diagnósticos. Esse tratamento é separado dos dados de cartão coletados diretamente pelo Google Play, do cache de acesso e da análise das brincadeiras. A descrição se baseia na biblioteca e no código examinados, não em uma captura completa do tráfego ou na inspeção do pacote atualmente distribuído. Não foi confirmado um prazo de retenção, anonimização ou exclusão desses registros nos servidores do Google; não prometemos essas condições.</p>
           <p class="policy-link"><a href="https://developer.android.com/google/play/billing/release-notes">Google Play Billing — Google</a></p>
+        </section>
+        <section id="more-games">
+          <h2>16. Mais jogos e catálogo salvo</h2>
+          <p>Nas versões que incluem “Mais jogos”, abrir essa área ou tocar em Atualizar consulta um catálogo e ícones no GitHub Pages. A conexão envia ao hospedeiro os dados técnicos normais da solicitação, como endereço IP e cabeçalhos HTTP, antes da confirmação adulta. O aplicativo não envia progresso, respostas da conta, sinais de idade ou tokens de compra a esse catálogo. A hospedagem pode manter registros técnicos conforme suas próprias práticas; não prometemos anonimato ou um prazo de retenção remoto.</p>
+          <p>Nas versões com a correção de cache, a última lista validada, os ícones com hash conferido e os marcadores de revisão ficam separados do progresso e das compras no aparelho. Não desaparecem por uma data do catálogo nem após 24 horas: podem continuar disponíveis offline e após reiniciar. Falha de rede ou resposta inválida conserva esse conteúdo; sem cache válido, a área informa indisponibilidade e permite tentar novamente. Uma resposta válida que remova/desative uma oferta ou traga lista vazia retira o conteúdo correspondente e cancela a confirmação adulta em andamento. Os registros de aceitação protegem a retomada contra revisões antigas, inclusive se falhar a substituição do snapshot. Falhas totais do armazenamento podem impedir persistência; não prometemos gravação em dispositivo sem armazenamento funcional.</p>
+          <p>Esse cache permanece enquanto os dados locais do aplicativo forem mantidos ou atualizados por conteúdo válido, sem expiração automática por tempo. Uma lista salva não comprova a disponibilidade atual de um jogo na loja. A consulta à Google Play exige internet e uma nova ação autorizada por adulto; não instala, compra, libera fases nem transfere progresso automaticamente. O convite adulto pode usar o TTS do aparelho nas condições da seção 4.</p>
+          <p>A correção integra a candidata 1.0.5; sua publicação em teste não anuncia disponibilidade em produção. Versões antigas que incluam o catálogo podem continuar limitadas pela data de validade ou pelas 24 horas até serem atualizadas. Publicar esta página ou editar o JSON não atualiza o código de aplicativos já instalados.</p>
         </section>
         <p class="policy-link"><a href="mailto:vcdevelopstudio@gmail.com">vcdevelopstudio@gmail.com</a></p>
       </article>
