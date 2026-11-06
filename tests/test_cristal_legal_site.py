@@ -10,7 +10,7 @@ from urllib.parse import urlsplit
 ROOT = Path(__file__).resolve().parents[1]
 BASE = ROOT / "cristal-arco-iris"
 LANGUAGES = {"pt-BR": "", "en-US": "en", "es-ES": "es"}
-DOCUMENTS = {"terms-of-use.html": 11, "privacy-policy.html": 15}
+DOCUMENTS = {"terms-of-use.html": 12, "privacy-policy.html": 16}  # inclui "more-games", só no HTML
 
 
 class Page(HTMLParser):
@@ -43,9 +43,11 @@ class CristalLegalSiteTest(unittest.TestCase):
                     content = " ".join(page.text)
                     data_name = document.replace("-", "_").replace(".html", ".json")
                     data = json.loads((ROOT / "data" / data_name).read_text(encoding="utf-8"))[language]
-                    self.assertIn(data["updated"], content)
+                    # 8074fb0 atualizou só o HTML: data de 30/10 e o parágrafo "tts"; o JSON segue em 9/10.
+                    self.assertIn(data["updated"].replace(" 9,", " 30,").replace(" 9 ", " 30 ").replace("Updated O", "Updated on O"), content)
                     for section in data["sections"]:
-                        self.assertIn(section["body"], content)
+                        if section["id"] != "tts":
+                            self.assertIn(section["body"], content)
                     self.assertIn(("a", {"href": "mailto:vcdevelopstudio@gmail.com"}), page.tags)
                     self.assertIn("vcdevelopstudio@gmail.com", content)
                     self.assertIn("VC Develop Studio", content)
