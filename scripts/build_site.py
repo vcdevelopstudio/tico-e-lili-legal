@@ -20,6 +20,10 @@ def public_files():
         files.extend(ROOT / 'encantos-do-folclore' / folder / name
                      for name in ['privacy-policy.html', 'terms-of-use.html'])
     files.append(ROOT / 'encantos-do-folclore/assets/legal.css')
+    for folder in ['', 'en', 'es']:
+        files.extend(ROOT / 'sabores-do-brasil' / folder / name
+                     for name in ['privacy-policy.html', 'terms-of-use.html'])
+    files.append(ROOT / 'sabores-do-brasil/assets/legal.css')
     files.extend(ROOT / name for name in [
         'catalogo/v1/jogos.json',
         'catalogo/mar/v1/jogos.json',
