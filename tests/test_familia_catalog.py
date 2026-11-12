@@ -51,16 +51,28 @@ class FamiliaCatalogTest(unittest.TestCase):
             self.assertLessEqual(len(icon), 524288)
             self.assertEqual(hashlib.sha256(icon).hexdigest(), game['icon_sha256'])
 
-    def test_cristal_offer_is_identical_to_mar_and_brasil_matches_its_legal_page(self):
+    def test_cards_are_short_do_not_repeat_the_title_and_keep_the_purchase_rule(self):
+        # Pedido do responsável (12/11): a frase do cartão estava grande e repetia o nome.
+        purchase = {'pt-BR': ('Fases 1 a 3 grátis', 'compra única libera as fases 4 a 10'),
+                    'en-US': ('Stages 1–3 free', 'one-time purchase unlocks stages 4–10'),
+                    'es-ES': ('Fases 1 a 3 gratis', 'compra única desbloquea las fases 4 a 10')}
+        for game in self.feed()['games']:
+            for language, copy in game['listing'].items():
+                self.assertNotIn(copy['title'], copy['description'])
+                self.assertNotIn('Tico e Lili', copy['description'])
+                self.assertLessEqual(len(copy['description']), 110)
+                for part in purchase[language]:
+                    self.assertIn(part, copy['description'])
+
+    def test_offers_match_mar_identity_and_brasil_legal_page(self):
         feed = self.feed()
         mar = json.loads((ROOT / 'catalogo/mar/v1/jogos.json').read_bytes())
-        self.assertEqual(feed['games'][0], mar['games'][0])
+        same = lambda game: {k: v for k, v in game.items() if k != 'listing'}
+        self.assertEqual(same(feed['games'][0]), same(mar['games'][0]))
+        self.assertEqual({k: v['title'] for k, v in feed['games'][0]['listing'].items()},
+                         {k: v['title'] for k, v in mar['games'][0]['listing'].items()})
         brasil = feed['games'][1]
         self.assertEqual(brasil['listing']['pt-BR']['title'], 'Tico e Lili: Descobrindo a Fauna e Flora do Brasil')
-        self.assertIn('Fases 1 a 3 gratuitas', brasil['listing']['pt-BR']['description'])
-        self.assertIn('fases 4 a 10', brasil['listing']['pt-BR']['description'])
-        self.assertIn('Stages 1–3 are free', brasil['listing']['en-US']['description'])
-        self.assertIn('Fases 1 a 3 gratis', brasil['listing']['es-ES']['description'])
         policy = (ROOT / 'fauna-flora-brasil/privacy-policy.html').read_text(encoding='utf-8')
         self.assertIn('As fases 1 a 3 são gratuitas', policy)
         self.assertIn('fases 4 a 10', policy)
