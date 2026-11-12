@@ -10,8 +10,8 @@ on:
         required: false
         type: boolean
         default: false
-      bootstrap_folclore_catalog:
-        description: Allow first publication of the Folclore feed if it returns HTTP 404
+      bootstrap_familia_catalog:
+        description: Allow first publication of the family feed if it returns HTTP 404
         required: false
         type: boolean
         default: false
@@ -44,14 +44,15 @@ jobs:
           else
             python3 scripts/refresh_catalog.py
           fi
-      - name: Renew Folclore catalog metadata
+      - name: Renew family catalog metadata
         env:
-          BOOTSTRAP_FOLCLORE_CATALOG: ${{ github.event_name == 'workflow_dispatch' && inputs.bootstrap_folclore_catalog }}
+          # TEMPORARIO: primeira publicacao da lista da familia; volta ao modo estrito no commit seguinte.
+          BOOTSTRAP_FAMILIA_CATALOG: 'true'
         run: |
-          if [ "$BOOTSTRAP_FOLCLORE_CATALOG" = "true" ]; then
-            python3 scripts/refresh_catalog.py catalogo/folclore/v1/jogos.json --bootstrap
+          if [ "$BOOTSTRAP_FAMILIA_CATALOG" = "true" ]; then
+            python3 scripts/refresh_catalog.py catalogo/familia/v1/jogos.json --bootstrap
           else
-            python3 scripts/refresh_catalog.py catalogo/folclore/v1/jogos.json
+            python3 scripts/refresh_catalog.py catalogo/familia/v1/jogos.json
           fi
       - name: Test site
         run: python3 -m unittest discover -s tests -v

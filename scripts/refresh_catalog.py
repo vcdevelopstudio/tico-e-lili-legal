@@ -1,7 +1,7 @@
 """Refresh the deployed metadata of a curated feed; keep its offers unchanged.
 
 The workflow runs this before tests and packaging, not on clients, once per
-renewed feed (Mar and Folclore). The source feed is a curated seed;
+renewed feed (Mar and the family feed). The source feed is a curated seed;
 revision/valid_until in the deployed artifact are renewed.
 """
 import argparse
@@ -13,7 +13,7 @@ from urllib.request import urlopen
 
 MAX_REVISION = 2**31 - 1
 SITE = 'https://vcdevelopstudio.github.io/tico-e-lili-legal/'
-RENEWED_FEEDS = ('catalogo/mar/v1/jogos.json', 'catalogo/folclore/v1/jogos.json')
+RENEWED_FEEDS = ('catalogo/mar/v1/jogos.json', 'catalogo/familia/v1/jogos.json')
 PUBLIC = SITE + RENEWED_FEEDS[0]
 
 

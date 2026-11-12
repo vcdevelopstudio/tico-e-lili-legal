@@ -1,4 +1,8 @@
-"""Folclore has its own feed (Cristal + Fauna e Flora) so Mar's strict feed stays unchanged."""
+"""Family feed (FAM-28): one stable list read by every app that trusts the publisher prefix.
+
+Launching a family game means adding it here once its Play page is public; no app update.
+Mar still reads its own strict feed (closed package list) until it adopts FAM-28.
+"""
 import hashlib
 import importlib.util
 import json
@@ -9,7 +13,7 @@ from pathlib import Path
 from unittest.mock import patch
 
 ROOT = Path(__file__).resolve().parents[1]
-FEED = ROOT / 'catalogo/folclore/v1/jogos.json'
+FEED = ROOT / 'catalogo/familia/v1/jogos.json'
 PREFIX = 'https://vcdevelopstudio.github.io/tico-e-lili-legal/'
 BRASIL = 'com.engvcdevelop.ticoelilibrasil'
 CRISTAL = 'com.engvcdevelop.ticoelili.cristalarcoiris'
@@ -22,7 +26,7 @@ def refresh_module():
     return module
 
 
-class FolcloreCatalogTest(unittest.TestCase):
+class FamiliaCatalogTest(unittest.TestCase):
     def feed(self):
         raw = FEED.read_bytes()
         self.assertLessEqual(len(raw), 65536)
@@ -61,14 +65,20 @@ class FolcloreCatalogTest(unittest.TestCase):
         self.assertIn('As fases 1 a 3 são gratuitas', policy)
         self.assertIn('fases 4 a 10', policy)
 
+    def test_every_offer_is_a_public_family_package(self):
+        for game in self.feed()['games']:
+            self.assertTrue(game['package_id'].startswith('com.engvcdevelop.'))
+            self.assertFalse(game['package_id'].endswith(('.hml', '.prototype')))
+        self.assertFalse((ROOT / 'catalogo/folclore').exists(), 'one family list, never one per game')
+
     def test_mar_feed_still_offers_only_cristal(self):
         mar = json.loads((ROOT / 'catalogo/mar/v1/jogos.json').read_bytes())
         self.assertEqual([g['package_id'] for g in mar['games']], [CRISTAL])
 
-    def test_refresh_uses_the_folclore_public_url_and_keeps_offers(self):
+    def test_refresh_uses_the_family_public_url_and_keeps_offers(self):
         module = refresh_module()
-        self.assertEqual(module.public_url('catalogo/folclore/v1/jogos.json'),
-                         PREFIX + 'catalogo/folclore/v1/jogos.json')
+        self.assertEqual(module.public_url('catalogo/familia/v1/jogos.json'),
+                         PREFIX + 'catalogo/familia/v1/jogos.json')
         self.assertEqual(module.public_url('catalogo/mar/v1/jogos.json'), PREFIX + 'catalogo/mar/v1/jogos.json')
         with self.assertRaises(ValueError):
             module.public_url('catalogo/desconhecido/jogos.json')
@@ -83,18 +93,18 @@ class FolcloreCatalogTest(unittest.TestCase):
 
     def test_workflow_renews_both_feeds_with_separate_bootstrap(self):
         workflow = (ROOT / '.github/workflows/deploy-pages.yml').read_text(encoding='utf-8')
-        self.assertIn('scripts/refresh_catalog.py catalogo/folclore/v1/jogos.json', workflow)
-        self.assertIn('bootstrap_folclore_catalog', workflow)
+        self.assertIn('scripts/refresh_catalog.py catalogo/familia/v1/jogos.json', workflow)
+        self.assertIn('bootstrap_familia_catalog', workflow)
         self.assertIn('bootstrap_mar_catalog', workflow)
 
-    def test_folclore_bootstrap_only_accepts_404_when_explicit(self):
+    def test_family_bootstrap_only_accepts_404_when_explicit(self):
         module = refresh_module()
         from urllib.error import HTTPError
-        error = HTTPError(PREFIX + 'catalogo/folclore/v1/jogos.json', 404, 'Not Found', {}, None)
+        error = HTTPError(PREFIX + 'catalogo/familia/v1/jogos.json', 404, 'Not Found', {}, None)
         with patch.object(module, 'urlopen', side_effect=error):
-            self.assertEqual(module.published_revision(PREFIX + 'catalogo/folclore/v1/jogos.json', allow_bootstrap=True), 0)
+            self.assertEqual(module.published_revision(PREFIX + 'catalogo/familia/v1/jogos.json', allow_bootstrap=True), 0)
             with self.assertRaises(HTTPError):
-                module.published_revision(PREFIX + 'catalogo/folclore/v1/jogos.json')
+                module.published_revision(PREFIX + 'catalogo/familia/v1/jogos.json')
 
 
 if __name__ == '__main__':
