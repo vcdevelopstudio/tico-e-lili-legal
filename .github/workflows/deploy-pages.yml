@@ -46,9 +46,7 @@ jobs:
           fi
       - name: Renew Folclore catalog metadata
         env:
-          # TEMPORARIO: primeira publicacao da lista do Folclore (sem permissao de dispatch).
-          # Volta a exigir o input explicito no commit seguinte, depois de a lista estar no ar.
-          BOOTSTRAP_FOLCLORE_CATALOG: 'true'
+          BOOTSTRAP_FOLCLORE_CATALOG: ${{ github.event_name == 'workflow_dispatch' && inputs.bootstrap_folclore_catalog }}
         run: |
           if [ "$BOOTSTRAP_FOLCLORE_CATALOG" = "true" ]; then
             python3 scripts/refresh_catalog.py catalogo/folclore/v1/jogos.json --bootstrap
