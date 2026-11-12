@@ -1,7 +1,8 @@
-"""Refresh only Mar's deployed feed metadata; keep curated offers unchanged.
+"""Refresh the deployed metadata of a curated feed; keep its offers unchanged.
 
-The workflow runs this before tests and packaging, not on clients. The source
-feed is a curated seed; revision/valid_until in the deployed artifact are renewed.
+The workflow runs this before tests and packaging, not on clients, once per
+renewed feed (Mar and Folclore). The source feed is a curated seed;
+revision/valid_until in the deployed artifact are renewed.
 """
 import argparse
 import json
@@ -11,7 +12,17 @@ from urllib.error import HTTPError
 from urllib.request import urlopen
 
 MAX_REVISION = 2**31 - 1
-PUBLIC = 'https://vcdevelopstudio.github.io/tico-e-lili-legal/catalogo/mar/v1/jogos.json'
+SITE = 'https://vcdevelopstudio.github.io/tico-e-lili-legal/'
+RENEWED_FEEDS = ('catalogo/mar/v1/jogos.json', 'catalogo/folclore/v1/jogos.json')
+PUBLIC = SITE + RENEWED_FEEDS[0]
+
+
+def public_url(path):
+    """Public URL of a renewed feed; unknown paths are refused, never guessed."""
+    relative = Path(path).as_posix()
+    if relative not in RENEWED_FEEDS:
+        raise ValueError(f'Not a renewed feed: {relative}')
+    return SITE + relative
 
 
 def valid_revision(value):
@@ -39,10 +50,10 @@ def refresh(path, now=None, previous_revision=0):
     return document
 
 
-def published_revision(allow_bootstrap=False):
+def published_revision(url=PUBLIC, allow_bootstrap=False):
     try:
-        with urlopen(PUBLIC, timeout=20) as response:
-            if response.geturl() != PUBLIC:
+        with urlopen(url, timeout=20) as response:
+            if response.geturl() != url:
                 raise ValueError('Unexpected redirect')
             content = response.read(65537)
             if len(content) > 65536:
@@ -50,7 +61,7 @@ def published_revision(allow_bootstrap=False):
             return valid_revision(json.loads(content)['revision'])
     except HTTPError as error:
         if error.code == 404 and allow_bootstrap:
-            return 0  # First publication of this Mar-specific endpoint.
+            return 0  # Explicit first publication of this endpoint.
         raise
 
 
@@ -59,5 +70,6 @@ if __name__ == '__main__':
     parser.add_argument('path', nargs='?', default='catalogo/mar/v1/jogos.json')
     parser.add_argument('--bootstrap', action='store_true', help='Allow HTTP 404 only for an explicit first publication')
     args = parser.parse_args()
-    result = refresh(args.path, previous_revision=published_revision(allow_bootstrap=args.bootstrap))
-    print(f"Mar feed revision {result['revision']}; valid until {result['valid_until']}")
+    url = public_url(args.path)
+    result = refresh(args.path, previous_revision=published_revision(url, allow_bootstrap=args.bootstrap))
+    print(f"{args.path} revision {result['revision']}; valid until {result['valid_until']}")

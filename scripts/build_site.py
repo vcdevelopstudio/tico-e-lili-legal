@@ -27,7 +27,9 @@ def public_files():
     files.extend(ROOT / name for name in [
         'catalogo/v1/jogos.json',
         'catalogo/mar/v1/jogos.json',
+        'catalogo/folclore/v1/jogos.json',
         'catalogo/v1/icons/cristal-arco-iris-v2.png',
+        'catalogo/v1/icons/fauna-flora-brasil-v1.png',
     ])
     return files
 
