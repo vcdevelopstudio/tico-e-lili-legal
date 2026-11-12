@@ -46,8 +46,7 @@ jobs:
           fi
       - name: Renew family catalog metadata
         env:
-          # TEMPORARIO: primeira publicacao da lista da familia; volta ao modo estrito no commit seguinte.
-          BOOTSTRAP_FAMILIA_CATALOG: 'true'
+          BOOTSTRAP_FAMILIA_CATALOG: ${{ github.event_name == 'workflow_dispatch' && inputs.bootstrap_familia_catalog }}
         run: |
           if [ "$BOOTSTRAP_FAMILIA_CATALOG" = "true" ]; then
             python3 scripts/refresh_catalog.py catalogo/familia/v1/jogos.json --bootstrap
