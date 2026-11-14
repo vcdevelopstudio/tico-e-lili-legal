@@ -1,36 +1,33 @@
 # Termos e privacidade — Uma Viagem Pelo Espaço
 
-Edição de 13/10/2026. Escopo: seis páginas no diretório
+Primeira edição em 13/10/2026; revisada em 14/11/2026. Escopo: seis páginas no diretório
 `viagem-pelo-espaco`, CSS próprio, fontes JSON, gerador e allowlist.
 Os documentos das outras aventuras não são modificados.
 
-## Fontes e limite da revisão
+## Edição de 14/11/2026 — versão comercial 0.9.0
 
-Consultados no projeto Espaço, somente para leitura:
+Revisão feita após a integração do Google Play Billing no jogo. Fatos lidos no
+código do jogo e no AAB de produção 0.9.0 (código 53), assinado e ainda não
+enviado à Play:
 
-- `tasks/us/US-003-godot-telas-terra/prompt-projeto-legal.md`
-- `plan/monetizacao.md`, incluindo REQ-COM-07 / DEC-IMP-004
-- `plan/configuracoes.md` e `plan/perfil-inicial.md`
-- `tasks/us/US-003-godot-telas-terra/_status.md`
+- Pacote `com.vcdevelopstudio.ticoeliliespaco`; fases 1–3 gratuitas e compra
+  única não consumível para 4–10, US$1,00 / R$2,99, preço localizado na oferta.
+- GodotGooglePlayBilling 3.3.0 e Billing Library 9.1.0 (`billing.properties`
+  do AAB); DataTransport/CCT presente no dex. Billing inicia ao abrir o app e
+  reconsulta ao voltar ao app, ao abrir o mapa e em Restaurar.
+- Cache próprio da compra: só produto, pacote, ambiente e acesso; sem token
+  nem pedido. Falha de consulta não revoga; consulta concluída sem a compra
+  (reembolso) revoga. Pendente não libera. ACK único.
+- Bloqueio parental com voz que chama um adulto; Comprar/Restaurar só depois.
+  Compra reconhecida na oferta entra na fase escolhida.
+- Manifesto mesclado com `allowBackup="false"`. Redefinir progresso conserva a
+  compra e o cache do catálogo.
+- "Mais jogos": feed `catalogo/familia/v1/jogos.json`, downloads só ao abrir a
+  lista ou Atualizar (antes do bloqueio da loja), validade máxima de 24 h.
 
-Raiz consultada:
-`C:/Users/victo/ai-vc-develop/.repo/ticoeliliespaco`.
-Busca por código Godot, project.godot, export_presets, Gradle e plugins
-não encontrou implementação ou pacote comercial disponível nessa raiz.
-O status da US-003 descreve implementação futura. Monetização confirma
-produto/SDK, compra/restauração/cache e validação comercial como futuros.
-Não existe evidência suficiente para declarar versão de SDK, campos,
-diagnósticos, opt-out, retenção, backup Android ou reinício offline.
-Não foi realizada captura de tráfego nem auditoria de servidores.
-
-Os documentos descrevem o produto final aprovado, e não a primeira fatia:
-dez fases, 1–3 gratuitas, compra definitiva 4–10, US$1,00 internacional /
-equivalente local e R$2,99 Brasil, preço localizado da loja na oferta,
-sem assinatura/anúncios, progresso separado do acesso, reset preservando
-preferências e direitos. A ausência de integração comercial confirmada é
-expressa nas páginas; não se afirma ausência universal de coleta.
-Revisão desta política e da build comercial é necessária antes de sua
-distribuição, especialmente para serviços, diagnósticos e cache.
+A política passou de nove para onze seções (diagnósticos e catálogo). Os
+termos mantêm as nove seções; mudaram produto, preço, compra pelo responsável,
+uso offline, redefinição e privacidade. Não houve captura de tráfego.
 
 Contato confirmado no prompt: VCDevelopStudio / vcdevelopstudio@gmail.com.
 Atendimento por Gmail e hospedagem GitHub Pages são descritos separadamente.
@@ -63,8 +60,8 @@ python -m unittest discover -s tests -v
 
 Testes: conteúdo integral HTML/JSON por idioma, títulos, datas, seções,
 navegação entre idiomas/documentos, x-default inglês, recursos locais,
-HTTPS e ausência de scripts; preços e ausência de declarações de SDK
-herdadas; pacote de 39 arquivos e exclusão de fontes internas.
+HTTPS e ausência de scripts; preços, pacote, versões do Billing, DataTransport,
+feed do catálogo e ausência de frases de "em desenvolvimento"; pacote de 39 arquivos e exclusão de fontes internas.
 Conferir geração determinística, diff sem alterações dos outros jogos,
 layout móvel/desktop e conteúdo integral servido nas seis URLs após deploy.
 Commit e resultado de deploy são registrados na entrega ao responsável.

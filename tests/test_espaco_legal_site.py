@@ -23,7 +23,7 @@ class EspacoLegalTest(unittest.TestCase):
                     self.assertIn(data['title'], text)
                     self.assertIn(data['updated'], text)
                     self.assertIn('Tico e Lili : Uma Viagem Pelo Espaço', text)
-                    self.assertEqual(sum(tag == 'h2' for tag, _ in page.tags), 9)
+                    self.assertEqual(sum(tag == 'h2' for tag, _ in page.tags), len(data['sections']))
                     for section in data['sections']:
                         self.assertIn(section['body'], text)
                     self.assertFalse(any(tag == 'script' for tag, _ in page.tags))
@@ -48,17 +48,26 @@ class EspacoLegalTest(unittest.TestCase):
                         else:
                             self.assertTrue((path.parent / url.path).is_file(), ref)
 
-    def test_final_model_prices_and_no_inherited_sdk_claims(self):
+    def test_commercial_build_disclosures_match_the_integrated_billing(self):
+        stale = {'pt-BR': ['em desenvolvimento', 'ainda não foi confirmad', 'ainda não estão confirmad'],
+                 'en-US': ['in development', 'not yet confirmed', 'not been confirmed'],
+                 'es-ES': ['en desarrollo', 'aún no se ha confirmado', 'aún no están confirmad']}
         for lang in LANGUAGES:
             terms = json.loads((ROOT / 'data/espaco_terms_of_use.json').read_text(encoding='utf-8'))[lang]
             privacy = json.loads((ROOT / 'data/espaco_privacy_policy.json').read_text(encoding='utf-8'))[lang]
             combined = json.dumps([terms, privacy], ensure_ascii=False)
-            self.assertIn('1–3', combined)
-            self.assertIn('4–10', combined)
-            self.assertIn('US$1.00' if lang == 'en-US' else 'US$1,00', combined)
-            self.assertIn('R$2.99' if lang == 'en-US' else 'R$2,99', combined)
-            for unverified in ['9.1.0', '3.3.0', 'DataTransport', 'PLAY_BILLING_LIBRARY',
-                               'allowBackup=false', 'US-003', 'C:/', 'C:\\']:
-                self.assertNotIn(unverified, combined)
-            self.assertEqual([s['id'] for s in privacy['sections']],
-                             ['scope', 'children', 'local', 'billing', 'offline', 'deletion', 'support', 'website', 'security'])
+            with self.subTest(lang=lang):
+                self.assertIn('1–3', combined)
+                self.assertIn('4–10', combined)
+                self.assertIn('US$1.00' if lang == 'en-US' else 'US$1,00', combined)
+                self.assertIn('R$2.99' if lang == 'en-US' else 'R$2,99', combined)
+                # Facts read from the signed 0.9.0 AAB and the game source.
+                for fact in ['com.vcdevelopstudio.ticoeliliespaco', 'GodotGooglePlayBilling 3.3.0',
+                             'Google Play Billing Library 9.1.0', 'DataTransport',
+                             'https://vcdevelopstudio.github.io/tico-e-lili-legal/catalogo/familia/v1/jogos.json']:
+                    self.assertIn(fact, combined)
+                for wrong in stale[lang] + ['US-0', 'C:/', 'C:\\', '.hml']:
+                    self.assertNotIn(wrong, combined)
+                self.assertEqual([s['id'] for s in privacy['sections']],
+                                 ['scope', 'children', 'local', 'billing', 'diagnostics', 'offline',
+                                  'catalog', 'deletion', 'support', 'website', 'security'])
