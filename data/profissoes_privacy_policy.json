@@ -1,29 +1,40 @@
 {
   "pt-BR": {
     "title": "Política de Privacidade",
-    "updated": "Atualizada em 22 de novembro de 2026",
+    "updated": "Atualizada em 23 de novembro de 2026",
     "publisher": "Responsável: VCDevelopStudio",
     "contact": "vcdevelopstudio@gmail.com",
     "sections": [
       {
         "id": "scope",
         "title": "1. Sobre esta política",
-        "body": "Esta política é destinada aos responsáveis por crianças que utilizam Tico e Lili: Profissões, jogo sobre as profissões da cidade para Android, pensado para crianças de 3–5 anos. Ela apresenta o modelo final aprovado do produto. A integração de compras ainda está em desenvolvimento; publicar estes documentos não anuncia disponibilidade do aplicativo, aprovação da Google ou compras já implementadas. Antes da disponibilização comercial, esta política será revisada conforme os serviços e o pacote efetivamente integrados."
+        "body": "Esta política é destinada aos responsáveis por crianças que utilizam Tico e Lili: Profissões, jogo sobre as profissões da cidade para Android, pacote com.engvcdevelop.ticoelili.profissoes, pensado para crianças de 3–5 anos. Ela descreve a versão comercial, com a compra pelo Google Play e a área “Mais jogos”, no mesmo modelo dos outros jogos da família Tico e Lili. Publicar esta política não anuncia disponibilidade do aplicativo nem aprovação da Google, e não altera versões já instaladas."
       },
       {
         "id": "children",
         "title": "2. Crianças e dados pessoais",
-        "body": "O modelo aprovado não prevê cadastro da criança, conta do estúdio, anúncios, chat ou envio de progresso ao estúdio. Não é necessário informar nome, e-mail, data de nascimento, documentos, fotos ou localização para as brincadeiras previstas. A área do responsável usa um desafio matemático como barreira prática de navegação; ele não comprova juridicamente idade, identidade ou consentimento. Responsáveis devem supervisionar o uso do aparelho e os controles da conta da loja."
+        "body": "O jogo não tem cadastro da criança, conta do estúdio, anúncios, chat, câmera, microfone, localização ou envio de progresso ao estúdio. Não é necessário informar nome, e-mail, data de nascimento, documentos ou fotos. A compra e a abertura de outros aplicativos ficam atrás de um desafio matemático para adultos, acompanhado de uma voz que chama um adulto; ele é uma barreira prática de navegação e não comprova juridicamente idade, identidade ou consentimento. Não integramos serviço de análise do comportamento nas brincadeiras. Os serviços de compra do Google têm práticas de dados próprias, descritas abaixo."
       },
       {
         "id": "local",
         "title": "3. Progresso e preferências locais",
-        "body": "O modelo prevê armazenamento no aparelho de fases concluídas, lembranças desbloqueadas ou reveladas, páginas liberadas ou vistas, idioma e volumes de música, efeitos e narração. Esses registros servem para continuar o jogo e manter as escolhas da família; não há checkpoint de uma tentativa incompleta. Não se prevê sincronização do progresso com servidor do estúdio. O idioma inicial segue português, inglês ou espanhol do aparelho, com inglês como alternativa; a escolha manual é conservada. Arquivos de áudio devem acompanhar a instalação, sem depender de narração online."
+        "body": "Ficam no aparelho as fases concluídas, lembranças desbloqueadas ou reveladas, páginas liberadas ou vistas, idioma e volumes de música, efeitos e narração. Esses registros servem para continuar o jogo e manter as escolhas da família; não há checkpoint de uma tentativa incompleta nem sincronização com servidor do estúdio. O idioma inicial segue português, inglês ou espanhol do aparelho, com inglês como alternativa; a escolha manual é conservada. Músicas, efeitos e narrações, inclusive a voz que chama o adulto, são arquivos incluídos no aplicativo."
       },
       {
         "id": "billing",
-        "title": "4. Compras e serviços da loja",
-        "body": "O modelo final prevê fases 1–3 gratuitas e uma compra única definitiva para acessar as fases 4–10, sem assinatura e sem anúncios. Comprar, restaurar e consultar o preço atual exigem internet e serviços da loja; compra e restauração passam pela área do responsável. O pagamento será processado pela loja, sob suas condições e política de privacidade. Para reconhecer e restaurar direitos, a integração comercial precisará tratar informações da transação e de seu estado. O SDK, a versão, os campos recebidos, o armazenamento e a configuração de diagnósticos de Profissões ainda não estão confirmados. Não afirmamos que o aplicativo já recebe tokens, mantém um cache específico ou inicia consultas ao abrir. Também não afirmamos ausência de coleta pela loja ou por seu SDK simplesmente porque as brincadeiras são locais. A política será atualizada com esses detalhes antes da entrega comercial. Serviços Google podem processar informações de conta, pagamento e dados técnicos conforme suas políticas.",
+        "title": "4. Compra única e restauração",
+        "body": "As fases 1–3 são gratuitas. Uma compra única, definitiva e não consumível dá acesso às fases 4–10, sem assinatura e sem anúncios. Ao escolher uma fase paga, o adulto responde ao desafio e vê a oferta, com imagens das fases, o preço localizado consultado no Google Play, Comprar e Restaurar. O Google Play processa o pagamento; o aplicativo não acessa dados de cartão. A integração recebe produto, estado e token da compra e a situação de reconhecimento para conceder o acesso e reconhecer a transação (ACK) junto à loja; esses dados são tratados em memória. Uma compra pendente só libera o acesso depois de confirmada pela loja. O registro local da compra guarda apenas o código do produto, o pacote e a indicação de acesso, sem token, conta, e-mail, dados de cartão ou identificador de pedido, e fica separado do progresso. Não há servidor de validação do estúdio. A versão comercial inicia o Billing e consulta preço e compras ao abrir o aplicativo, ao voltar a ele e ao abrir o mapa, e consulta de novo quando o responsável toca em Restaurar. Comprar, consultar preço e restaurar exigem internet e a conta Google usada na compra.",
+        "links": [
+          {
+            "label": "Política de Privacidade da Google",
+            "url": "https://policies.google.com/privacy"
+          }
+        ]
+      },
+      {
+        "id": "diagnostics",
+        "title": "5. Diagnósticos dos serviços Google",
+        "body": "A versão comercial integra GodotGooglePlayBilling e Google Play Billing Library. A biblioteca inclui diagnósticos operacionais enviados ao Google, com fila persistente local DataTransport/CCT. Essas informações técnicas podem incluir eventos de conexão, sucesso e falha, identificador aleatório de sessão da biblioteca, pacote e versões do aplicativo, da biblioteca e do Android, marca, modelo, fabricante e identificador da compilação do sistema. Esse identificador técnico não é o ID de publicidade, IMEI ou número de série, e não significa anonimato. O Billing é iniciado ao abrir o aplicativo comercial, antes da área dos adultos e independentemente de uma compra; o jogo não oferece opção para desativar esses diagnósticos e não comprar não os desativa. Eles são distintos de análises das brincadeiras. O Google trata esses dados conforme sua Política de Privacidade; não fixamos prazo de retenção nos sistemas do Google.",
         "links": [
           {
             "label": "Política de Privacidade da Google",
@@ -33,23 +44,28 @@
       },
       {
         "id": "offline",
-        "title": "5. Uso sem internet e limites",
-        "body": "O conteúdo previsto acompanha a instalação e permite brincar sem downloads adicionais. Após o reconhecimento de uma compra, a manutenção de acesso às fases pagas sem internet depende de um registro local persistente e de validação no aplicativo; esse funcionamento ainda não foi confirmado. Não há promessa de compra, restauração ou consulta de preços offline. Não foram confirmados SDK de análise de uso, publicidade ou relatórios de falha neste jogo; não atribuímos ao jogo os serviços dos outros títulos. A ausência de integração confirmada não é uma auditoria de tráfego nem uma garantia de ausência universal de tratamento de dados."
+        "title": "6. Uso sem internet e limites",
+        "body": "O conteúdo acompanha a instalação e permite brincar sem downloads adicionais. Depois que a compra é reconhecida, o registro local mantém o acesso às fases 4–10 sem internet. Uma falha de conexão ou da loja não remove o acesso; uma consulta concluída em que a loja não informa mais a compra, por exemplo após reembolso, remove o acesso local. Comprar, restaurar e consultar preço não funcionam sem internet. Não integramos SDK de publicidade, análise de uso ou relatório de falhas próprio; não atribuímos ao jogo os serviços de outros títulos. Esta descrição não é uma auditoria de tráfego."
+      },
+      {
+        "id": "catalog",
+        "title": "7. Mais jogos",
+        "body": "“Mais jogos” é uma área opcional que apresenta outros aplicativos do mesmo publicador. A lista pública e os ícones são hospedados no GitHub Pages, em https://vcdevelopstudio.github.io/tico-e-lili-legal/catalogo/familia/v1/jogos.json e no mesmo host. Abrir a lista ou tocar em Atualizar consulta essa lista e, quando necessário, baixa ícones por HTTPS; não há essas consultas ao abrir o jogo ou durante as fases. Esses downloads acontecem antes do desafio para adultos, que só protege a abertura da loja. A hospedagem recebe o IP, o caminho solicitado e cabeçalhos técnicos; o GitHub informa que registra IPs por segurança. As requisições não levam cookies, identificadores pessoais ou de publicidade, tokens de compra, progresso ou resultados do desafio. O cache do catálogo guarda a lista pública, sua revisão e validade e os ícones; seu conteúdo é usado por no máximo 24 horas desde a aceitação. Abrir a ficha de outro aplicativo exige escolha expressa e resposta correta ao desafio; não há instalação, compra automática ou recompensa."
       },
       {
         "id": "deletion",
-        "title": "6. Conservação e exclusão",
-        "body": "Os registros locais são mantidos para continuidade do jogo. No modelo aprovado, redefinir progresso, na área protegida para o responsável, apaga conquistas, conclusões, lembranças e páginas, mas conserva idioma, volumes e direitos de compra. Restaurar uma compra recupera acesso, não progresso apagado. Limpar o armazenamento do aplicativo nas configurações do Android remove seus dados locais; desinstalar ou trocar de aparelho pode causar perda de progresso. Isso não cancela a compra na conta da loja. Backup do sistema, cópias de recuperação e comportamento do cache comercial ainda não foram confirmados; não prometemos recuperação de arquivos. A exclusão local não apaga registros mantidos pela loja, que devem ser tratados pelos seus canais."
+        "title": "8. Conservação e exclusão",
+        "body": "Os registros locais são mantidos para continuidade do jogo. Redefinir progresso, na área protegida para o responsável, apaga conclusões, conquistas, lembranças e páginas, mas conserva idioma, volumes, o registro da compra e o cache do catálogo. Restaurar uma compra recupera o acesso, não o progresso apagado. A versão comercial desativa o backup automático do Android; limpar os dados do aplicativo, desinstalar ou trocar de aparelho remove os registros locais, e o acesso pode ser restaurado com internet pela mesma conta. Essas ações não cancelam a compra nem apagam registros do Google ou do GitHub, que devem ser tratados pelos seus canais."
       },
       {
         "id": "support",
-        "title": "7. Atendimento e direitos de privacidade",
-        "body": "VCDevelopStudio é o responsável pelo produto. Ao escrever para vcdevelopstudio@gmail.com, você fornece seu endereço de e-mail e o conteúdo escolhido. Usamos esses dados para atender solicitações, inclusive pedidos de acesso, correção ou exclusão de informações recebidas pelo estúdio, conforme a legislação aplicável. Mantemos mensagens pelo tempo necessário ao atendimento e às obrigações legais pertinentes, sem prazo fixo não confirmado. Gmail e o provedor de e-mail do remetente processam as mensagens conforme suas políticas. Evite enviar nomes, fotos ou outros dados de crianças desnecessários ao atendimento. O estúdio não oferece recuperação remota de progresso local nem pode excluir diretamente registros dos servidores da loja."
+        "title": "9. Atendimento e direitos de privacidade",
+        "body": "VCDevelopStudio é o responsável pelo produto. Ao escrever para vcdevelopstudio@gmail.com, você fornece seu endereço de e-mail e o conteúdo escolhido. Usamos esses dados para atender solicitações, inclusive pedidos de acesso, correção ou exclusão de informações recebidas pelo estúdio, conforme a legislação aplicável. Mantemos mensagens pelo tempo necessário ao atendimento e às obrigações legais pertinentes. Gmail e o provedor de e-mail do remetente processam as mensagens conforme suas políticas. Evite enviar nomes, fotos ou outros dados de crianças desnecessários ao atendimento. O estúdio não oferece recuperação remota de progresso local nem pode excluir diretamente registros dos servidores da loja."
       },
       {
         "id": "website",
-        "title": "8. Visitas a este site",
-        "body": "Estas páginas são hospedadas no GitHub Pages e podem ser abertas sem login. As páginas de Profissões não carregam scripts de anúncios ou análise de uso e não gravam cookies ou preferências no navegador. A conexão ao provedor de hospedagem é separada do funcionamento do jogo. O GitHub informa que registra e armazena endereços IP de visitantes por segurança, mesmo sem login. Abrir links no navegador pode exigir internet.",
+        "title": "10. Visitas a este site",
+        "body": "Estas páginas são hospedadas no GitHub Pages e podem ser abertas sem login. As páginas de Profissões não carregam scripts de anúncios ou análise de uso e não gravam cookies ou preferências no navegador. Abrir estes documentos no navegador é um fluxo separado dos downloads do catálogo pelo jogo. O GitHub informa que registra e armazena endereços IP de visitantes por segurança, mesmo sem login.",
         "links": [
           {
             "label": "Coleta de dados no GitHub Pages",
@@ -63,36 +79,47 @@
       },
       {
         "id": "security",
-        "title": "9. Proteção e alterações",
-        "body": "Não vendemos os dados enviados ao atendimento. A proteção de dados no aparelho também depende do sistema, das atualizações e dos controles da família; não prometemos segurança absoluta. O tratamento pelos serviços da loja, pelo e-mail e pela hospedagem segue suas políticas. Revisaremos este documento quando as práticas do aplicativo forem confirmadas ou mudarem. A data acima identifica esta edição. As versões em português, inglês e espanhol devem ser lidas em conjunto com os Termos de Uso; inglês é o idioma padrão para referências públicas sem idioma definido."
+        "title": "11. Proteção e alterações",
+        "body": "Não vendemos dados da criança nem os enviados ao atendimento. A proteção de dados no aparelho também depende do sistema, das atualizações e dos controles da família; não prometemos segurança absoluta. O tratamento pelos serviços da loja, pelo e-mail e pela hospedagem segue suas políticas. Revisaremos este documento quando as práticas do aplicativo mudarem. A data acima identifica esta edição. As versões em português, inglês e espanhol devem ser lidas em conjunto com os Termos de Uso; inglês é o idioma padrão para referências públicas sem idioma definido."
       }
     ]
   },
   "en-US": {
     "title": "Privacy Policy",
-    "updated": "Updated November 22, 2026",
+    "updated": "Updated on November 23, 2026",
     "publisher": "Publisher: VCDevelopStudio",
     "contact": "vcdevelopstudio@gmail.com",
     "sections": [
       {
         "id": "scope",
         "title": "1. About this policy",
-        "body": "This policy addresses parents and guardians of children using Tico and Lili: Jobs, an Android game about jobs in the city designed for ages 3–5. It describes the approved final product model. Purchase integration is still in development; publishing these documents does not announce app availability, Google approval or implemented purchases. Before commercial availability, this policy will be reviewed against the services and package actually integrated."
+        "body": "This policy is for the parents and guardians of children who use Tico e Lili: Profissões, a game about the jobs people do in town, for Android, package com.engvcdevelop.ticoelili.profissoes, designed for children aged 3–5. It describes the commercial version, with purchasing through Google Play and the “More games” area, following the same model as the other Tico e Lili family games. Publishing this policy does not announce the app’s availability or Google’s approval, and does not change versions already installed."
       },
       {
         "id": "children",
         "title": "2. Children and personal data",
-        "body": "The approved model does not include child registration, a studio account, advertising, chat or sending progress to the studio. The planned activities do not require names, email addresses, dates of birth, identity documents, photos or location. The adult area uses a mathematical challenge as a practical navigation barrier; it does not legally verify age, identity or consent. Guardians should supervise device use and store account controls."
+        "body": "The game has no child registration, studio account, ads, chat, camera, microphone, location or sending of progress to the studio. No name, email, date of birth, documents or photos are needed. Purchasing and opening other apps sit behind a math challenge for adults, with a voice that calls an adult; it is a practical navigation barrier and does not legally verify age, identity or consent. We do not integrate any service that analyzes play behavior. Google’s purchasing services have their own data practices, described below."
       },
       {
         "id": "local",
         "title": "3. Local progress and preferences",
-        "body": "The model provides for on-device storage of completed stages, unlocked or revealed keepsakes, unlocked or viewed pages, language, and music, effects and narration volumes. These records support continuation of the game and the family's choices; there is no checkpoint for an unfinished attempt. Progress synchronization with a studio server is not planned. The initial language follows the device's Portuguese, English or Spanish, with English as fallback; manual choices are retained. Audio files are to be included in the installation without relying on online narration."
+        "body": "Completed phases, unlocked or revealed memories, unlocked or viewed pages, language and music, effects and narration volumes stay on the device. These records let the family continue the game and keep its choices; there is no checkpoint for an unfinished attempt and no sync with a studio server. The initial language follows the device’s Portuguese, English or Spanish, with English as the fallback; a manual choice is kept. Music, effects and narration, including the voice that calls an adult, are files included in the app."
       },
       {
         "id": "billing",
-        "title": "4. Purchases and store services",
-        "body": "The final model provides free stages 1–3 and a permanent one-time purchase for access to stages 4–10, without subscriptions or advertising. Buying, restoring and checking the current price require internet and store services; purchase and restoration go through the adult area. The store will process payment under its terms and privacy policy. Recognizing and restoring access rights will require the commercial integration to handle transaction information and its status. This game's SDK, version, received fields, storage and diagnostic settings are not yet confirmed. We do not claim that the app already receives tokens, maintains a particular cache or starts queries at launch. Nor do we claim that the store or its SDK collects no data simply because play is local. This policy will be updated with these details before commercial delivery. Google services may process account, payment and technical information under their policies.",
+        "title": "4. One-time purchase and restore",
+        "body": "Phases 1–3 are free. A single, permanent, non-consumable purchase gives access to phases 4–10, with no subscription and no ads. When a paid phase is chosen, the adult answers the challenge and sees the offer, with pictures of the phases, the localized price retrieved from Google Play, Buy and Restore. Google Play processes the payment; the app has no access to card data. The integration receives the product, purchase state and token and the acknowledgement status to grant access and acknowledge the transaction (ACK) with the store; these data are handled in memory. A pending purchase only grants access after the store confirms it. The local purchase record keeps only the product code, the package and the access flag, with no token, account, email, card data or order ID, and is separate from progress. There is no studio validation server. The commercial version starts Billing and checks price and purchases when the app opens, when it returns to the app and when the map opens, and checks again when the guardian taps Restore. Buying, checking the price and restoring require internet and the Google account used for the purchase.",
+        "links": [
+          {
+            "label": "Google Privacy Policy",
+            "url": "https://policies.google.com/privacy"
+          }
+        ]
+      },
+      {
+        "id": "diagnostics",
+        "title": "5. Google services diagnostics",
+        "body": "The commercial version integrates GodotGooglePlayBilling and Google Play Billing Library. The library includes operational diagnostics sent to Google, with a persistent local DataTransport/CCT queue. This technical information may include connection, success and failure events, a random library session identifier, the package and app, library and Android versions, brand, model, manufacturer and system build identifier. This technical identifier is not the advertising ID, IMEI or serial number, and does not mean anonymity. Billing starts when the commercial app opens, before the adult area and regardless of a purchase; the game offers no option to turn these diagnostics off and not buying does not turn them off. They are distinct from analysis of play. Google handles these data under its Privacy Policy; we do not set a retention period in Google’s systems.",
         "links": [
           {
             "label": "Google Privacy Policy",
@@ -102,23 +129,28 @@
       },
       {
         "id": "offline",
-        "title": "5. Offline use and limitations",
-        "body": "The planned content is included in the installation and allows play without additional downloads. After a purchase is recognized, keeping access to paid stages offline depends on a persistent local record and validation in the app; this behavior has not yet been confirmed. Offline purchasing, restoration or price queries are not promised. Usage analytics, advertising or crash-reporting SDKs have not been confirmed for this game; we do not attribute other games' services to it. An unconfirmed integration is not a traffic audit or a guarantee that no data is processed anywhere."
+        "title": "6. Offline use and limits",
+        "body": "The content ships with the installation and can be played without extra downloads. Once the purchase is recognized, the local record keeps access to phases 4–10 without internet. A connection or store failure does not remove access; a completed check in which the store no longer reports the purchase, for example after a refund, removes local access. Buying, restoring and checking the price do not work offline. We do not integrate our own advertising, usage analytics or crash reporting SDK; we do not attribute other titles’ services to this game. This description is not a traffic audit."
+      },
+      {
+        "id": "catalog",
+        "title": "7. More games",
+        "body": "“More games” is an optional area that shows other apps from the same publisher. The public list and icons are hosted on GitHub Pages, at https://vcdevelopstudio.github.io/tico-e-lili-legal/catalogo/familia/v1/jogos.json and on the same host. Opening the list or tapping Refresh fetches that list and, when needed, downloads icons over HTTPS; there are no such requests when the game opens or during phases. These downloads happen before the adult challenge, which only protects opening the store. The host receives the IP address, the requested path and technical headers; GitHub states that it logs IP addresses for security. Requests carry no cookies, personal or advertising identifiers, purchase tokens, progress or challenge results. The catalog cache keeps the public list, its revision and validity and the icons; its content is used for at most 24 hours after acceptance. Opening another app’s store page requires an explicit choice and a correct answer to the challenge; there is no installation, automatic purchase or reward."
       },
       {
         "id": "deletion",
-        "title": "6. Retention and deletion",
-        "body": "Local records are retained for game continuity. In the approved model, resetting progress in the protected adult area clears achievements, completions, keepsakes and pages while preserving language, volumes and purchase rights. Restoring a purchase recovers access, not deleted progress. Clearing app storage in Android settings removes local app data; uninstalling or changing devices may cause progress loss. This does not cancel the purchase in the store account. System backup, recovery copies and commercial cache behavior have not yet been confirmed; file recovery is not promised. Local deletion does not erase store records, which must be handled through its channels."
+        "title": "8. Retention and deletion",
+        "body": "Local records are kept so the game can continue. Resetting progress, in the area protected for the guardian, erases completions, achievements, memories and pages, but keeps language, volumes, the purchase record and the catalog cache. Restoring a purchase recovers access, not erased progress. The commercial version turns off Android automatic backup; clearing the app’s data, uninstalling or changing devices removes local records, and access can be restored online with the same account. These actions do not cancel the purchase or erase Google or GitHub records, which must be handled through their channels."
       },
       {
         "id": "support",
-        "title": "7. Support and privacy rights",
-        "body": "VCDevelopStudio is responsible for the product. When you email vcdevelopstudio@gmail.com, you provide your email address and chosen content. We use this data to handle requests, including access, correction or deletion of information received by the studio, under applicable law. Messages are kept for the time needed for support and relevant legal obligations, without an unconfirmed fixed deadline. Gmail and the sender's email provider process messages under their policies. Avoid sending children's names, photos or other data unnecessary for support. The studio does not offer remote recovery of local progress and cannot directly delete store-server records."
+        "title": "9. Support and privacy rights",
+        "body": "VCDevelopStudio is responsible for the product. When you write to vcdevelopstudio@gmail.com, you provide your email address and the content you choose. We use these data to answer requests, including requests to access, correct or delete information received by the studio, under applicable law. We keep messages for as long as needed for support and relevant legal obligations. Gmail and the sender’s email provider process messages under their own policies. Avoid sending children’s names, photos or other data not needed for support. The studio offers no remote recovery of local progress and cannot directly delete records on the store’s servers."
       },
       {
         "id": "website",
-        "title": "8. Visits to this website",
-        "body": "These pages are hosted on GitHub Pages and are accessible without login. The Tico and Lili: Jobs pages load no advertising or usage analytics scripts and store no cookies or preferences in the browser. Connecting to the hosting provider is separate from game operation. GitHub states that it logs and stores visitor IP addresses for security, even without login. Opening browser links may require internet.",
+        "title": "10. Visits to this site",
+        "body": "These pages are hosted on GitHub Pages and can be opened without signing in. The Profissões pages load no advertising or analytics scripts and store no cookies or preferences in the browser. Opening these documents in a browser is separate from the game’s catalog downloads. GitHub states that it logs and stores visitors’ IP addresses for security, even without sign-in.",
         "links": [
           {
             "label": "Data collection on GitHub Pages",
@@ -132,36 +164,47 @@
       },
       {
         "id": "security",
-        "title": "9. Protection and changes",
-        "body": "We do not sell data sent to support. On-device protection also depends on the system, updates and family controls; absolute security is not promised. Store, email and hosting services process data under their policies. We will review this document when app practices are confirmed or change. The date above identifies this edition. Portuguese, English and Spanish versions should be read with the Terms of Use; English is the default for public references without a specified language."
+        "title": "11. Protection and changes",
+        "body": "We do not sell children’s data or data sent to support. Data protection on the device also depends on the system, updates and family controls; we do not promise absolute security. Processing by the store, email and hosting services follows their policies. We will revise this document when the app’s practices change. The date above identifies this edition. The Portuguese, English and Spanish versions should be read together with the Terms of Use; English is the default language for public references without a set language."
       }
     ]
   },
   "es-ES": {
     "title": "Política de Privacidad",
-    "updated": "Actualizada el 22 de noviembre de 2026",
+    "updated": "Actualizada el 23 de noviembre de 2026",
     "publisher": "Responsable: VCDevelopStudio",
     "contact": "vcdevelopstudio@gmail.com",
     "sections": [
       {
         "id": "scope",
-        "title": "1. Acerca de esta política",
-        "body": "Esta política se dirige a responsables de niños que utilizan Tico y Lili: Profesiones, juego sobre los oficios de la ciudad para Android pensado para edades de 3–5 años. Describe el modelo final aprobado del producto. La integración de compras sigue en desarrollo; publicar estos documentos no anuncia disponibilidad del aplicativo, aprobación de Google ni compras implementadas. Antes de la disponibilidad comercial, revisaremos esta política según los servicios y el paquete realmente integrados."
+        "title": "1. Sobre esta política",
+        "body": "Esta política está dirigida a los responsables de los niños que usan Tico e Lili: Profissões, juego sobre las profesiones de la ciudad para Android, paquete com.engvcdevelop.ticoelili.profissoes, pensado para niños de 3–5 años. Describe la versión comercial, con la compra a través de Google Play y el área “Más juegos”, con el mismo modelo de los demás juegos de la familia Tico e Lili. Publicar esta política no anuncia la disponibilidad de la aplicación ni la aprobación de Google, y no modifica versiones ya instaladas."
       },
       {
         "id": "children",
         "title": "2. Niños y datos personales",
-        "body": "El modelo aprobado no incluye registro del niño, cuenta del estudio, anuncios, chat ni envío del progreso al estudio. Las actividades previstas no requieren nombre, correo electrónico, fecha de nacimiento, documentos de identidad, fotos ni ubicación. El área del responsable utiliza un desafío matemático como barrera práctica de navegación; no verifica jurídicamente edad, identidad ni consentimiento. Los responsables deben supervisar el uso del dispositivo y los controles de la cuenta de la tienda."
+        "body": "El juego no tiene registro del niño, cuenta del estudio, anuncios, chat, cámara, micrófono, ubicación ni envío del progreso al estudio. No es necesario indicar nombre, correo, fecha de nacimiento, documentos ni fotos. La compra y la apertura de otras aplicaciones están detrás de un desafío matemático para adultos, acompañado de una voz que llama a un adulto; es una barrera práctica de navegación y no comprueba legalmente edad, identidad ni consentimiento. No integramos servicios de análisis del comportamiento en los juegos. Los servicios de compra de Google tienen sus propias prácticas de datos, descritas abajo."
       },
       {
         "id": "local",
         "title": "3. Progreso y preferencias locales",
-        "body": "El modelo prevé guardar en el dispositivo fases completadas, recuerdos desbloqueados o revelados, páginas desbloqueadas o vistas, idioma y volúmenes de música, efectos y narración. Estos registros permiten continuar el juego y mantener las elecciones de la familia; no hay punto de guardado de un intento incompleto. No se prevé sincronizar el progreso con un servidor del estudio. El idioma inicial sigue el portugués, inglés o español del dispositivo, con inglés como alternativa; se conserva la elección manual. Los archivos de audio deben acompañar la instalación sin depender de narración en línea."
+        "body": "En el dispositivo se guardan las fases completadas, recuerdos desbloqueados o revelados, páginas liberadas o vistas, idioma y volúmenes de música, efectos y narración. Estos registros sirven para continuar el juego y mantener las elecciones de la familia; no hay punto de control de un intento incompleto ni sincronización con un servidor del estudio. El idioma inicial sigue el portugués, inglés o español del dispositivo, con inglés como alternativa; la elección manual se conserva. La música, los efectos y las narraciones, incluida la voz que llama a un adulto, son archivos incluidos en la aplicación."
       },
       {
         "id": "billing",
-        "title": "4. Compras y servicios de la tienda",
-        "body": "El modelo final prevé fases 1–3 gratuitas y una compra única definitiva para acceder a las fases 4–10, sin suscripciones ni anuncios. Comprar, restaurar y consultar el precio actual requieren internet y servicios de la tienda; compra y restauración pasan por el área del responsable. La tienda procesará el pago bajo sus condiciones y política de privacidad. Para reconocer y restaurar derechos, la integración comercial deberá tratar información de la transacción y su estado. Aún no están confirmados el SDK, la versión, los campos recibidos, el almacenamiento ni la configuración de diagnósticos de este juego. No afirmamos que el aplicativo ya reciba tokens, mantenga un caché específico o inicie consultas al abrir. Tampoco afirmamos ausencia de recopilación por la tienda o su SDK simplemente porque las actividades sean locales. Actualizaremos la política con estos detalles antes de la entrega comercial. Los servicios Google pueden procesar información de cuenta, pago y datos técnicos conforme a sus políticas.",
+        "title": "4. Compra única y restauración",
+        "body": "Las fases 1–3 son gratuitas. Una compra única, definitiva y no consumible da acceso a las fases 4–10, sin suscripción y sin anuncios. Al elegir una fase de pago, el adulto responde al desafío y ve la oferta, con imágenes de las fases, el precio localizado consultado en Google Play, Comprar y Restaurar. Google Play procesa el pago; la aplicación no accede a datos de tarjeta. La integración recibe el producto, el estado y el token de la compra y la situación de reconocimiento para conceder el acceso y reconocer la transacción (ACK) ante la tienda; estos datos se tratan en memoria. Una compra pendiente solo libera el acceso después de que la tienda la confirme. El registro local de la compra guarda solo el código del producto, el paquete y la indicación de acceso, sin token, cuenta, correo, datos de tarjeta ni identificador de pedido, y está separado del progreso. No hay servidor de validación del estudio. La versión comercial inicia Billing y consulta precio y compras al abrir la aplicación, al volver a ella y al abrir el mapa, y consulta de nuevo cuando el responsable toca Restaurar. Comprar, consultar el precio y restaurar requieren internet y la cuenta de Google usada en la compra.",
+        "links": [
+          {
+            "label": "Política de Privacidad de Google",
+            "url": "https://policies.google.com/privacy"
+          }
+        ]
+      },
+      {
+        "id": "diagnostics",
+        "title": "5. Diagnósticos de los servicios de Google",
+        "body": "La versión comercial integra GodotGooglePlayBilling y Google Play Billing Library. La biblioteca incluye diagnósticos operativos enviados a Google, con una cola persistente local DataTransport/CCT. Esta información técnica puede incluir eventos de conexión, éxito y fallo, un identificador aleatorio de sesión de la biblioteca, el paquete y las versiones de la aplicación, de la biblioteca y de Android, marca, modelo, fabricante e identificador de compilación del sistema. Este identificador técnico no es el ID de publicidad, el IMEI ni el número de serie, y no significa anonimato. Billing se inicia al abrir la aplicación comercial, antes del área de adultos e independientemente de una compra; el juego no ofrece opción para desactivar estos diagnósticos y no comprar no los desactiva. Son distintos del análisis de los juegos. Google trata estos datos según su Política de Privacidad; no fijamos un plazo de conservación en los sistemas de Google.",
         "links": [
           {
             "label": "Política de Privacidad de Google",
@@ -171,23 +214,28 @@
       },
       {
         "id": "offline",
-        "title": "5. Uso sin internet y límites",
-        "body": "El contenido previsto acompaña la instalación y permite jugar sin descargas adicionales. Después de reconocer una compra, mantener el acceso a las fases de pago sin internet depende de un registro local persistente y de validación en el aplicativo; ese funcionamiento aún no está confirmado. No se prometen compras, restauración ni consulta de precios sin conexión. No se han confirmado SDK de análisis de uso, publicidad ni informes de fallos en este juego; no le atribuímos servicios de otros juegos. Una integración no confirmada no es una auditoría de tráfico ni una garantía de ausencia universal de tratamiento de datos."
+        "title": "6. Uso sin internet y límites",
+        "body": "El contenido viene con la instalación y permite jugar sin descargas adicionales. Una vez reconocida la compra, el registro local mantiene el acceso a las fases 4–10 sin internet. Un fallo de conexión o de la tienda no retira el acceso; una consulta completada en la que la tienda ya no informa la compra, por ejemplo tras un reembolso, retira el acceso local. Comprar, restaurar y consultar el precio no funcionan sin internet. No integramos SDK propio de publicidad, análisis de uso ni informes de fallos; no atribuimos al juego los servicios de otros títulos. Esta descripción no es una auditoría de tráfico."
+      },
+      {
+        "id": "catalog",
+        "title": "7. Más juegos",
+        "body": "“Más juegos” es un área opcional que presenta otras aplicaciones del mismo editor. La lista pública y los iconos se alojan en GitHub Pages, en https://vcdevelopstudio.github.io/tico-e-lili-legal/catalogo/familia/v1/jogos.json y en el mismo host. Abrir la lista o tocar Actualizar consulta esa lista y, cuando es necesario, descarga iconos por HTTPS; no hay estas consultas al abrir el juego ni durante las fases. Estas descargas ocurren antes del desafío para adultos, que solo protege la apertura de la tienda. El alojamiento recibe la IP, la ruta solicitada y cabeceras técnicas; GitHub informa que registra las IP por seguridad. Las solicitudes no llevan cookies, identificadores personales ni de publicidad, tokens de compra, progreso ni resultados del desafío. La caché del catálogo guarda la lista pública, su revisión y validez y los iconos; su contenido se usa como máximo 24 horas desde la aceptación. Abrir la ficha de otra aplicación exige una elección expresa y una respuesta correcta al desafío; no hay instalación, compra automática ni recompensa."
       },
       {
         "id": "deletion",
-        "title": "6. Conservación y eliminación",
-        "body": "Los registros locales se conservan para continuar el juego. En el modelo aprobado, restablecer el progreso en el área protegida del responsable elimina logros, fases completadas, recuerdos y páginas, pero conserva idioma, volúmenes y derechos de compra. Restaurar una compra recupera acceso, no progreso eliminado. Borrar el almacenamiento del aplicativo en los ajustes de Android elimina sus datos locales; desinstalar o cambiar de dispositivo puede causar pérdida de progreso. Esto no cancela la compra en la cuenta de la tienda. Aún no están confirmados el respaldo del sistema, las copias de recuperación ni el comportamiento del caché comercial; no prometemos recuperar archivos. La eliminación local no borra registros de la tienda, que deben gestionarse mediante sus canales."
+        "title": "8. Conservación y eliminación",
+        "body": "Los registros locales se mantienen para continuar el juego. Restablecer el progreso, en el área protegida para el responsable, borra finalizaciones, logros, recuerdos y páginas, pero conserva el idioma, los volúmenes, el registro de la compra y la caché del catálogo. Restaurar una compra recupera el acceso, no el progreso borrado. La versión comercial desactiva la copia de seguridad automática de Android; borrar los datos de la aplicación, desinstalarla o cambiar de dispositivo elimina los registros locales, y el acceso puede restaurarse con internet con la misma cuenta. Estas acciones no cancelan la compra ni borran registros de Google o GitHub, que deben gestionarse por sus canales."
       },
       {
         "id": "support",
-        "title": "7. Atención y derechos de privacidad",
-        "body": "VCDevelopStudio es responsable del producto. Al escribir a vcdevelopstudio@gmail.com, proporciona su dirección de correo y el contenido elegido. Utilizamos esos datos para atender solicitudes, incluidos pedidos de acceso, corrección o eliminación de información recibida por el estudio, conforme a la legislación aplicable. Conservamos mensajes durante el tiempo necesario para atención y obligaciones legales pertinentes, sin un plazo fijo no confirmado. Gmail y el proveedor del remitente procesan mensajes bajo sus políticas. Evite enviar nombres, fotos u otros datos de niños innecesarios para la atención. El estudio no ofrece recuperación remota del progreso local ni puede eliminar directamente registros en servidores de la tienda."
+        "title": "9. Atención y derechos de privacidad",
+        "body": "VCDevelopStudio es el responsable del producto. Al escribir a vcdevelopstudio@gmail.com, usted facilita su dirección de correo y el contenido elegido. Usamos estos datos para atender solicitudes, incluidas las de acceso, rectificación o eliminación de información recibida por el estudio, conforme a la legislación aplicable. Conservamos los mensajes el tiempo necesario para la atención y las obligaciones legales pertinentes. Gmail y el proveedor de correo del remitente procesan los mensajes según sus políticas. Evite enviar nombres, fotos u otros datos de niños innecesarios para la atención. El estudio no ofrece recuperación remota del progreso local ni puede eliminar directamente registros de los servidores de la tienda."
       },
       {
         "id": "website",
-        "title": "8. Visitas a este sitio",
-        "body": "Estas páginas están alojadas en GitHub Pages y son accesibles sin iniciar sesión. Las páginas de Tico y Lili: Profesiones no cargan scripts de anuncios o análisis de uso ni guardan cookies o preferencias en el navegador. La conexión al alojamiento es independiente del funcionamiento del juego. GitHub informa que registra y almacena direcciones IP de visitantes por seguridad, incluso sin iniciar sesión. Abrir enlaces en el navegador puede requerir internet.",
+        "title": "10. Visitas a este sitio",
+        "body": "Estas páginas se alojan en GitHub Pages y pueden abrirse sin iniciar sesión. Las páginas de Profissões no cargan scripts de anuncios ni de análisis de uso y no guardan cookies ni preferencias en el navegador. Abrir estos documentos en el navegador es un flujo separado de las descargas del catálogo por el juego. GitHub informa que registra y almacena las direcciones IP de los visitantes por seguridad, incluso sin iniciar sesión.",
         "links": [
           {
             "label": "Recopilación de datos en GitHub Pages",
@@ -201,8 +249,8 @@
       },
       {
         "id": "security",
-        "title": "9. Protección y cambios",
-        "body": "No vendemos datos enviados a atención. La protección en el dispositivo también depende del sistema, las actualizaciones y los controles de la familia; no prometemos seguridad absoluta. Los servicios de tienda, correo y alojamiento tratan datos bajo sus políticas. Revisaremos este documento cuando se confirmen o cambien las prácticas del aplicativo. La fecha anterior identifica esta edición. Las versiones en portugués, inglés y español deben leerse junto con los Términos de Uso; inglés es el idioma predeterminado para referencias públicas sin idioma definido."
+        "title": "11. Protección y cambios",
+        "body": "No vendemos datos de los niños ni los enviados a la atención. La protección de los datos en el dispositivo también depende del sistema, de las actualizaciones y de los controles de la familia; no prometemos seguridad absoluta. El tratamiento por los servicios de la tienda, el correo y el alojamiento sigue sus políticas. Revisaremos este documento cuando cambien las prácticas de la aplicación. La fecha anterior identifica esta edición. Las versiones en portugués, inglés y español deben leerse junto con los Términos de Uso; el inglés es el idioma predeterminado para referencias públicas sin idioma definido."
       }
     ]
   }

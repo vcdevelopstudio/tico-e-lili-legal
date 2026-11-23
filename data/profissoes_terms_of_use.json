@@ -1,14 +1,14 @@
 {
   "pt-BR": {
     "title": "Termos de Uso",
-    "updated": "Atualizados em 22 de novembro de 2026",
+    "updated": "Atualizados em 23 de novembro de 2026",
     "publisher": "Responsável: VCDevelopStudio",
     "contact": "vcdevelopstudio@gmail.com",
     "sections": [
       {
         "id": "scope",
         "title": "1. Produto e responsáveis",
-        "body": "Estes termos regem o modelo final aprovado de Tico e Lili: Profissões, jogo infantil sobre as profissões da cidade para celulares e tablets Android, em orientação vertical, com português, inglês e espanhol. É pensado para crianças de 3–5 anos, com acompanhamento de uma pessoa responsável. VCDevelopStudio é o responsável pelo produto. A integração comercial ainda está em desenvolvimento; estes documentos não anunciam lançamento, aprovação da Google nem compras implementadas ou testadas."
+        "body": "Estes termos regem Tico e Lili: Profissões, jogo infantil sobre as profissões da cidade para celulares e tablets Android, pacote com.engvcdevelop.ticoelili.profissoes, em orientação vertical, com português, inglês e espanhol. É pensado para crianças de 3–5 anos, com acompanhamento de uma pessoa responsável. VCDevelopStudio é o responsável pelo produto. A versão comercial integra a compra pelo Google Play com GodotGooglePlayBilling e a Google Play Billing Library, como os outros jogos da família; estes documentos não anunciam lançamento nem aprovação da Google."
       },
       {
         "id": "access",
@@ -29,17 +29,17 @@
       {
         "id": "adult",
         "title": "4. Compra e restauração pelo responsável",
-        "body": "Compra e restauração passam pela área do responsável, protegida por desafio matemático. Essa barreira prática não é comprovação jurídica de idade, identidade ou consentimento. A pessoa responsável deve autorizar o pagamento e usar os controles da conta da loja. Comprar, consultar o preço atual e restaurar exigem internet e serviços da loja. A restauração depende do reconhecimento da compra pela loja e da conta utilizada; não recupera progresso apagado. Somente uma compra reconhecida concede acesso, mantendo a progressão normal."
+        "body": "Ao escolher uma fase paga, uma voz chama um adulto e um desafio matemático protege a oferta; Comprar e Restaurar só aparecem depois dele. Essa barreira prática não é comprovação jurídica de idade, identidade ou consentimento. A pessoa responsável deve autorizar o pagamento e usar os controles da conta da loja. Comprar, consultar o preço atual e restaurar exigem internet e serviços da loja. Somente uma compra reconhecida pela loja concede acesso; uma compra pendente aguarda a confirmação. Reconhecida a compra na oferta, o jogo entra na fase escolhida. A restauração depende da conta usada na compra e não recupera progresso apagado."
       },
       {
         "id": "offline",
         "title": "5. Uso local e disponibilidade",
-        "body": "O conteúdo instalado deve permitir brincar sem downloads adicionais. Após reconhecimento da compra, manter acesso às fases pagas sem internet depende de um registro local persistente e de validação no aplicativo; esse comportamento ainda não foi confirmado. Não prometemos compra, consulta de preços ou restauração offline. Compatibilidade, falhas de rede, indisponibilidade da loja e mudanças do sistema podem afetar essas operações. Os documentos não garantem suporte a todo aparelho ou disponibilidade ininterrupta."
+        "body": "O conteúdo instalado permite brincar sem downloads adicionais. Depois que a compra é reconhecida, um registro local mantém o acesso às fases pagas sem internet; falhas de conexão não o removem, mas uma consulta concluída em que a loja não informa mais a compra, como após reembolso, o remove. Não há compra, consulta de preços ou restauração offline. Compatibilidade, falhas de rede, indisponibilidade da loja e mudanças do sistema podem afetar essas operações. Os documentos não garantem suporte a todo aparelho ou disponibilidade ininterrupta."
       },
       {
         "id": "reset",
         "title": "6. Progresso e redefinição",
-        "body": "Progresso e preferências ficam no aparelho: fases concluídas, lembranças desbloqueadas ou reveladas, páginas liberadas ou vistas, idioma e volumes de música, efeitos e narração. Tentativas incompletas não têm checkpoint. Redefinir progresso apaga conclusões, conquistas, lembranças e páginas, mas conserva idioma, volumes e direitos de compra; não cancela a compra. Limpar dados, desinstalar ou trocar de aparelho pode causar perda de registros locais. O direito de compra permanece sujeito aos registros da loja e poderá exigir restauração com internet. Não oferecemos sincronização ou recuperação de progresso pelo estúdio."
+        "body": "Progresso e preferências ficam no aparelho: fases concluídas, lembranças desbloqueadas ou reveladas, páginas liberadas ou vistas, idioma e volumes de música, efeitos e narração. Tentativas incompletas não têm checkpoint. Redefinir progresso apaga conclusões, conquistas, lembranças e páginas, mas conserva idioma, volumes e o acesso comprado; não cancela a compra. Limpar dados, desinstalar ou trocar de aparelho remove os registros locais; o acesso comprado pode ser restaurado com internet pela mesma conta. Não oferecemos sincronização ou recuperação de progresso pelo estúdio."
       },
       {
         "id": "license",
@@ -49,7 +49,7 @@
       {
         "id": "rights",
         "title": "8. Privacidade, suporte e direitos",
-        "body": "A Política de Privacidade própria deste jogo explica dados locais, serviços externos, atendimento e limites ainda não confirmados da integração comercial. Leia-a com estes termos. Para dúvidas, problemas e pedidos relacionados aos seus direitos, escreva para vcdevelopstudio@gmail.com. Estes termos não excluem garantias, reembolsos, reparações ou outros direitos obrigatórios do consumidor nem limitam responsabilidade que a lei não permita limitar. O jogo é uma atividade lúdica e não substitui acompanhamento familiar ou ensino formal."
+        "body": "A Política de Privacidade própria deste jogo explica dados locais, a compra pelo Google Play, os diagnósticos do Billing, o catálogo “Mais jogos” e o atendimento. Leia-a com estes termos. Para dúvidas, problemas e pedidos relacionados aos seus direitos, escreva para vcdevelopstudio@gmail.com. Estes termos não excluem garantias, reembolsos, reparações ou outros direitos obrigatórios do consumidor nem limitam responsabilidade que a lei não permita limitar. O jogo é uma atividade lúdica e não substitui acompanhamento familiar ou ensino formal."
       },
       {
         "id": "changes",
@@ -60,14 +60,14 @@
   },
   "en-US": {
     "title": "Terms of Use",
-    "updated": "Updated November 22, 2026",
+    "updated": "Updated on November 23, 2026",
     "publisher": "Publisher: VCDevelopStudio",
     "contact": "vcdevelopstudio@gmail.com",
     "sections": [
       {
         "id": "scope",
         "title": "1. Product and guardians",
-        "body": "These terms govern the approved final model of Tico and Lili: Jobs, a children's game about jobs in the city for Android phones and tablets in portrait orientation, with Portuguese, English and Spanish. It is designed for ages 3–5, with adult supervision. VCDevelopStudio is responsible for the product. Commercial integration is still in development; these documents do not announce release, Google approval or implemented or tested purchases."
+        "body": "These terms govern Tico e Lili: Profissões, a children’s game about the jobs people do in town, for Android phones and tablets, package com.engvcdevelop.ticoelili.profissoes, in portrait orientation, in Portuguese, English and Spanish. It is designed for children aged 3–5, with a guardian’s supervision. VCDevelopStudio is responsible for the product. The commercial version integrates purchasing through Google Play with GodotGooglePlayBilling and the Google Play Billing Library, like the other family games; these documents do not announce a launch or Google’s approval."
       },
       {
         "id": "access",
@@ -88,17 +88,17 @@
       {
         "id": "adult",
         "title": "4. Purchase and restoration by a guardian",
-        "body": "Purchasing and restoration go through the adult area, protected by a mathematical challenge. This practical barrier does not legally verify age, identity or consent. A guardian must authorize payment and use store account controls. Buying, checking the current price and restoring require internet and store services. Restoration depends on store recognition of the purchase and the account used; it does not recover deleted progress. Only a recognized purchase grants access, preserving normal progression."
+        "body": "When a paid phase is chosen, a voice calls an adult and a math challenge protects the offer; Buy and Restore only appear after it. This practical barrier does not legally verify age, identity or consent. The guardian must authorize the payment and use the store account’s controls. Buying, checking the current price and restoring require internet and store services. Only a purchase recognized by the store grants access; a pending purchase waits for confirmation. Once the purchase is recognized in the offer, the game enters the chosen phase. Restoring depends on the account used for the purchase and does not recover erased progress."
       },
       {
         "id": "offline",
         "title": "5. Local use and availability",
-        "body": "Installed content is to allow play without additional downloads. After purchase recognition, retaining access to paid stages offline depends on a persistent local record and validation in the app; this behavior has not yet been confirmed. Offline buying, price queries and restoration are not promised. Compatibility, network failures, store unavailability and system changes may affect these operations. These documents do not guarantee support for every device or uninterrupted availability."
+        "body": "The installed content can be played without extra downloads. Once the purchase is recognized, a local record keeps access to the paid phases without internet; connection failures do not remove it, but a completed check in which the store no longer reports the purchase, such as after a refund, removes it. There is no offline purchase, price check or restore. Compatibility, network failures, store unavailability and system changes may affect these operations. These documents do not guarantee support for every device or uninterrupted availability."
       },
       {
         "id": "reset",
         "title": "6. Progress and reset",
-        "body": "Progress and preferences stay on the device: completed stages, unlocked or revealed keepsakes, unlocked or viewed pages, language, and music, effects and narration volumes. Unfinished attempts have no checkpoint. Resetting progress clears completions, achievements, keepsakes and pages while preserving language, volumes and purchase rights; it does not cancel the purchase. Clearing data, uninstalling or changing devices may cause local record loss. Purchase rights remain subject to store records and may require online restoration. The studio does not offer progress synchronization or recovery."
+        "body": "Progress and preferences stay on the device: completed phases, unlocked or revealed memories, unlocked or viewed pages, language and music, effects and narration volumes. Unfinished attempts have no checkpoint. Resetting progress erases completions, achievements, memories and pages, but keeps language, volumes and the purchased access; it does not cancel the purchase. Clearing data, uninstalling or changing devices removes local records; the purchased access can be restored online with the same account. The studio offers no progress sync or recovery."
       },
       {
         "id": "license",
@@ -108,7 +108,7 @@
       {
         "id": "rights",
         "title": "8. Privacy, support and rights",
-        "body": "This game's own Privacy Policy explains local data, external services, support and unconfirmed commercial-integration details. Read it alongside these terms. For questions, problems or requests related to your rights, email vcdevelopstudio@gmail.com. These terms do not exclude warranties, refunds, remedies or other mandatory consumer rights, or limit liability where the law does not allow it. The game is a recreational activity and does not replace family supervision or formal education."
+        "body": "This game’s own Privacy Policy explains local data, purchasing through Google Play, Billing diagnostics, the “More games” catalog and support. Read it together with these terms. For questions, problems and requests about your rights, write to vcdevelopstudio@gmail.com. These terms do not exclude warranties, refunds, remedies or other mandatory consumer rights, nor limit liability that the law does not allow to be limited. The game is a play activity and does not replace family supervision or formal education."
       },
       {
         "id": "changes",
@@ -119,14 +119,14 @@
   },
   "es-ES": {
     "title": "Términos de Uso",
-    "updated": "Actualizados el 22 de noviembre de 2026",
+    "updated": "Actualizados el 23 de noviembre de 2026",
     "publisher": "Responsable: VCDevelopStudio",
     "contact": "vcdevelopstudio@gmail.com",
     "sections": [
       {
         "id": "scope",
         "title": "1. Producto y responsables",
-        "body": "Estos términos rigen el modelo final aprobado de Tico y Lili: Profesiones, juego infantil sobre los oficios de la ciudad para teléfonos y tablets Android en orientación vertical, con portugués, inglés y español. Está pensado para edades de 3–5 años, con supervisión adulta. VCDevelopStudio es responsable del producto. La integración comercial sigue en desarrollo; estos documentos no anuncian lanzamiento, aprobación de Google ni compras implementadas o probadas."
+        "body": "Estos términos rigen Tico e Lili: Profissões, juego infantil sobre las profesiones de la ciudad para teléfonos y tabletas Android, paquete com.engvcdevelop.ticoelili.profissoes, en orientación vertical, en portugués, inglés y español. Está pensado para niños de 3–5 años, con el acompañamiento de un responsable. VCDevelopStudio es el responsable del producto. La versión comercial integra la compra a través de Google Play con GodotGooglePlayBilling y la Google Play Billing Library, como los demás juegos de la familia; estos documentos no anuncian lanzamiento ni aprobación de Google."
       },
       {
         "id": "access",
@@ -147,17 +147,17 @@
       {
         "id": "adult",
         "title": "4. Compra y restauración por el responsable",
-        "body": "Compra y restauración pasan por el área del responsable, protegida por un desafío matemático. Esta barrera práctica no verifica jurídicamente edad, identidad ni consentimiento. Una persona responsable debe autorizar el pago y utilizar los controles de la cuenta de la tienda. Comprar, consultar el precio actual y restaurar requieren internet y servicios de la tienda. La restauración depende del reconocimiento de la compra por la tienda y de la cuenta utilizada; no recupera progreso eliminado. Solo una compra reconocida concede acceso, manteniendo la progresión normal."
+        "body": "Al elegir una fase de pago, una voz llama a un adulto y un desafío matemático protege la oferta; Comprar y Restaurar solo aparecen después de él. Esta barrera práctica no comprueba legalmente edad, identidad ni consentimiento. El responsable debe autorizar el pago y usar los controles de la cuenta de la tienda. Comprar, consultar el precio actual y restaurar requieren internet y servicios de la tienda. Solo una compra reconocida por la tienda concede acceso; una compra pendiente espera la confirmación. Reconocida la compra en la oferta, el juego entra en la fase elegida. La restauración depende de la cuenta usada en la compra y no recupera el progreso borrado."
       },
       {
         "id": "offline",
         "title": "5. Uso local y disponibilidad",
-        "body": "El contenido instalado debe permitir jugar sin descargas adicionales. Tras reconocer la compra, mantener acceso a fases de pago sin internet depende de un registro local persistente y de validación en el aplicativo; este comportamiento aún no está confirmado. No prometemos compras, consultas de precios ni restauración sin conexión. Compatibilidad, fallos de red, indisponibilidad de la tienda y cambios del sistema pueden afectar estas operaciones. Los documentos no garantizan compatibilidad con todos los dispositivos ni disponibilidad ininterrumpida."
+        "body": "El contenido instalado permite jugar sin descargas adicionales. Una vez reconocida la compra, un registro local mantiene el acceso a las fases de pago sin internet; los fallos de conexión no lo retiran, pero una consulta completada en la que la tienda ya no informa la compra, como tras un reembolso, lo retira. No hay compra, consulta de precios ni restauración sin conexión. La compatibilidad, los fallos de red, la indisponibilidad de la tienda y los cambios del sistema pueden afectar estas operaciones. Estos documentos no garantizan compatibilidad con todos los dispositivos ni disponibilidad ininterrumpida."
       },
       {
         "id": "reset",
         "title": "6. Progreso y restablecimiento",
-        "body": "Progreso y preferencias permanecen en el dispositivo: fases completadas, recuerdos desbloqueados o revelados, páginas desbloqueadas o vistas, idioma y volúmenes de música, efectos y narración. Los intentos incompletos no tienen punto de guardado. Restablecer el progreso elimina fases completadas, logros, recuerdos y páginas, pero conserva idioma, volúmenes y derechos de compra; no cancela la compra. Borrar datos, desinstalar o cambiar de dispositivo puede causar pérdida de registros locales. Los derechos de compra siguen sujetos a los registros de la tienda y pueden requerir restauración con internet. El estudio no ofrece sincronización ni recuperación del progreso."
+        "body": "El progreso y las preferencias quedan en el dispositivo: fases completadas, recuerdos desbloqueados o revelados, páginas liberadas o vistas, idioma y volúmenes de música, efectos y narración. Los intentos incompletos no tienen punto de control. Restablecer el progreso borra finalizaciones, logros, recuerdos y páginas, pero conserva el idioma, los volúmenes y el acceso comprado; no cancela la compra. Borrar los datos, desinstalar o cambiar de dispositivo elimina los registros locales; el acceso comprado puede restaurarse con internet con la misma cuenta. El estudio no ofrece sincronización ni recuperación del progreso."
       },
       {
         "id": "license",
@@ -167,7 +167,7 @@
       {
         "id": "rights",
         "title": "8. Privacidad, atención y derechos",
-        "body": "La Política de Privacidad propia de este juego explica datos locales, servicios externos, atención y límites aún no confirmados de la integración comercial. Léala junto con estos términos. Para dudas, problemas o solicitudes sobre sus derechos, escriba a vcdevelopstudio@gmail.com. Estos términos no excluyen garantías, reembolsos, reparaciones u otros derechos obligatorios del consumidor, ni limitan responsabilidad cuando la ley no lo permita. El juego es una actividad recreativa y no sustituye supervisión familiar ni enseñanza formal."
+        "body": "La Política de Privacidad propia de este juego explica los datos locales, la compra a través de Google Play, los diagnósticos de Billing, el catálogo “Más juegos” y la atención. Léala junto con estos términos. Para dudas, problemas y solicitudes sobre sus derechos, escriba a vcdevelopstudio@gmail.com. Estos términos no excluyen garantías, reembolsos, reparaciones ni otros derechos obligatorios del consumidor, ni limitan la responsabilidad que la ley no permite limitar. El juego es una actividad lúdica y no sustituye el acompañamiento familiar ni la enseñanza formal."
       },
       {
         "id": "changes",

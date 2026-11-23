@@ -23,7 +23,7 @@ class ProfissoesLegalTest(unittest.TestCase):
                     self.assertIn(data['title'], text)
                     self.assertIn(data['updated'], text)
                     self.assertIn('Tico e Lili: Profissões', text)
-                    self.assertEqual(sum(tag == 'h2' for tag, _ in page.tags), 9)
+                    self.assertEqual(sum(tag == 'h2' for tag, _ in page.tags), len(data['sections']))
                     for section in data['sections']:
                         self.assertIn(section['body'], text)
                     self.assertFalse(any(tag == 'script' for tag, _ in page.tags))
@@ -48,20 +48,30 @@ class ProfissoesLegalTest(unittest.TestCase):
                         else:
                             self.assertTrue((path.parent / url.path).is_file(), ref)
 
-    def test_final_model_prices_and_no_inherited_sdk_claims(self):
+    def test_family_commercial_model_with_catalog_and_undecided_price(self):
+        # Pedido do responsável (23/11): igual aos outros jogos, com compra e a lista "Mais jogos".
+        stale = ['em desenvolvimento', 'ainda não foi confirmad', 'ainda não estão confirmad', 'in development',
+                 'not yet confirmed', 'not been confirmed', 'en desarrollo', 'aún no se ha confirmado', 'aún no están confirmad']
         for lang in LANGUAGES:
             terms = json.loads((ROOT / 'data/profissoes_terms_of_use.json').read_text(encoding='utf-8'))[lang]
             privacy = json.loads((ROOT / 'data/profissoes_privacy_policy.json').read_text(encoding='utf-8'))[lang]
             combined = json.dumps([terms, privacy], ensure_ascii=False)
-            self.assertIn('1–3', combined)
-            self.assertIn('4–10', combined)
-            # O preço não foi decidido: nenhum valor pode aparecer.
-            for moeda in ['US$', 'R$']:
-                self.assertNotIn(moeda, combined)
-            for outro_jogo in ['Sabores', 'comida', 'food', 'Espaço', 'Space', 'Espacio', 'foguete', 'rocket', 'viagem', 'journey', 'viaje']:
-                self.assertNotIn(outro_jogo, combined)
-            for unverified in ['9.1.0', '3.3.0', 'DataTransport', 'PLAY_BILLING_LIBRARY',
-                               'allowBackup=false', 'US-003', 'C:/', 'C:\\']:
-                self.assertNotIn(unverified, combined)
-            self.assertEqual([s['id'] for s in privacy['sections']],
-                             ['scope', 'children', 'local', 'billing', 'offline', 'deletion', 'support', 'website', 'security'])
+            with self.subTest(lang=lang):
+                self.assertIn('1–3', combined)
+                self.assertIn('4–10', combined)
+                for fact in ['com.engvcdevelop.ticoelili.profissoes', 'GodotGooglePlayBilling', 'Google Play Billing Library',
+                             'DataTransport', 'https://vcdevelopstudio.github.io/tico-e-lili-legal/catalogo/familia/v1/jogos.json']:
+                    self.assertIn(fact, combined)
+                # Preço e versões do SDK só depois do build comercial do Profissões.
+                for wrong in stale + ['US$', 'R$', '3.3.0', '9.1.0', '0.9.0', '.hml', 'ticoeliliespaco', 'US-0', 'C:/', 'C:\\']:
+                    self.assertNotIn(wrong, combined)
+                for outro_jogo in ['Sabores', 'comida', 'food', 'Espaço', 'Space', 'Espacio', 'foguete', 'rocket',
+                                   'viagem', 'journey', 'viaje']:
+                    self.assertNotIn(outro_jogo, combined)
+                self.assertEqual([s['id'] for s in privacy['sections']],
+                                 ['scope', 'children', 'local', 'billing', 'diagnostics', 'offline',
+                                  'catalog', 'deletion', 'support', 'website', 'security'])
+
+
+if __name__ == '__main__':
+    unittest.main()
